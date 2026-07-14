@@ -357,6 +357,7 @@ def run_scan():
 
     json.dump(coverage, open(os.path.join(DATA, "coverage.json"), "w"), indent=1, ensure_ascii=False)
     json.dump(press, open(os.path.join(DATA, "press_list.json"), "w"), indent=1, ensure_ascii=False)
+    write_public_snapshot(coverage, press)
     json.dump(
         {"ran": datetime.now(timezone.utc).isoformat(timespec="seconds"),
          "feeds": feed_log, "new_articles": len(new_articles), "changes": changes},
@@ -461,6 +462,34 @@ def update_press_list(press, new_articles):
         keep.append(c)
     press["contacts"] = keep
     return changes
+
+
+def write_public_snapshot(coverage, press):
+    """Sanitized public feed (no emails/phones) served at /public/data.json —
+    consumed by the public Media Tracker page on the BHU Streamlit site."""
+    pub_dir = os.path.join(ROOT, "public")
+    os.makedirs(pub_dir, exist_ok=True)
+    out = {
+        "updated": str(today()),
+        "articles": [
+            {k: a.get(k) for k in ("title", "url", "outlet", "authors", "date", "topics", "notable", "kind")}
+            for a in coverage["articles"]
+        ],
+        "reporters": [
+            {
+                "name": c.get("name"), "outlet": c.get("outlet"), "beat": c.get("beat"),
+                "category": c.get("category"), "status": c.get("status"),
+                "last_byline": c.get("last_byline"), "byline_count": c.get("byline_count", 0),
+            }
+            for c in press["contacts"]
+        ],
+        "removed": [
+            {"name": r.get("name"), "outlet": r.get("outlet"), "reason": r.get("reason"),
+             "removed_on": r.get("removed_on")}
+            for r in press["removed"]
+        ],
+    }
+    json.dump(out, open(os.path.join(pub_dir, "data.json"), "w"), indent=1, ensure_ascii=False)
 
 
 # ---------------------------------------------------------------- email digest
