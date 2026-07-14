@@ -2211,22 +2211,6 @@
    "reason": "DEPARTED — Left Marin IJ → media relations, UCLA Health (verified Jul 2026)",
    "removed_on": "2026-07-14",
    "source": "seed_spreadsheet"
-  },
-  {
-   "name": "Kelcie Lee",
-   "outlet": "The Daily Californian",
-   "email": null,
-   "reason": "No byline in 649 days (last: 2024-10-03) — 6-month rule",
-   "removed_on": "2026-07-14",
-   "source": "auto_rule"
-  },
-  {
-   "name": "Ria Raniwala",
-   "outlet": "The Daily Californian",
-   "email": null,
-   "reason": "No byline in 791 days (last: 2024-05-14) — 6-month rule",
-   "removed_on": "2026-07-14",
-   "source": "auto_rule"
   }
  ]
 }

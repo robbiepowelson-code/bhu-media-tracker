@@ -292,6 +292,9 @@ def run_scan():
             rel = relevant(e, feed)
             if not rel or not e.get("link"):
                 continue
+            # ignore archive/featured items — only fresh coverage counts
+            if e.get("date") and (today() - e["date"]).days > 90:
+                continue
             title, outlet = e["title"], feed.get("outlet")
             if feed["kind"] == "aggregator":
                 title, gn_outlet = google_news_split(e["title"])
