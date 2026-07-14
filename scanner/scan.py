@@ -465,9 +465,9 @@ def update_press_list(press, new_articles):
 
 
 def write_public_snapshot(coverage, press):
-    """Sanitized public feed (no emails/phones) served at /public/data.json —
+    """Sanitized public feed (no emails/phones) served at /feed/data.json —
     consumed by the public Media Tracker page on the BHU Streamlit site."""
-    pub_dir = os.path.join(ROOT, "public")
+    pub_dir = os.path.join(ROOT, "feed")
     os.makedirs(pub_dir, exist_ok=True)
     out = {
         "updated": str(today()),

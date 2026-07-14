@@ -2,9 +2,9 @@
 // The password comes from the DASH_PASSWORD environment variable (set it in
 // Vercel: Project → Settings → Environment Variables). Until it's set, the
 // site stays locked to everyone. Username can be anything (we suggest "bhu").
-// Everything requires the password EXCEPT /public/* — a sanitized,
+// Everything requires the password EXCEPT /feed/* — a sanitized,
 // contact-info-free data feed consumed by the public BHU Streamlit page.
-export const config = { matcher: "/((?!public/).*)" };
+export const config = { matcher: "/((?!feed/).*)" };
 
 export default function middleware(request) {
   const expected = process.env.DASH_PASSWORD || "";
