@@ -1,4 +1,242 @@
 {
- "articles": [],
- "updated": null
+ "articles": [
+  {
+   "id": "432e1483900034cb",
+   "title": "The man that was found dead in the bushes on campus in April",
+   "url": "https://www.reddit.com/r/berkeley/comments/1ut3s8o/the_man_that_was_found_dead_in_the_bushes_on/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/PapayaOk1288"
+   ],
+   "date": "2026-07-10",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-07-14",
+   "summary": "                 I found this gofundme on the Berkeley Scanner site. I was horrified at the news in April that an unidentified homeless man had been found dead in the bushes, and it meant a lot to me to be able to honor his humanity by contributing to his family's gofundme page, to pay for memorial "
+  },
+  {
+   "id": "977af9446f431ba1",
+   "title": "Facing $30M deficit, Berkeley eliminates Mobile Crisis Team, reduces shelters, wellness services",
+   "url": "https://www.reddit.com/r/berkeley/comments/1ut332w/facing_30m_deficit_berkeley_eliminates_mobile/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/the_daily_cal"
+   ],
+   "date": "2026-07-10",
+   "topics": [
+    "homeless",
+    "homelessness",
+    "shelter"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-07-14",
+   "summary": "                 Berkeley’s Mobile Crisis Team was eliminated entirely, along with a slew of other cuts to wellness and homelessness services in Berkeley, in a difficult funding environment partially due to the city’s $30 million deficit.    Other cuts included a funding reduction of more than $400,"
+  },
+  {
+   "id": "fc3f44f0893995cb",
+   "title": "Berkeley moves toward removing ‘abandoned’ RVs, approves 60 miles of repaving projects",
+   "url": "https://www.reddit.com/r/berkeley/comments/1usfbvy/berkeley_moves_toward_removing_abandoned_rvs/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/the_daily_cal"
+   ],
+   "date": "2026-07-10",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-07-14",
+   "summary": "                 In a meeting Tuesday, the Berkeley City Council asked the city manager to draft a policy recommendation to address safety and environmental impacts related to “abandoned” vehicles, especially RVs, parked in the public right-of-way. Critics worry that the potential policy would push "
+  },
+  {
+   "id": "51ee0cb7b1c91c95",
+   "title": "Beers, Shopping, Art and Makers in The Elmwood - Sat July 18th",
+   "url": "https://www.reddit.com/r/berkeley/comments/1us810m/beers_shopping_art_and_makers_in_the_elmwood_sat/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/xsmasher"
+   ],
+   "date": "2026-07-10",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-07-14",
+   "summary": "                  The Elmwood Beer Crawl!    Saturday, July 18th, 2026 | 1–5 PM    🍻 20+ Beers from the West Coast & around the world  🛍️ 20+ Participating Businesses  🎨 Artisans and street vendors  🎟️ Exclusive merchant discounts for ticket holders  💵 Special Pricing on all beers poured to take hom"
+  },
+  {
+   "id": "542197fe39c9628d",
+   "title": "Goodbye, Terry",
+   "url": "https://thestreetspirit.org/2026/07/02/goodbye-terry/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " Remembering Terry Messman: A lifelong advocate for peace, justice, and the voices of the unheard \n The post  Goodbye, Terry  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "91e10effa971a3ca",
+   "title": "From the archives: East Bay Hospital is closed for good",
+   "url": "https://thestreetspirit.org/2026/07/02/from-the-archives-east-bay-hospital-is-closed-for-good/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " 'Now and then, poetic justice breaks through the walls of oppression.' \n The post  From the archives: East Bay Hospital is closed for good  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "d54d9155d237ea35",
+   "title": "Soup Kitchen Blues",
+   "url": "https://thestreetspirit.org/2026/07/02/soup-kitchen-blues/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " 'First thing to know this ain’t your daddy’s Waffle House' \n The post  Soup Kitchen Blues  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "bf66565a89de9fdd",
+   "title": "Two Poems",
+   "url": "https://thestreetspirit.org/2026/07/02/two-poems-2/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " 'above our heads the sky darkens into a dream' \n The post  Two Poems  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "f842192e114a68be",
+   "title": "Street Spirit Horoscopes – July 2026",
+   "url": "https://thestreetspirit.org/2026/07/02/street-spirit-horoscopes-july-2026/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " Ask yourself this: What needs to be released this month? \n The post  Street Spirit Horoscopes – July 2026  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "788ecc82493678fa",
+   "title": "Celebrating a life of activism",
+   "url": "https://thestreetspirit.org/2026/07/02/celebrating-a-life-of-activism-2/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " From the archives: \"After 23 years, Street Spirit editor Terry Messman retires\" \n The post  Celebrating a life of activism  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "c5b65189b0e757a9",
+   "title": "Terry Messman: A spirited life",
+   "url": "https://thestreetspirit.org/2026/07/02/terry-messman-a-spirited-life/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " 'If we’re very lucky in this life, we cross paths with people who light up the whole sky.' \n The post  Terry Messman: A spirited life  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "0a5039d5910b4369",
+   "title": "Let’s talk about lepto",
+   "url": "https://thestreetspirit.org/2026/07/02/lets-talk-about-lepto/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " 'Fear is spreading through the larger Berkeley community faster than the bacteria itself.' \n The post  Let’s talk about lepto  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "a2b1097a985c83d1",
+   "title": "Advocates call for end to war on homeless people at SF City Hall",
+   "url": "https://thestreetspirit.org/2026/07/02/advocates-call-for-end-to-war-on-homeless-people-at-sf-city-hall/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-07-02",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "d7cd4df20fa09e04",
+   "title": "Street Spirit Horoscopes – June 2026",
+   "url": "https://thestreetspirit.org/2026/06/09/street-spirit-horoscopes-june-2026/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-06-09",
+   "topics": [],
+   "notable": false,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-07-14",
+   "summary": " \"You are close to achieving your goal of safety and stability for your community.\" \n The post  Street Spirit Horoscopes – June 2026  appeared first on  Street Spirit . "
+  }
+ ],
+ "updated": "2026-07-14"
 }

@@ -2166,6 +2166,25 @@
    "last_byline_url": null,
    "byline_count": 0,
    "seeded": true
+  },
+  {
+   "id": "bradley_penner",
+   "name": "Bradley Penner",
+   "outlet": "Street Spirit",
+   "email": null,
+   "category": "Reporter / journalist",
+   "beat": null,
+   "phone": null,
+   "status": "new",
+   "status_note": "auto-added from byline — needs contact info",
+   "deliverability_note": null,
+   "relevance": null,
+   "source": "auto_scan",
+   "added": "2026-07-14",
+   "last_byline": "2026-07-02",
+   "last_byline_url": "https://thestreetspirit.org/2026/07/02/goodbye-terry/",
+   "byline_count": 10,
+   "seeded": false
   }
  ],
  "removed": [
