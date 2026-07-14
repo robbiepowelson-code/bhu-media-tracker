@@ -58,7 +58,7 @@
     },
     {
       "name": "The Daily Californian",
-      "url": "https://www.dailycal.org/feed",
+      "url": "https://www.dailycal.org/search/?f=rss&t=article&c=news&l=40&s=start_time&sd=desc",
       "kind": "outlet",
       "outlet": "The Daily Californian",
       "requires_geo": false,
@@ -70,7 +70,7 @@
       "kind": "outlet",
       "outlet": "Street Spirit",
       "requires_geo": false,
-      "requires_topic": false
+      "requires_topic": true
     },
     {
       "name": "KQED News",
@@ -81,10 +81,16 @@
       "requires_topic": true
     },
     {
-      "name": "East Bay Times",
-      "url": "https://www.eastbaytimes.com/feed/",
-      "kind": "outlet",
-      "outlet": "Bay Area News Group (Merc/EB Times)",
+      "name": "Bing News — homelessness Berkeley/Oakland",
+      "url": "https://www.bing.com/news/search?q=%28homeless+OR+homelessness+OR+unhoused+OR+encampment%29+%28Berkeley+OR+Oakland%29&format=rss",
+      "kind": "aggregator",
+      "requires_geo": true,
+      "requires_topic": true
+    },
+    {
+      "name": "Bing News — street vendors East Bay",
+      "url": "https://www.bing.com/news/search?q=%22street+vendor%22+OR+%22street+vendors%22+OR+%22sidewalk+vending%22+%28Berkeley+OR+Oakland+OR+%22East+Bay%22%29&format=rss",
+      "kind": "aggregator",
       "requires_geo": true,
       "requires_topic": true
     },

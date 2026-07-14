@@ -21,6 +21,7 @@ import re
 import smtplib
 import ssl
 import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -31,7 +32,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 CONFIG = json.load(open(os.path.join(ROOT, "scanner", "config.json")))
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; BHU-MediaTracker/1.0; +https://github.com)"}
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
 ATOM = "{http://www.w3.org/2005/Atom}"
 DC = "{http://purl.org/dc/elements/1.1/}"
 MAX_ARTICLE_FETCHES = 25
@@ -61,18 +63,35 @@ def norm_outlet(outlet):
     return CONFIG["outlet_aliases"].get(key, outlet.strip())
 
 
-def fetch(url, timeout=25):
-    """Fetch a URL. In offline test mode, serve from fixture files instead."""
+def fetch(url, timeout=25, tries=3):
+    """Fetch a URL with retry/backoff. In offline test mode, serve from fixtures."""
     if OFFLINE_DIR:
-        fname = hashlib.sha1(url.encode()).hexdigest()[:12] + ".fixture"
         fmap = json.load(open(os.path.join(OFFLINE_DIR, "url_map.json")))
         path = fmap.get(url)
         if not path:
             raise IOError(f"offline: no fixture for {url}")
         return open(os.path.join(OFFLINE_DIR, path), "rb").read()
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    if "reddit.com" in url:
+        time.sleep(7)  # unauthenticated Reddit is aggressively rate-limited
+    last = None
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (429, 500, 502, 503, 504) and attempt < tries - 1:
+                time.sleep(6 * (attempt + 1))
+                continue
+            raise
+        except Exception as e:
+            last = e
+            if attempt < tries - 1:
+                time.sleep(4)
+                continue
+            raise
+    raise last
 
 
 def text_of(el):
@@ -110,6 +129,12 @@ def parse_feed(raw):
         creator = item.find(DC + "creator")
         if creator is not None:
             e["authors"] = split_authors(text_of(creator))
+        if not e["authors"]:
+            au = item.find("author")  # BLOX CMS style: "email@site.org (Jane Doe)"
+            if au is not None:
+                m = re.search(r"\(([^)]+)\)", text_of(au))
+                if m:
+                    e["authors"] = split_authors(m.group(1))
         src = item.find("source")
         if src is not None:
             e["source_outlet"] = text_of(src)
@@ -228,6 +253,7 @@ def run_scan():
 
     known_urls = {a["url"] for a in coverage["articles"]}
     known_ids = {a["id"] for a in coverage["articles"]}
+    known_titles = {re.sub(r"\W+", "", a["title"].lower())[:80] for a in coverage["articles"]}
     feed_log, new_articles = [], []
     fetches_left = MAX_ARTICLE_FETCHES
 
@@ -251,10 +277,14 @@ def run_scan():
                 outlet = gn_outlet or e.get("source_outlet") or outlet
             elif e.get("source_outlet"):
                 outlet = e["source_outlet"]
+            if not outlet:  # derive from the article's domain (e.g. Bing items)
+                m = re.search(r"https?://(?:www\.)?([^/]+)/", e["link"] + "/")
+                outlet = m.group(1) if m else None
             outlet = norm_outlet(outlet)
 
             aid = article_id({"link": e["link"], "title": title})
-            if e["link"] in known_urls or aid in known_ids:
+            tkey = re.sub(r"\W+", "", title.lower())[:80]
+            if e["link"] in known_urls or aid in known_ids or (tkey and tkey in known_titles):
                 continue
 
             authors = e["authors"]
@@ -280,6 +310,7 @@ def run_scan():
             new_articles.append(art)
             known_urls.add(e["link"])
             known_ids.add(aid)
+            known_titles.add(tkey)
             status["matched"] += 1
         feed_log.append(status)
 
