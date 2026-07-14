@@ -1,10 +1,10 @@
 {
- "ran": "2026-07-14T02:48:46+00:00",
+ "ran": "2026-07-14T02:51:54+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 15,
+   "entries": 16,
    "matched": 0,
    "error": null
   },
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": true,
-   "entries": 40,
-   "matched": 2,
-   "error": null
+   "ok": false,
+   "entries": 0,
+   "matched": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Street Spirit",
@@ -107,21 +107,12 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 2,
+ "new_articles": 0,
  "changes": {
-  "bylines_updated": [
-   "Kelcie Lee \u2014 Community occupies encampment outside Berkeley City Hall protesting sw",
-   "Ria Raniwala \u2014 \u2018Free Palestine Encampment\u2019 reaches agreements with campus, disbands f"
-  ],
+  "bylines_updated": [],
   "added": [],
-  "restored": [
-   "Kelcie Lee (The Daily Californian)",
-   "Ria Raniwala (The Daily Californian)"
-  ],
-  "removed": [
-   "Kelcie Lee (The Daily Californian) \u2014 last byline 2024-10-03",
-   "Ria Raniwala (The Daily Californian) \u2014 last byline 2024-05-14"
-  ],
+  "restored": [],
+  "removed": [],
   "flagged": []
  }
 }
