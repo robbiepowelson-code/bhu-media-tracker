@@ -1,10 +1,10 @@
 {
- "ran": "2026-07-14T12:31:06+00:00",
+ "ran": "2026-07-14T14:40:46+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 22,
+   "entries": 21,
    "matched": 0,
    "error": null
   },
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
@@ -94,17 +94,17 @@
   },
   {
    "feed": "Reddit r/oakland",
-   "ok": false,
-   "entries": 0,
-   "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "Reddit r/bayarea",
    "ok": true,
    "entries": 1,
    "matched": 0,
    "error": null
+  },
+  {
+   "feed": "Reddit r/bayarea",
+   "ok": false,
+   "entries": 0,
+   "matched": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "new_articles": 0,
