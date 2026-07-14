@@ -1,11 +1,11 @@
 {
- "ran": "2026-07-14T12:28:01+00:00",
+ "ran": "2026-07-14T12:31:06+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
    "entries": 22,
-   "matched": 3,
+   "matched": 0,
    "error": null
   },
   {
@@ -59,17 +59,17 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "SF Standard",
@@ -107,7 +107,7 @@
    "error": null
   }
  ],
- "new_articles": 3,
+ "new_articles": 0,
  "changes": {
   "bylines_updated": [],
   "added": [],
