@@ -1,10 +1,10 @@
 {
- "ran": "2026-07-14T02:51:54+00:00",
+ "ran": "2026-07-14T03:09:55+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 16,
+   "entries": 15,
    "matched": 0,
    "error": null
   },
@@ -18,7 +18,7 @@
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 3,
+   "entries": 4,
    "matched": 0,
    "error": null
   },
