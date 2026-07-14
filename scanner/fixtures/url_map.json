@@ -1,0 +1,7 @@
+{
+ "https://www.berkeleyside.org/feed": "berkeleyside.xml",
+ "https://news.google.com/rss/search?q=%28homeless%20OR%20homelessness%20OR%20unhoused%20OR%20encampment%29%20%28Berkeley%20OR%20Oakland%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en": "googlenews.xml",
+ "https://www.reddit.com/r/berkeley/search.rss?q=homeless%20OR%20encampment%20OR%20unhoused%20OR%20vendor%20OR%20%22people%27s%20park%22&restrict_sr=on&sort=new&t=week": "reddit_berkeley.xml",
+ "https://oaklandside.org/2026/07/13/fruitvale-vendor-crackdown": "oaklandside_article.html",
+ "https://www.sfchronicle.com/bayarea/article/homeless-deaths-alameda": "sfchron_article.html"
+}

@@ -1,0 +1,67 @@
+name: Daily media scan
+
+on:
+  schedule:
+    - cron: "15 14 * * *"   # 7:15 AM Pacific (14:15 UTC during PDT)
+  workflow_dispatch: {}      # lets you run it manually from the Actions tab
+  push:
+    branches: [main]         # also runs on first upload / any manual edit
+
+concurrency:
+  group: media-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scanner
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+        run: python3 scanner/scan.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "bhu-media-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Daily scan: $(date -u +%F)"
+          git push
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # pick up the data the scan job just committed
+
+      - name: Enable + configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

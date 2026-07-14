@@ -1,0 +1,180 @@
+{
+  "topic_keywords": [
+    "homeless", "homelessness", "unhoused", "encampment", "encampments",
+    "street vendor", "street vendors", "street vending", "sidewalk vendor",
+    "sidewalk vendors", "sidewalk vending", "vendor crackdown", "vending ordinance",
+    "sweep", "sweeps", "eviction of encampment", "RV dwellers", "RV encampment",
+    "tent city", "tiny homes", "shelter", "affordable housing crisis",
+    "people's park", "peoples park", "housing insecurity", "food vendor", "taco truck"
+  ],
+  "geo_keywords": [
+    "berkeley", "oakland", "east bay", "alameda county", "emeryville", "albany",
+    "fruitvale", "temescal", "people's park", "peoples park", "telegraph avenue",
+    "san pablo avenue", "international blvd", "international boulevard", "lake merritt",
+    "west oakland", "east oakland", "south berkeley", "west berkeley"
+  ],
+  "strong_keywords": [
+    "street vendor", "street vendors", "street vending", "sidewalk vendor",
+    "sidewalk vendors", "sidewalk vending", "encampment", "encampments",
+    "unhoused", "homeless", "homelessness", "people's park", "peoples park"
+  ],
+  "feeds": [
+    {
+      "name": "Google News — homelessness Berkeley/Oakland",
+      "url": "https://news.google.com/rss/search?q=%28homeless%20OR%20homelessness%20OR%20unhoused%20OR%20encampment%29%20%28Berkeley%20OR%20Oakland%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "aggregator",
+      "requires_geo": false,
+      "requires_topic": false
+    },
+    {
+      "name": "Google News — street vendors Berkeley/Oakland",
+      "url": "https://news.google.com/rss/search?q=%28%22street%20vendor%22%20OR%20%22street%20vendors%22%20OR%20%22sidewalk%20vending%22%20OR%20%22street%20vending%22%29%20%28Berkeley%20OR%20Oakland%20OR%20%22East%20Bay%22%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "aggregator",
+      "requires_geo": false,
+      "requires_topic": false
+    },
+    {
+      "name": "Google News — encampment sweeps East Bay",
+      "url": "https://news.google.com/rss/search?q=%28sweep%20OR%20eviction%20OR%20closure%29%20encampment%20%28Berkeley%20OR%20Oakland%20OR%20%22East%20Bay%22%20OR%20%22Alameda%20County%22%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "aggregator",
+      "requires_geo": false,
+      "requires_topic": false
+    },
+    {
+      "name": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/feed",
+      "kind": "outlet",
+      "outlet": "Berkeleyside",
+      "requires_geo": false,
+      "requires_topic": true
+    },
+    {
+      "name": "The Oaklandside",
+      "url": "https://oaklandside.org/feed/",
+      "kind": "outlet",
+      "outlet": "The Oaklandside",
+      "requires_geo": false,
+      "requires_topic": true
+    },
+    {
+      "name": "The Daily Californian",
+      "url": "https://www.dailycal.org/feed",
+      "kind": "outlet",
+      "outlet": "The Daily Californian",
+      "requires_geo": false,
+      "requires_topic": true
+    },
+    {
+      "name": "Street Spirit",
+      "url": "https://thestreetspirit.org/feed/",
+      "kind": "outlet",
+      "outlet": "Street Spirit",
+      "requires_geo": false,
+      "requires_topic": false
+    },
+    {
+      "name": "KQED News",
+      "url": "https://ww2.kqed.org/news/feed/",
+      "kind": "outlet",
+      "outlet": "KQED",
+      "requires_geo": true,
+      "requires_topic": true
+    },
+    {
+      "name": "East Bay Times",
+      "url": "https://www.eastbaytimes.com/feed/",
+      "kind": "outlet",
+      "outlet": "Bay Area News Group (Merc/EB Times)",
+      "requires_geo": true,
+      "requires_topic": true
+    },
+    {
+      "name": "SF Standard",
+      "url": "https://sfstandard.com/feed/",
+      "kind": "outlet",
+      "outlet": "The San Francisco Standard",
+      "requires_geo": true,
+      "requires_topic": true
+    },
+    {
+      "name": "SFGATE Bay Area",
+      "url": "https://www.sfgate.com/bayarea/feed/bay-area-news-429.php",
+      "kind": "outlet",
+      "outlet": "SFGATE",
+      "requires_geo": true,
+      "requires_topic": true
+    },
+    {
+      "name": "Reddit r/berkeley",
+      "url": "https://www.reddit.com/r/berkeley/search.rss?q=homeless%20OR%20encampment%20OR%20unhoused%20OR%20vendor%20OR%20%22people%27s%20park%22&restrict_sr=on&sort=new&t=week",
+      "kind": "social",
+      "outlet": "Reddit r/berkeley",
+      "requires_geo": false,
+      "requires_topic": false
+    },
+    {
+      "name": "Reddit r/oakland",
+      "url": "https://www.reddit.com/r/oakland/search.rss?q=homeless%20OR%20encampment%20OR%20unhoused%20OR%20vendor%20OR%20sweep&restrict_sr=on&sort=new&t=week",
+      "kind": "social",
+      "outlet": "Reddit r/oakland",
+      "requires_geo": false,
+      "requires_topic": false
+    },
+    {
+      "name": "Reddit r/bayarea",
+      "url": "https://www.reddit.com/r/bayarea/search.rss?q=%28homeless%20OR%20encampment%20OR%20vendor%29%20%28Berkeley%20OR%20Oakland%29&restrict_sr=on&sort=new&t=week",
+      "kind": "social",
+      "outlet": "Reddit r/bayarea",
+      "requires_geo": false,
+      "requires_topic": false
+    }
+  ],
+  "outlet_aliases": {
+    "the oaklandside": "The Oaklandside",
+    "oaklandside": "The Oaklandside",
+    "berkeleyside": "Berkeleyside",
+    "the daily californian": "The Daily Californian",
+    "daily californian": "The Daily Californian",
+    "dailycal": "The Daily Californian",
+    "kqed": "KQED",
+    "san francisco chronicle": "San Francisco Chronicle",
+    "sf chronicle": "San Francisco Chronicle",
+    "sfchronicle": "San Francisco Chronicle",
+    "the san francisco standard": "The San Francisco Standard",
+    "sf standard": "The San Francisco Standard",
+    "san francisco standard": "The San Francisco Standard",
+    "sfgate": "SFGATE",
+    "east bay times": "Bay Area News Group (Merc/EB Times)",
+    "the mercury news": "Bay Area News Group (Merc/EB Times)",
+    "mercury news": "Bay Area News Group (Merc/EB Times)",
+    "bay area news group": "Bay Area News Group (Merc/EB Times)",
+    "street spirit": "Street Spirit",
+    "kron4": "KRON4",
+    "kron 4": "KRON4",
+    "abc7 news": "ABC7 / KGO-TV",
+    "abc7": "ABC7 / KGO-TV",
+    "kgo-tv": "ABC7 / KGO-TV",
+    "kpix": "KPIX / CBS Bay Area",
+    "cbs san francisco": "KPIX / CBS Bay Area",
+    "cbs bay area": "KPIX / CBS Bay Area",
+    "nbc bay area": "NBC Bay Area / NBCUniversal",
+    "kcbs radio": "KCBS Radio",
+    "east bay express": "East Bay Express",
+    "sf bay view": "SF Bay View",
+    "the guardian": "The Guardian (US)",
+    "the new york times": "The New York Times",
+    "los angeles times": "Los Angeles Times",
+    "calmatters": "CalMatters",
+    "bay city news": "Bay City News",
+    "usa today": "USA Today",
+    "the washington post": "The Washington Post"
+  },
+  "removal_rule": {
+    "stale_days": 183,
+    "warn_days": 152,
+    "auto_remove_categories": ["Reporter / journalist"],
+    "note": "Only individual reporters are auto-removed. Desks, advocacy, government, legal and photo contacts are flagged dormant instead."
+  },
+  "coverage_retention_days": 400,
+  "max_articles_kept": 600
+}

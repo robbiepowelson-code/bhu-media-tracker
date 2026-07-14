@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BHU Media Tracker — Berkeley Homeless Union</title>
+<style>
+  :root {
+    --surface-1: #fcfcfb; --page: #f9f9f7;
+    --ink-1: #0b0b0b; --ink-2: #52514e; --ink-muted: #898781;
+    --grid: #e1e0d9; --baseline: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6; --seq-250: #86b6ef;
+    --good: #0ca30c; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b;
+    --good-text: #006300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --ink-1: #ffffff; --ink-2: #c3c2b7; --ink-muted: #898781;
+      --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5; --seq-250: #184f95;
+      --good-text: #0ca30c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink-1);
+         font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; line-height: 1.45; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 20px 16px 60px; }
+  header h1 { font-size: 20px; margin: 0 0 2px; }
+  header p { color: var(--ink-2); margin: 0 0 18px; font-size: 13px; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 18px; }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .tile .v { font-size: 26px; font-weight: 650; }
+  .tile .l { color: var(--ink-2); font-size: 12px; margin-top: 2px; }
+  .tile .d { font-size: 12px; margin-top: 2px; color: var(--ink-muted); }
+
+  .tabs { display: flex; gap: 4px; margin-bottom: 12px; flex-wrap: wrap; }
+  .tabs button { border: 1px solid var(--border); background: var(--surface-1); color: var(--ink-2);
+                 padding: 7px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .tabs button.on { color: var(--ink-1); font-weight: 650; border-color: var(--baseline); }
+
+  .panel { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+  .controls input[type=search], .controls select {
+    background: var(--page); color: var(--ink-1); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 10px; font-size: 13px; }
+  .controls input[type=search] { min-width: 220px; }
+
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; color: var(--ink-muted); font-weight: 600; font-size: 12px;
+       border-bottom: 1px solid var(--baseline); padding: 6px 8px; cursor: pointer; white-space: nowrap; }
+  td { border-bottom: 1px solid var(--grid); padding: 7px 8px; vertical-align: top; }
+  td.num { font-variant-numeric: tabular-nums; }
+  tr:hover td { background: rgba(42,120,214,0.05); }
+  a { color: var(--series-1); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .badge { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; white-space: nowrap; }
+  .badge::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--bc, var(--ink-muted)); }
+  .b-active   { --bc: var(--good); }
+  .b-new      { --bc: var(--series-1); }
+  .b-warn     { --bc: var(--warning); }
+  .b-dormant  { --bc: var(--serious); }
+  .b-removed  { --bc: var(--critical); }
+  .b-unverified { --bc: var(--ink-muted); }
+
+  .story { padding: 10px 4px; border-bottom: 1px solid var(--grid); }
+  .story:last-child { border-bottom: none; }
+  .story .t { font-size: 14.5px; }
+  .story .m { color: var(--ink-2); font-size: 12.5px; margin-top: 2px; }
+  .story .m b { color: var(--ink-1); font-weight: 600; }
+  .notable { display: inline-block; font-size: 11px; font-weight: 650; color: var(--good-text);
+             border: 1px solid var(--good); border-radius: 5px; padding: 0 5px; margin-left: 6px; }
+  .social-tag { display: inline-block; font-size: 11px; color: var(--ink-muted);
+                border: 1px solid var(--border); border-radius: 5px; padding: 0 5px; margin-left: 6px; }
+
+  .chart-box { margin: 4px 0 14px; }
+  .chart-box h3 { font-size: 13px; color: var(--ink-2); font-weight: 600; margin: 0 0 6px; }
+  .empty { color: var(--ink-muted); padding: 24px; text-align: center; }
+  .note { color: var(--ink-muted); font-size: 12px; margin-top: 10px; }
+  .feedhealth td { font-size: 12.5px; }
+  #tooltip { position: fixed; pointer-events: none; background: var(--surface-1); border: 1px solid var(--baseline);
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.15);
+             display: none; z-index: 10; }
+</style>
+</head>
+<body>
+<div class="wrap viz-root">
+  <header>
+    <h1>Media Coverage Tracker</h1>
+    <p>Berkeley Homeless Union — homelessness &amp; street vendor coverage in Berkeley/Oakland ·
+       <span id="updated"></span></p>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="chart-box panel" id="chartPanel">
+    <h3>Stories found per week (last 12 weeks)</h3>
+    <svg id="chart" width="100%" height="110" role="img" aria-label="Weekly story counts bar chart"></svg>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button data-tab="coverage" class="on">Coverage feed</button>
+    <button data-tab="press">Press list</button>
+    <button data-tab="removed">Removed &amp; flagged</button>
+    <button data-tab="sources">Source health</button>
+  </div>
+
+  <div class="panel" id="content"></div>
+  <p class="note">Data updates automatically every morning. Reporters are added when a byline appears on a
+     tracked story, and moved to “Removed” after 6 months without one (individual reporters only —
+     news desks, advocacy and government contacts are flagged instead).</p>
+</div>
+<div id="tooltip"></div>
+
+<script>
+let PRESS = null, COV = null, LOG = null, tab = "coverage";
+const $ = s => document.querySelector(s);
+const esc = s => (s ?? "").toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtD = d => d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"}) : "—";
+const daysAgo = d => d ? Math.round((Date.now() - new Date(d + "T12:00:00")) / 864e5) : null;
+
+const STATUS = {
+  "active":       ["b-active",     "✓ Active"],
+  "new":          ["b-new",        "＋ New — needs contact info"],
+  "stale-warning":["b-warn",       "⚠ Stale — nearing removal"],
+  "dormant":      ["b-dormant",    "◌ Dormant — verify manually"],
+  "unverified":   ["b-unverified", "· Not yet verified"],
+};
+function badge(st) {
+  const [cls, label] = STATUS[st] || ["b-unverified", esc(st)];
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+
+async function load() {
+  const bust = "?v=" + Date.now();
+  try {
+    [PRESS, COV] = await Promise.all([
+      fetch("data/press_list.json" + bust).then(r => r.json()),
+      fetch("data/coverage.json" + bust).then(r => r.json()),
+    ]);
+    try { LOG = await fetch("data/scan_log.json" + bust).then(r => r.json()); } catch (e) { LOG = null; }
+  } catch (e) {
+    $("#content").innerHTML = `<div class="empty">Couldn't load data files. If you're previewing locally, serve the folder with a web server (e.g. <code>python3 -m http.server</code>).</div>`;
+    return;
+  }
+  $("#updated").textContent = "last scan: " + (LOG ? new Date(LOG.ran).toLocaleString() : (COV.updated ? fmtD(COV.updated) : "not yet run"));
+  tiles(); chart(); render();
+}
+
+function tiles() {
+  const c = PRESS.contacts, arts = COV.articles;
+  const n30 = arts.filter(a => daysAgo(a.date) <= 30 && a.kind === "news").length;
+  const active = c.filter(x => x.status === "active").length;
+  const fresh  = c.filter(x => x.status === "new").length;
+  const warn   = c.filter(x => x.status === "stale-warning" || x.status === "dormant").length;
+  const t = [
+    [n30, "stories · last 30 days", ""],
+    [c.length, "press contacts", ""],
+    [active, "verified active", ""],
+    [fresh, "new reporters found", ""],
+    [warn, "flagged for review", ""],
+    [PRESS.removed.length, "removed (all time)", ""],
+  ];
+  $("#tiles").innerHTML = t.map(([v, l, d]) =>
+    `<div class="tile"><div class="v">${v}</div><div class="l">${l}</div>${d ? `<div class="d">${d}</div>` : ""}</div>`).join("");
+}
+
+function chart() {
+  const svg = $("#chart"), W = svg.clientWidth || 1000, H = 110, pad = {l: 26, r: 6, t: 8, b: 18};
+  const weeks = [];
+  const now = new Date();
+  for (let i = 11; i >= 0; i--) {
+    const end = new Date(now); end.setDate(end.getDate() - i * 7);
+    const start = new Date(end); start.setDate(start.getDate() - 7);
+    const n = COV.articles.filter(a => { const d = new Date(a.date + "T12:00:00"); return d > start && d <= end; }).length;
+    weeks.push({ label: (end.getMonth() + 1) + "/" + end.getDate(), n });
+  }
+  const max = Math.max(4, ...weeks.map(w => w.n));
+  const bw = Math.min(28, (W - pad.l - pad.r) / 12 - 4);
+  const y = v => pad.t + (H - pad.t - pad.b) * (1 - v / max);
+  let out = "";
+  [0, Math.ceil(max / 2), max].forEach(g => {
+    out += `<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(g)}" y2="${y(g)}" stroke="var(--grid)" stroke-width="1"/>
+            <text x="${pad.l - 5}" y="${y(g) + 4}" text-anchor="end" font-size="10" fill="var(--ink-muted)" font-variant-numeric="tabular-nums">${g}</text>`;
+  });
+  weeks.forEach((w, i) => {
+    const x = pad.l + (W - pad.l - pad.r) / 12 * i + ((W - pad.l - pad.r) / 12 - bw) / 2;
+    const h = Math.max(w.n ? 3 : 0, y(0) - y(w.n));
+    out += `<path d="M${x},${y(0)} v${-Math.max(0, h - 4)} q0,-4 4,-4 h${bw - 8} q4,0 4,4 v${Math.max(0, h - 4)} z"
+              fill="var(--series-1)" data-n="${w.n}" data-w="${w.label}" class="bar" ${w.n === 0 ? 'opacity="0"' : ""}/>
+            <rect x="${x - 2}" y="${pad.t}" width="${bw + 4}" height="${H - pad.t - pad.b}" fill="transparent" class="hit" data-n="${w.n}" data-w="${w.label}"/>`;
+    if (i % 2 === 0) out += `<text x="${x + bw / 2}" y="${H - 4}" text-anchor="middle" font-size="10" fill="var(--ink-muted)">${w.label}</text>`;
+  });
+  out += `<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(0)}" y2="${y(0)}" stroke="var(--baseline)" stroke-width="1"/>`;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = out;
+  const tip = $("#tooltip");
+  svg.querySelectorAll(".hit").forEach(r => {
+    r.addEventListener("mousemove", e => {
+      tip.style.display = "block";
+      tip.innerHTML = `week of ${r.dataset.w}: <b>${r.dataset.n}</b> stories`;
+      tip.style.left = (e.clientX + 12) + "px"; tip.style.top = (e.clientY - 10) + "px";
+    });
+    r.addEventListener("mouseleave", () => tip.style.display = "none");
+  });
+}
+
+/* ---------------- tabs ---------------- */
+document.querySelectorAll("#tabs button").forEach(b =>
+  b.addEventListener("click", () => {
+    tab = b.dataset.tab;
+    document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x === b));
+    render();
+  }));
+
+function render() {
+  if (!PRESS) return;
+  if (tab === "coverage") renderCoverage();
+  else if (tab === "press") renderPress();
+  else if (tab === "removed") renderRemoved();
+  else renderSources();
+}
+
+function renderCoverage() {
+  $("#content").innerHTML = `
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search stories…">
+      <select id="kind"><option value="">All types</option><option value="news">News only</option>
+        <option value="social">Social only</option><option value="notable">Notable only</option></select>
+      <select id="range"><option value="9999">All time</option><option value="7">Last 7 days</option>
+        <option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select>
+    </div><div id="list"></div>`;
+  const draw = () => {
+    const q = $("#q").value.toLowerCase(), k = $("#kind").value, r = +$("#range").value;
+    const rows = COV.articles.filter(a => {
+      if (daysAgo(a.date) > r) return false;
+      if (k === "news" && a.kind !== "news") return false;
+      if (k === "social" && a.kind !== "social") return false;
+      if (k === "notable" && !a.notable) return false;
+      return !q || (a.title + " " + (a.outlet || "") + " " + a.authors.join(" ")).toLowerCase().includes(q);
+    });
+    $("#list").innerHTML = rows.length ? rows.map(a => `
+      <div class="story">
+        <div class="t"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+          ${a.notable ? '<span class="notable">notable</span>' : ""}
+          ${a.kind === "social" ? '<span class="social-tag">social</span>' : ""}</div>
+        <div class="m"><b>${esc(a.outlet || "—")}</b>
+          ${a.authors.length ? " · by " + esc(a.authors.join(", ")) : ""} · ${fmtD(a.date)}
+          ${a.topics && a.topics.length ? " · " + esc(a.topics.slice(0, 4).join(", ")) : ""}</div>
+      </div>`).join("")
+      : `<div class="empty">No stories match — the first scan runs after you set up GitHub Actions.</div>`;
+  };
+  ["q", "kind", "range"].forEach(id => $("#" + id).addEventListener("input", draw));
+  draw();
+}
+
+let sortKey = "last_byline", sortDir = -1;
+function renderPress() {
+  $("#content").innerHTML = `
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search name, outlet, beat, email…">
+      <select id="st"><option value="">All statuses</option>
+        ${Object.keys(STATUS).map(s => `<option value="${s}">${STATUS[s][1].replace(/^[^ ]+ /, "")}</option>`).join("")}
+      </select>
+      <select id="cat"><option value="">All categories</option>
+        ${[...new Set(PRESS.contacts.map(c => c.category).filter(Boolean))].sort().map(c => `<option>${esc(c)}</option>`).join("")}
+      </select>
+    </div><div id="list" style="overflow-x:auto"></div>`;
+  const draw = () => {
+    const q = $("#q").value.toLowerCase(), st = $("#st").value, cat = $("#cat").value;
+    let rows = PRESS.contacts.filter(c => {
+      if (st && c.status !== st) return false;
+      if (cat && c.category !== cat) return false;
+      return !q || [c.name, c.outlet, c.email, c.beat, c.category].join(" ").toLowerCase().includes(q);
+    });
+    rows.sort((a, b) => {
+      let A = a[sortKey] ?? "", B = b[sortKey] ?? "";
+      return (A < B ? -1 : A > B ? 1 : 0) * sortDir;
+    });
+    $("#list").innerHTML = `
+      <table><thead><tr>
+        <th data-k="name">Name</th><th data-k="outlet">Outlet</th><th data-k="status">Status</th>
+        <th data-k="last_byline">Last byline</th><th data-k="byline_count"># seen</th>
+        <th data-k="beat">Beat</th><th data-k="email">Email</th>
+      </tr></thead><tbody>
+      ${rows.map(c => `<tr>
+        <td>${esc(c.name || "—")}</td>
+        <td>${esc(c.outlet || "—")}</td>
+        <td>${badge(c.status)}${c.status_note ? `<div style="font-size:11px;color:var(--ink-muted)">${esc(c.status_note)}</div>` : ""}</td>
+        <td class="num">${c.last_byline ? `<a href="${esc(c.last_byline_url || "#")}" target="_blank" rel="noopener">${fmtD(c.last_byline)}</a>` : "—"}</td>
+        <td class="num">${c.byline_count || 0}</td>
+        <td>${esc(c.beat || "—")}</td>
+        <td>${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : "—"}</td>
+      </tr>`).join("")}
+      </tbody></table>
+      <p class="note">${rows.length} contacts shown · click a column header to sort</p>`;
+    $("#list").querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+      const k = th.dataset.k;
+      if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = k === "last_byline" || k === "byline_count" ? -1 : 1; }
+      draw();
+    }));
+  };
+  ["q", "st", "cat"].forEach(id => $("#" + id).addEventListener("input", draw));
+  draw();
+}
+
+function renderRemoved() {
+  const flagged = PRESS.contacts.filter(c => c.status === "stale-warning" || c.status === "dormant");
+  $("#content").innerHTML = `
+    ${flagged.length ? `<h3 style="margin:0 0 8px;font-size:13px;color:var(--ink-2)">Flagged — review these</h3>
+    <table><tbody>${flagged.map(c => `<tr>
+      <td>${esc(c.name || c.email || "—")}</td><td>${esc(c.outlet || "—")}</td>
+      <td>${badge(c.status)}</td><td style="color:var(--ink-2)">${esc(c.status_note || "")}</td></tr>`).join("")}
+    </tbody></table><br>` : ""}
+    <h3 style="margin:0 0 8px;font-size:13px;color:var(--ink-2)">Removed</h3>
+    ${PRESS.removed.length ? `<table><thead><tr><th>Name</th><th>Outlet</th><th>Email</th><th>Reason</th><th>When</th></tr></thead>
+    <tbody>${PRESS.removed.map(r => `<tr>
+      <td>${esc(r.name || "—")}</td><td>${esc(r.outlet || "—")}</td><td>${esc(r.email || "—")}</td>
+      <td><span class="badge b-removed"></span> ${esc(r.reason)}</td><td class="num">${fmtD(r.removed_on)}</td>
+    </tr>`).join("")}</tbody></table>` : `<div class="empty">Nobody removed yet.</div>`}
+    <p class="note">If a removed reporter publishes again, the scanner restores them automatically.</p>`;
+}
+
+function renderSources() {
+  if (!LOG) { $("#content").innerHTML = `<div class="empty">No scan has run yet — source health appears after the first daily scan.</div>`; return; }
+  $("#content").innerHTML = `
+    <table class="feedhealth"><thead><tr><th>Source</th><th>Status</th><th>Items in feed</th><th>Matched</th></tr></thead>
+    <tbody>${LOG.feeds.map(f => `<tr>
+      <td>${esc(f.feed)}</td>
+      <td>${f.ok ? '<span class="badge b-active">✓ OK</span>' : '<span class="badge b-removed">✕ failing</span>'}
+          ${f.error ? `<div style="font-size:11px;color:var(--ink-muted)">${esc(f.error)}</div>` : ""}</td>
+      <td class="num">${f.entries}</td><td class="num">${f.matched}</td>
+    </tr>`).join("")}</tbody></table>
+    <p class="note">Last run ${new Date(LOG.ran).toLocaleString()} · ${LOG.new_articles} new stories found.
+    Facebook groups and Nextdoor can't be scanned automatically (login walls + their terms of service) —
+    this tracker covers news outlets, Google News and public Reddit communities instead.</p>`;
+}
+
+load();
+window.addEventListener("resize", () => COV && chart());
+</script>
+</body>
+</html>
