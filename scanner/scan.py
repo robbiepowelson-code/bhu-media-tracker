@@ -71,18 +71,20 @@ def fetch(url, timeout=25, tries=3):
         if not path:
             raise IOError(f"offline: no fixture for {url}")
         return open(os.path.join(OFFLINE_DIR, path), "rb").read()
+    headers = dict(UA)
     if "reddit.com" in url:
-        time.sleep(7)  # unauthenticated Reddit is aggressively rate-limited
+        time.sleep(15)  # unauthenticated Reddit is aggressively rate-limited
+        headers["User-Agent"] = "linux:bhu-media-tracker:v1.0 (nonprofit news monitor)"
     last = None
     for attempt in range(tries):
         try:
-            req = urllib.request.Request(url, headers=UA)
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
             last = e
             if e.code in (429, 500, 502, 503, 504) and attempt < tries - 1:
-                time.sleep(6 * (attempt + 1))
+                time.sleep(15 if "reddit.com" in url else 6 * (attempt + 1))
                 continue
             raise
         except Exception as e:
@@ -189,6 +191,25 @@ META_AUTHOR_PATTERNS = [
 ]
 
 
+GOOGLEISH = re.compile(r"//(?:[\w.-]*\.)?(google(?:usercontent)?\.com|gstatic\.com|googleapis\.com|blogger\.com|youtube\.com)")
+
+
+def resolve_google_link(url):
+    """Google News RSS links are redirect pages — dig out the real article URL."""
+    if "news.google.com" not in url:
+        return url
+    try:
+        raw = fetch(url, timeout=15)[:300_000].decode("utf-8", "ignore")
+    except Exception:
+        return url
+    for m in re.finditer(r'href="(https?://[^"]+)"', raw):
+        u = html.unescape(m.group(1))
+        if not GOOGLEISH.search(u) and "news.google" not in u:
+            return u
+    m = re.search(r'data-n-au="(https?://[^"]+)"', raw)
+    return html.unescape(m.group(1)) if m else url
+
+
 def bylines_from_article(url):
     """Best-effort byline extraction from an article page (meta tags + JSON-LD)."""
     try:
@@ -287,15 +308,21 @@ def run_scan():
             if e["link"] in known_urls or aid in known_ids or (tkey and tkey in known_titles):
                 continue
 
+            link = e["link"]
+            if feed["kind"] == "aggregator" and "news.google.com" in link and fetches_left > 0:
+                fetches_left -= 1
+                real = resolve_google_link(link)
+                if real != link and real not in known_urls:
+                    link = real
             authors = e["authors"]
             if not authors and feed["kind"] != "social" and fetches_left > 0:
                 fetches_left -= 1
-                authors = bylines_from_article(e["link"])
+                authors = bylines_from_article(link)
 
             art = {
                 "id": aid,
                 "title": title,
-                "url": e["link"],
+                "url": link,
                 "outlet": outlet,
                 "authors": authors,
                 "date": str(e["date"] or today()),
@@ -309,6 +336,7 @@ def run_scan():
             coverage["articles"].append(art)
             new_articles.append(art)
             known_urls.add(e["link"])
+            known_urls.add(link)
             known_ids.add(aid)
             known_titles.add(tkey)
             status["matched"] += 1

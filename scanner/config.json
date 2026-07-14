@@ -24,21 +24,21 @@
       "url": "https://news.google.com/rss/search?q=%28homeless%20OR%20homelessness%20OR%20unhoused%20OR%20encampment%29%20%28Berkeley%20OR%20Oakland%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "kind": "aggregator",
       "requires_geo": false,
-      "requires_topic": false
+      "requires_topic": true
     },
     {
       "name": "Google News — street vendors Berkeley/Oakland",
       "url": "https://news.google.com/rss/search?q=%28%22street%20vendor%22%20OR%20%22street%20vendors%22%20OR%20%22sidewalk%20vending%22%20OR%20%22street%20vending%22%29%20%28Berkeley%20OR%20Oakland%20OR%20%22East%20Bay%22%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
       "kind": "aggregator",
       "requires_geo": false,
-      "requires_topic": false
+      "requires_topic": true
     },
     {
       "name": "Google News — encampment sweeps East Bay",
       "url": "https://news.google.com/rss/search?q=%28sweep%20OR%20eviction%20OR%20closure%29%20encampment%20%28Berkeley%20OR%20Oakland%20OR%20%22East%20Bay%22%20OR%20%22Alameda%20County%22%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
       "kind": "aggregator",
       "requires_geo": false,
-      "requires_topic": false
+      "requires_topic": true
     },
     {
       "name": "Berkeleyside",
