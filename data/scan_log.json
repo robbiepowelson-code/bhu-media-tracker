@@ -1,5 +1,5 @@
 {
- "ran": "2026-07-14T03:09:55+00:00",
+ "ran": "2026-07-14T03:14:49+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
