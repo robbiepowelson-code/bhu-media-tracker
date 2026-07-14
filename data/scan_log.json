@@ -1,10 +1,10 @@
 {
- "ran": "2026-07-14T03:28:02+00:00",
+ "ran": "2026-07-14T03:44:04+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 16,
+   "entries": 15,
    "matched": 0,
    "error": null
   },
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": true,
-   "entries": 40,
+   "ok": false,
+   "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Street Spirit",
@@ -66,10 +66,10 @@
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "SF Standard",
