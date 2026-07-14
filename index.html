@@ -256,6 +256,35 @@ function renderCoverage() {
   draw();
 }
 
+const OUTLET_COUNTY = {"san francisco chronicle":"Bay Area–wide","sfgate":"Bay Area–wide","kqed":"Bay Area–wide","kpix / cbs bay area":"Bay Area–wide","nbc bay area / nbcuniversal":"Bay Area–wide","nbc bay area":"Bay Area–wide","abc7 / kgo-tv":"Bay Area–wide","kron4":"Bay Area–wide","kcbs radio":"Bay Area–wide","bay city news":"Bay Area–wide","bay area news group (merc/eb times)":"Bay Area–wide","cbs news":"Bay Area–wide","berkeleyside":"Alameda County","the oaklandside":"Alameda County","the daily californian":"Alameda County","street spirit":"Alameda County","east bay express":"Alameda County","oakland observer":"Alameda County","berkeley.edu":"Alameda County","the san francisco standard":"San Francisco","sf bay view":"San Francisco","poor magazine":"San Francisco","marin independent journal":"Marin County","the ark / marinscope":"Marin County","brentwoodpress.com":"Contra Costa County","the press democrat":"Sonoma County","norcal public media":"Sonoma County","kcra (sacramento)":"Sacramento County","the sacramento bee":"Sacramento County","davis vanguard":"Yolo County","slo tribune":"San Luis Obispo County","calmatters":"California — Statewide","los angeles times":"Los Angeles County","the new york times":"National","the washington post":"National","usa today":"National","the guardian (us)":"National","nowthis":"National","kff health news":"National","truthout":"National","prism":"National","the progressive":"National","invisible people":"National","the sunday times (uk)":"International","acgov.org":"Alameda County","cohsf.org":"San Francisco","dredf.org":"Alameda County","wdwg.org":"Alameda County","wraphome.org":"San Francisco"};
+const EMAIL_COUNTY = {"oaklandvoices@gmail.com":"Alameda County","zack.haber@gmail.com":"Alameda County","osha.neumann@gmail.com":"Alameda County","oshaneumann@gmail.com":"Alameda County","streetspiritnews@gmail.com":"Alameda County","berkeley.homeless.union@gmail.com":"Alameda County","berkeleyoc.media@gmail.com":"Alameda County","berkeleycopwatch@yahoo.com":"Alameda County","poormag@gmail.com":"San Francisco","sacramento.homeless.union@gmail.com":"Sacramento County","nikki_silverstein@yahoo.com":"Marin County","oakleynow@comcast.net":"Contra Costa County","erin.mccormick@gmail.com":"Bay Area–wide","yesica.prado13@gmail.com":"Bay Area–wide"};
+const COUNTY_ORDER = ["Bay Area–wide","Alameda County","San Francisco","Marin County","Contra Costa County","Sonoma County","Sacramento County","Yolo County","San Luis Obispo County","Los Angeles County","California — Statewide","National","International","Unknown — needs research"];
+function contactCounty(c) {
+  return EMAIL_COUNTY[(c.email || "").toLowerCase()] || OUTLET_COUNTY[(c.outlet || "").toLowerCase().trim()] || "Unknown — needs research";
+}
+function downloadCSV() {
+  const cell = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+  const rows = [["County / Region","Name","Outlet","Email","Phone","Category","Beat","Status","Last byline seen","Relevance / notes"]];
+  for (const sec of COUNTY_ORDER) {
+    const cs = PRESS.contacts.filter(c => contactCounty(c) === sec)
+      .sort((a, b) => ((a.outlet || "") + (a.name || "zzz")).toLowerCase().localeCompare(((b.outlet || "") + (b.name || "zzz")).toLowerCase()));
+    if (!cs.length) continue;
+    rows.push([]);
+    rows.push([`=== ${sec.toUpperCase()} (${cs.length} contacts) ===`]);
+    for (const c of cs) rows.push([sec, c.name, c.outlet, c.email, c.phone, c.category, c.beat,
+      c.status_note || c.status, c.last_byline, c.relevance || c.deliverability_note || ""]);
+  }
+  rows.push([]);
+  rows.push([`=== REMOVED — DO NOT EMAIL (${PRESS.removed.length}) ===`]);
+  for (const r of PRESS.removed) rows.push(["Removed", r.name, r.outlet, r.email, "", "", "", r.reason, r.removed_on, ""]);
+  const csv = "﻿" + rows.map(r => r.map(cell).join(",")).join("\r\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+  a.download = `BHU_Press_Contacts_by_County_${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
 let sortKey = "last_byline", sortDir = -1;
 function renderPress() {
   $("#content").innerHTML = `
@@ -267,7 +296,10 @@ function renderPress() {
       <select id="cat"><option value="">All categories</option>
         ${[...new Set(PRESS.contacts.map(c => c.category).filter(Boolean))].sort().map(c => `<option>${esc(c)}</option>`).join("")}
       </select>
+      <button id="dlcsv" style="border:1px solid var(--border);background:var(--page);color:var(--ink-1);padding:7px 12px;border-radius:8px;cursor:pointer;font-size:13px">⬇ Download CSV (by county)</button>
+      <a href="files/BHU_Master_Press_List.xlsx" download style="font-size:13px">Master .xlsx</a>
     </div><div id="list" style="overflow-x:auto"></div>`;
+  $("#dlcsv").addEventListener("click", downloadCSV);
   const draw = () => {
     const q = $("#q").value.toLowerCase(), st = $("#st").value, cat = $("#cat").value;
     let rows = PRESS.contacts.filter(c => {
