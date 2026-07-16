@@ -1,6 +1,23 @@
 {
  "articles": [
   {
+   "id": "c5c28d255ee03c43",
+   "title": "In the news: Deadly boat capsize, street vendors sue Oakland, small marine animal bites swimmer",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNHNwVk5BeENVeDlKQ2QzeGxWaUpybXp3TVBlTWdQd1BybWtpbHIyTW1ROGZpbmRJUlR2ZmxmZTBFTE12WnpGVFZyOWl2TGtjR3lZRkhMS09UdVFIN2FBQmNod3VuNndoRnpMYXozelBXdnIxbDFnNUNsZkdwYXpCbFBPZzh1SU1YTDhVaUF5Vk5vSGZMb2ZjTkl3dXRHSnhEUTZlVE96NVJpcS1hRDhHQmJ0RThKaHhrZjFoelJuZ0tIeVRDTXdxMzZoc2RHbEJlSWk5S2N30gHeAUFVX3lxTFBKOGx6WC03R3FaUklYWlpnNmxLNzlQcC0wZGxVbmpGXzJYeGNnaTJhVjdrNjktV1ZhcngwOXl5V182ZVBwOF83VEtFSHdwcTNXalJUQm5mQkg5MHZTZ0g4VnRrY0ZVRVZ4VDJIV1UtcHRjUk5xdzFhZUI4SWpCQjVhRnFmdUJWV0hkUl9maU1qZnZOV0szaE5TSWpaR05QMi1GcU9CZk1SOTR3VVhoamZZZWdVR3E3MEFrMmpyNGFUZnhqNmpkVHpDNFRnTlRRQ1hwc3FFTUx5amp2aHdxdw?oc=5",
+   "outlet": "NBC Bay Area / NBCUniversal",
+   "authors": [],
+   "date": "2026-07-16",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " In the news: Deadly boat capsize, street vendors sue Oakland, small marine animal bites swimmer    NBC Bay Area "
+  },
+  {
    "id": "6a876b03612fea4f",
    "title": "Oakland advocates' lawsuit targets city's crackdown on street vendors",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YbWlRRnpPYjFiNnZvd2lXVzdjT3pfZDNFenpQWTh0dWVIY2NlZ1lCYnJQenZwT2hNMUstVjV2NjZXOVdjMzBNTlhuaU1rSENmMVpLOEoyclQ5LWdzcENiZ3ZobVhiajA?oc=5",
@@ -49,6 +66,160 @@
    "feed": "Google News — street vendors Berkeley/Oakland",
    "found_on": "2026-07-15",
    "summary": " Lake Merritt street vendor who ignored warning from police arrested    KRON4 "
+  },
+  {
+   "id": "d50f18749c99de23",
+   "title": "Remembering Terry Messman, founding editor of Street Spirit homeless newspaper",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTEh1OGVnMXhoUHhVQ3BhM3N0c0VFREZraVl5TGxlMG03b2pocVBfbzBMSU9rRVlNNmJ2bUlwazg4Rm1Nb3ZBLV9ES1RhcFMyLVFmMHFYX0l4dTdwWHZHWk1YM0xXR1FKWkdBQzV4RnY3b2tHS1doNTJKQzl6MXVHd2tyV1dxR1NqQlBKb1ZkUXVfXy1qYkk1QzhJbGlZcGpFenY1UWsyc2Y2TXJzYm9KSklXYnJ4VGlM?oc=5",
+   "outlet": "Berkeleyside",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Remembering Terry Messman, founding editor of Street Spirit homeless newspaper    Berkeleyside "
+  },
+  {
+   "id": "87d322da66516357",
+   "title": "California’s Unhoused Seniors: a Crisis Within the State’s Homelessness Crisis",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWgtSlA5RkpuQVlycm1mZmdPUjM3c2pTaEg0MERpOUpEYjNLcnM5Y3NmZG93eFMyMGZVOXNtYVZITGlMOW0zb3g0bFp0X2VNckZsdWw5WmJESjk5NFlnTWdBYmpMY3pyY21JeEM3d2xYMHhGazRTdkxFZnVLR2MzQ3NFc2c5WDRpbWhURFJfT1NUcGE4cGZ5ek9vX25TWjcwTVViLUF3c09uX3ZjWVRB0gGvAUFVX3lxTE9FaC1KUDlGSm5BWXJybWZmZ09SMzdzalNoSDQwRGk5SkRiM0tyczljc2Zkb3d4UzIwZlU5c21hVkhMaUw5bTNveDRsWnRfZU1yRmx1bDlaYkRKOTk0WWdNZ0FiakxjenJjbUl4Qzd3bFgweEZrNFN2TEVmdUtHYzNDc0VzZzlYNGltaFREUl9PU1RwYThwZnl6T29fblNaNzBNVWItQXdzT25fdmNZVEE?oc=5",
+   "outlet": "Post News Group",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "homeless",
+    "homelessness",
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " California’s Unhoused Seniors: a Crisis Within the State’s Homelessness Crisis    Post News Group "
+  },
+  {
+   "id": "e0046e20b4965f0d",
+   "title": "Route 37 Motel To Become Emergency Shelter For Those In Need In Ocean County",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUDRaQjh6eXZxYVlNa29VQXJoZWZpWUVZN3BwU1E2dk1IRkdkVE1TQWJoZTlyYmZnVTdXNjBwN1NGWWxCZzAwVG9IRXdaU04wRUVFaVlMdnJDSnl5S3BIMGMxN1prY1VSNU1tM2ZvVENobnNoSFJyRENoUU1pX3pMbHhPdmhtOEJkOGNueFVPYU9TdnFHcERTLUxtT0s5b0ctY2JjdtIBxwFBVV95cUxQc1Y5eEhmd0YwZEVNYkk1WDVWTWRQZ0VCZWl3WXhYWGZBaVdVMEo5NER0LTdjWWI4dzlBbUVhbTl0a2stZ203VjF5Q05fYzJJcld3NmM3X3pUdjhpT3IwbVZka2hrX2QxcDZvcHVpN3RMSkNxd2lhRnRCUno5bm5xTm5IT2hwbzJ6YzlsRkRxZ2wtd0tuR19BeWNZV2ZpZ1FIWU9fazBpVlFZcnJpbHlCeFEyNFZCdi1mU2JHNG1fRFFfN1BMaXBv?oc=5",
+   "outlet": "Patch",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "shelter"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Route 37 Motel To Become Emergency Shelter For Those In Need In Ocean County    Patch "
+  },
+  {
+   "id": "74899d1c0a79f239",
+   "title": "Oakland street vendors address City Council, blast \"aggressive\" enforcement actions",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXpfU1JPSlNQakRlOEN6T1V6MXFNbmZnYUVhb1pwbW4xZmNTNUY5Qy11UGZOX0NlWlpLcEFIbUdqYzNJR0dHcGp4d0RvOVFidHlaWHp1Y0ZkOTFfczVOWGdwYzNBcGZwOVFjYzljVWRxX2tyWERlMEMzRW9DRUhBdzZvRnRndTVEVHl5TE8wdU0tbVNtbkhRREJoUWF6R29ZTXM1Y1pINnFDUmxJSzFxVnhBbw?oc=5",
+   "outlet": "CBS News",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Oakland street vendors address City Council, blast \"aggressive\" enforcement actions    CBS News "
+  },
+  {
+   "id": "55d806aba04cf360",
+   "title": "Oakland street vendors sue city over destroyed property, withheld records",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQVBjZURIR1BCaDZzeWFzQmRuWFduV3FBRlQzVDV0M1ZxVjV1VGpSNDhlQjlUa0VoSE1vdUpYYmZsZmVpLThZUDJoc3ZjcTRaQUhqVG9MMnFWaDh4LWhjMjhGU1dhQ1dJVW14cmp5Qk00LUlscXM5UGRQYUV3UDMwM25KRlTSAYwBQVVfeXFMTXNoZUtnVWpOMXB3aXh3Yzh5T3VBR1VfUUt0QUhoS2VJbEoxalRyVENjQzQ2d3JxUTdEdUJWYzNQa0lPYnhpSWJzcmhEc1FyTVl3dzlfT2J4aG1LZWtUXzViWE5yUGprVi1Pa21fMDh0NnBKLXh0NDRaWnh6VFE2SUppdkQ2dE9tZ0ZnaFg?oc=5",
+   "outlet": "NBC Bay Area / NBCUniversal",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Oakland street vendors sue city over destroyed property, withheld records    NBC Bay Area "
+  },
+  {
+   "id": "7e093c591f8d19f2",
+   "title": "Charleston’s competitive street vendors unite in plea for City Council to listen to their ideas",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWVpSWGk3b0N3dHZ6eGNWLTJTaXZBUjJ2bjNyUGdsSW5QNEF3bk1haFoyazRKZnRyalBNQUVYUzJwU0RFVXJjLW9VQmVNSFh2cmd0U3IyNjZPZjRqVXZUZ2xCSEduMzNKVFdKellIajZNTUgxYnRPQjRrN08tRGRIbGMyTm1tRWVYbkswYWFNcjg2TlpUZkxjZDd4MHpSdFEzMGVJUzQ2UmpDbmpWazhhZjItWGFLSG1vZHkteWhqWW5MQ0hBOU9VaHdDd2FJbEFKVEVZ?oc=5",
+   "outlet": "Post and Courier",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Charleston’s competitive street vendors unite in plea for City Council to listen to their ideas    Post and Courier "
+  },
+  {
+   "id": "ae5c080f2a2a162c",
+   "title": "Oakland street vendors blast recent enforcement actions by city",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjc1cE5seHRzbmNlZGt4UkxmbF9lZ1hFNVo4RmcyQXFPVDRXYk16d1R6dktqUjJ6UXBTV1NCQlZhbENobzFZWldmcTB4YW52bEZQT1JZUnBiWjQ3UmhQUXVDd0Rhd09yMWFraWFtZzlSamRqeUJuVm1VblNuTWpUSjFsN1lJRnh3eFBNdnVCaFRtQ3N5ZzZXWEFOeXNBVVJ3UEhlZ0RxNDBYblk?oc=5",
+   "outlet": "CBS News",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Oakland street vendors blast recent enforcement actions by city    CBS News "
+  },
+  {
+   "id": "d418dd3ec29c53cd",
+   "title": "Oakland Street Vendors Pack City Hall To Rip Crackdown",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU19fOHZraUtmZ2t3Y2JweHFiZUg2YnUybXJLaEdmelBrTE5ab3BWM3ZQd3o0ZHZud0o5QWRNVWhoankwakQ5VWNFMDdoNUJSVkdkdzRhSVFmQzNUZlV4ZW5CMzFzVnRZTlIyTERkaGplNTZxMlh1N2RsNlFpdVR2Qk9YbjM3bXFmZGNWMQ?oc=5",
+   "outlet": "Hoodline",
+   "authors": [],
+   "date": "2026-07-15",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-16",
+   "summary": " Oakland Street Vendors Pack City Hall To Rip Crackdown    Hoodline "
+  },
+  {
+   "id": "4a37c39cab744576",
+   "title": "First audit of Oakland’s vacant property tax gives pretty good marks",
+   "url": "https://oaklandside.org/2026/07/15/oakland-measure-w-vacancy-tax-audit-housing/",
+   "outlet": "The Oaklandside",
+   "authors": [
+    "Natalie Orenstein"
+   ],
+   "date": "2026-07-15",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "The Oaklandside",
+   "found_on": "2026-07-16",
+   "summary": "  First audit of Oakland’s vacant property tax gives pretty good marks  \n  While a housing project has been proposed on this Eastmont lot, about 2% of all Oakland properties are deemed vacant and subject to an annual tax. \n\" data-large-file=\"https://oaklandside.org/wp-content/uploads/2026/07/large-E"
   },
   {
    "id": "e7f4552ad121cd82",
@@ -343,5 +514,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-07-15"
+ "updated": "2026-07-16"
 }
