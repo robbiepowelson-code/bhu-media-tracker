@@ -1,6 +1,41 @@
 {
  "articles": [
   {
+   "id": "facd7302073c8904",
+   "title": "Student contempt exacerbates Berkeley’s lack of support for unhoused people",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdE9qRjYyUHhGMmU3RlBWMzdnSndlY2Q0dHlSOVZXeTF4alV2d1hlMVNFMTNTcFkzN3ZEc1NFblgxRWhWbGVVY3o3NGM4S3NKaXhEemJYTW5CcEU2TmVVNUNocVNwV1lTM2NYRjc3QVJzWjlmSUE3SHlsVUo2N1JwRXNidE04SkdDbmhxYWhra0dlaWxwN2FHSWNkcnNfWnpQb3Q1aDhOSUZmUkdlT0xKVlk4aVNWQWxCMHNYWm1xaUs4dzFZSkNJZm1VcUFLREcxMlRDWDZwR01YbzJNb1BLR0xNSEhzeHpvaDRtN2V4OEtBNnA1ak4xdTJvWDl2MTQ?oc=5",
+   "outlet": "Daily Cal",
+   "authors": [],
+   "date": "2026-07-17",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-17",
+   "summary": " Student contempt exacerbates Berkeley’s lack of support for unhoused people    Daily Cal "
+  },
+  {
+   "id": "aed00075afb21b54",
+   "title": "Bike Decorations @ Elmwood Beer Crawl! Sat July 18th",
+   "url": "https://www.reddit.com/r/berkeley/comments/1uyn1ga/bike_decorations_elmwood_beer_crawl_sat_july_18th/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/xsmasher"
+   ],
+   "date": "2026-07-17",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-07-17",
+   "summary": "                  I'll have my bike decorations at Elmwood Beer Walk on Sat July 18th - come by to try beers, browser maker and artist booths, and find cool bike decorations!    I don't know my exact location yet, I'll comment when I have it.   You can buy a ticket for beer tasting  here  but NO TIC"
+  },
+  {
    "id": "c5c28d255ee03c43",
    "title": "In the news: Deadly boat capsize, street vendors sue Oakland, small marine animal bites swimmer",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNHNwVk5BeENVeDlKQ2QzeGxWaUpybXp3TVBlTWdQd1BybWtpbHIyTW1ROGZpbmRJUlR2ZmxmZTBFTE12WnpGVFZyOWl2TGtjR3lZRkhMS09UdVFIN2FBQmNod3VuNndoRnpMYXozelBXdnIxbDFnNUNsZkdwYXpCbFBPZzh1SU1YTDhVaUF5Vk5vSGZMb2ZjTkl3dXRHSnhEUTZlVE96NVJpcS1hRDhHQmJ0RThKaHhrZjFoelJuZ0tIeVRDTXdxMzZoc2RHbEJlSWk5S2N30gHeAUFVX3lxTFBKOGx6WC03R3FaUklYWlpnNmxLNzlQcC0wZGxVbmpGXzJYeGNnaTJhVjdrNjktV1ZhcngwOXl5V182ZVBwOF83VEtFSHdwcTNXalJUQm5mQkg5MHZTZ0g4VnRrY0ZVRVZ4VDJIV1UtcHRjUk5xdzFhZUI4SWpCQjVhRnFmdUJWV0hkUl9maU1qZnZOV0szaE5TSWpaR05QMi1GcU9CZk1SOTR3VVhoamZZZWdVR3E3MEFrMmpyNGFUZnhqNmpkVHpDNFRnTlRRQ1hwc3FFTUx5amp2aHdxdw?oc=5",
@@ -16,6 +51,23 @@
    "feed": "Google News — street vendors Berkeley/Oakland",
    "found_on": "2026-07-16",
    "summary": " In the news: Deadly boat capsize, street vendors sue Oakland, small marine animal bites swimmer    NBC Bay Area "
+  },
+  {
+   "id": "6ae830915f4abe61",
+   "title": "Encampments cover sidewalks in East Oakland, leaving school kids to walk in the street",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XQkl0eHZSa0xMT3hMM21WbWV4VUMyQWZrX25BUk1PYWRWREl2SkRweWowUHM3Nms1cVdHcFE2eHJzY1NSVG0walB5Qjl3MFpvM3cySUwzUjdQdTMtcDExaENFZVRTMEEwekHSAW9BVV95cUxPZ0VKVVpZZGhTS0pWOUgwRk1saVlfTFpWQV9Vc0xnek9NX05XYTJsazE4ZTVSWHltWDItZXFfWmdTT0dqalI3T1QySkJIRjlZc0FUcUxDWFJpOHgwVm5XTnJIRE42S2g4Q3QyV3hhREU?oc=5",
+   "outlet": "KTVU",
+   "authors": [],
+   "date": "2026-07-16",
+   "topics": [
+    "encampment",
+    "encampments"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-17",
+   "summary": " Encampments cover sidewalks in East Oakland, leaving school kids to walk in the street    KTVU "
   },
   {
    "id": "6a876b03612fea4f",
@@ -514,5 +566,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-07-16"
+ "updated": "2026-07-17"
 }
