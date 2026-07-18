@@ -1,6 +1,41 @@
 {
  "articles": [
   {
+   "id": "a895fdd9baaf3afb",
+   "title": "Fall River Police Sweep Quequechan Encampment Near I-195",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcm9BWkRLR0J1YWdra2lLVzU5UThTLVN6OGVqckhNZDBlNGJxaENaRkNKTnBoN01aNl8tLXluY2RWcVBDNzVLTVNuTzVFYTM0M29yU0ZiOG1NeEZaN280Tmk0TEJOczc3OVV3QnZDeVNZU3I4VXJrNWdqcENUUVJWQjVGUllJZFFHWEp4a2hFUll1dUl0Q0E?oc=5",
+   "outlet": "Hoodline",
+   "authors": [],
+   "date": "2026-07-18",
+   "topics": [
+    "encampment",
+    "sweep"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — encampment sweeps East Bay",
+   "found_on": "2026-07-18",
+   "summary": " Fall River Police Sweep Quequechan Encampment Near I-195    Hoodline "
+  },
+  {
+   "id": "a9c8470dda89ef13",
+   "title": "Jamaican Street Food At Lake Merritt on Fridays Any Good?",
+   "url": "https://www.reddit.com/r/oakland/comments/1uzh95e/jamaican_street_food_at_lake_merritt_on_fridays/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/Specialist-Sun9236"
+   ],
+   "date": "2026-07-18",
+   "topics": [
+    "food vendor"
+   ],
+   "notable": false,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-07-18",
+   "summary": "   Hey, looking to get dinner and I keep walking by the Jamaican street food vendors around Lake Merritt on Fridays. Anyone know of one that's very good?! Would love a rec!       submitted by     /u/Specialist-Sun9236       [link]       [comments]  "
+  },
+  {
    "id": "facd7302073c8904",
    "title": "Student contempt exacerbates Berkeley’s lack of support for unhoused people",
    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdE9qRjYyUHhGMmU3RlBWMzdnSndlY2Q0dHlSOVZXeTF4alV2d1hlMVNFMTNTcFkzN3ZEc1NFblgxRWhWbGVVY3o3NGM4S3NKaXhEemJYTW5CcEU2TmVVNUNocVNwV1lTM2NYRjc3QVJzWjlmSUE3SHlsVUo2N1JwRXNidE04SkdDbmhxYWhra0dlaWxwN2FHSWNkcnNfWnpQb3Q1aDhOSUZmUkdlT0xKVlk4aVNWQWxCMHNYWm1xaUs4dzFZSkNJZm1VcUFLREcxMlRDWDZwR01YbzJNb1BLR0xNSEhzeHpvaDRtN2V4OEtBNnA1ak4xdTJvWDl2MTQ?oc=5",
@@ -34,6 +69,57 @@
    "feed": "Reddit r/berkeley",
    "found_on": "2026-07-17",
    "summary": "                  I'll have my bike decorations at Elmwood Beer Walk on Sat July 18th - come by to try beers, browser maker and artist booths, and find cool bike decorations!    I don't know my exact location yet, I'll comment when I have it.   You can buy a ticket for beer tasting  here  but NO TIC"
+  },
+  {
+   "id": "6c4d61e10b0f7a41",
+   "title": "Street vendor arrested after alleged illegal alcohol sales at Lake Merritt",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUklkbC0xQjJKNFNQNDN6eUJRWUJvbGdlQmd0NFE5OVdNdmJiaVZkMC1JVHRvTW83S2JRaGxNR19QdVl0RERwSzE0blliQkdFTVJiVmpyNzF0dzI4N28wcGtvMjhtVUphSVpuNl9NWThVSm5naFpkNGVqT3RNOVFpMEI2VEVxNEZzWHdjYTlaQURMYWM0dDhSM1V2SmVVOTNuYjBIZtIBqgFBVV95cUxPSmZrNDVBdlp0VXg2Z3gtMzJqT3Nod3YtWGZFVmc0NmVabVJweDlTbFdMLWxKLWxDV3p3aDdabHlvdlNLZlZ6bTJVbUN5SnkxcDdjZHZJdEVmcmJNMklGM2pJOENTT1FrSE9XMVV5UzdWWHRTQlF5d3N6dW1xVy1yMktNWGRDeHhUOXBzZXVWUmNlZ0JaTXZFdDRuNy1tOVFsTWZxbGJuQTE1Zw?oc=5",
+   "outlet": "KRON4",
+   "authors": [],
+   "date": "2026-07-17",
+   "topics": [
+    "street vendor"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-18",
+   "summary": " Street vendor arrested after alleged illegal alcohol sales at Lake Merritt    KRON4 "
+  },
+  {
+   "id": "2bec776f6e1948fb",
+   "title": "Street vendor at Oakland's Lake Merritt accused of illegal alcohol sales",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNHVlV3kxQjl1U3NFNFB0LVJvc1lyLUx5aktuaWpnMzg3dnpabHdSM2lRdE9ycUhkc1F0T1RwUXlUbVUyLVl2MGZLNGVGck9PdlFGbWxSN1VkNHA4eF9TYmZadlFweHNfeXJEc3ZlbDhTa3pUWlQxV2xXWGlwRjJDTkt6aHA2VzVtWWlacUNUQ3VobWtJUXh5RnRja1NCNWFO?oc=5",
+   "outlet": "CBS News",
+   "authors": [],
+   "date": "2026-07-17",
+   "topics": [
+    "street vendor"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — street vendors Berkeley/Oakland",
+   "found_on": "2026-07-18",
+   "summary": " Street vendor at Oakland's Lake Merritt accused of illegal alcohol sales    CBS News "
+  },
+  {
+   "id": "d9df9e4a5976a38e",
+   "title": "Are Oakland vendors being harassed by cops?",
+   "url": "https://oaklandside.org/2026/07/17/oakland-vendor-raid-lawsuit-2026/",
+   "outlet": "The Oaklandside",
+   "authors": [
+    "Jose Fermoso"
+   ],
+   "date": "2026-07-17",
+   "topics": [
+    "street vendor",
+    "street vendors"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "The Oaklandside",
+   "found_on": "2026-07-18",
+   "summary": "  Are Oakland vendors being harassed by cops?  \n  Kevin L (left), vendor on the El Embarcadero side of Lake Merritt talks to a customer. \n\" data-image-caption=\" Kevin L, a vendor on the El Embarcadero side of Lake Merritt talks to a customer in 2021. \n\" data-large-file=\"https://oaklandside.org/wp-co"
   },
   {
    "id": "c5c28d255ee03c43",
@@ -566,5 +652,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-07-17"
+ "updated": "2026-07-18"
 }

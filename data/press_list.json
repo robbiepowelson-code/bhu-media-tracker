@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-17",
+ "generated": "2026-07-18",
  "contacts": [
   {
    "id": "oaklandvoices@gmail.com",
@@ -2088,6 +2088,25 @@
    "added": "2026-07-16",
    "last_byline": "2026-07-15",
    "last_byline_url": "https://oaklandside.org/2026/07/15/oakland-measure-w-vacancy-tax-audit-housing/",
+   "byline_count": 1,
+   "seeded": false
+  },
+  {
+   "id": "jose_fermoso",
+   "name": "Jose Fermoso",
+   "outlet": "The Oaklandside",
+   "email": null,
+   "category": "Reporter / journalist",
+   "beat": "auto: street vendor, street vendors",
+   "phone": null,
+   "status": "new",
+   "status_note": "auto-added from byline — needs contact info",
+   "deliverability_note": null,
+   "relevance": null,
+   "source": "auto_scan",
+   "added": "2026-07-18",
+   "last_byline": "2026-07-17",
+   "last_byline_url": "https://oaklandside.org/2026/07/17/oakland-vendor-raid-lawsuit-2026/",
    "byline_count": 1,
    "seeded": false
   }
