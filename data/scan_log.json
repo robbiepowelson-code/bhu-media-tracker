@@ -1,25 +1,25 @@
 {
- "ran": "2026-07-18T15:15:51+00:00",
+ "ran": "2026-07-19T15:15:50+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 12,
-   "matched": 0,
+   "entries": 10,
+   "matched": 1,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 37,
-   "matched": 2,
+   "entries": 31,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
    "entries": 3,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -33,7 +33,7 @@
    "feed": "The Oaklandside",
    "ok": true,
    "entries": 20,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -95,8 +95,8 @@
   {
    "feed": "Reddit r/oakland",
    "ok": true,
-   "entries": 1,
-   "matched": 1,
+   "entries": 2,
+   "matched": 0,
    "error": null
   },
   {
@@ -107,14 +107,10 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 5,
+ "new_articles": 1,
  "changes": {
-  "bylines_updated": [
-   "Jose Fermoso \u2014 Are Oakland vendors being harassed by cops?"
-  ],
-  "added": [
-   "Jose Fermoso (The Oaklandside) \u2014 Are Oakland vendors being harassed by cops?"
-  ],
+  "bylines_updated": [],
+  "added": [],
   "restored": [],
   "removed": [],
   "flagged": []
