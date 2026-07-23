@@ -1,6 +1,24 @@
 {
  "articles": [
   {
+   "id": "a63c72257c36ad51",
+   "title": "The Bay Area has a massive shelter shortage. More beds alone won’t solve homelessness",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYl9DYTBvRDVia24zckJDWWpHRkpzUzFlOWxCVlhTX0c3LUFoSEpBMEx2RGdlZndfcmgxWTl1Y2l1ckY3eE9Fc1RDTm5DNFc1dmpqV3hPRzlicjMxekNpTTRQUU45dmczdURoakVzQWRMMWNYWmh2cHZNRFV2ZENWWdIBhgFBVV95cUxQdXI2aEtMWk0zaXcyQ0RUbVZBb3poRkFTTkNFUHNvLXdScUwzUmNJYUpFWUU4clo3dGlWX1hESkE0cFFGeVZFWDRfT1R3b2M3dWU4bElLMTJYemVfalZOZ3d1SXJfd0ZiNE1vby1DUDhGUy1fS1B3RVhadWFSeHQ1ZlZmTmEtUQ?oc=5",
+   "outlet": "Bay Area News Group (Merc/EB Times)",
+   "authors": [],
+   "date": "2026-07-23",
+   "topics": [
+    "homeless",
+    "homelessness",
+    "shelter"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-23",
+   "summary": " The Bay Area has a massive shelter shortage. More beds alone won’t solve homelessness    The Mercury News "
+  },
+  {
    "id": "2593865cdd96abbc",
    "title": "Jackson city council delays vote on homeless encampment ordinance",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTI2bm5jRUJFVzR2QUJLSDdvT3NiU2lmd3pSVFFVcWJXdjlxRkNJQ3lqdHJtcE00cTF2dWRsYWxFQnhaNDhnVDJkeEFacnRhX2tUUnh3b25UWkxuZVJfYUNOOUozRGZ1V21vQWN3UndZOHZSck9IZ1l1UjBwVGFOV2ZEWHVlZDVuQ0ZzU1k2ZUF1ZVkzdEVoTGxPVW9vM2hHTDVKQjRxRWE4N2s0MWVuMXVUaXROWVk?oc=5",
@@ -16,6 +34,40 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-07-22",
    "summary": " Jackson city council delays vote on homeless encampment ordinance    WILX "
+  },
+  {
+   "id": "4f68b556b8f3c7d6",
+   "title": "Oakland revives controversial plan to pay unhoused residents to clean areas around encampments",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWV80RUVMelRjNzB6X1NwajZQVENrYXhrSU4ycmpTbWtnN2NxbGppNDEwajFpTWliMmItVWRCcFRwOXl6dXh5eFVBUjkzTUlPdDBURmc2N0Fid2tQOE9ENE9renhiVmpjS1l4N3V5TUcxaERvMTZWakR6Q3BmSVhKUW9rLUdPX2gxYm9fRl95THg2VDhWUWxIUDZzbnZBWUREVHZOOEhaWUtYaXV3WFl2cXk3QWpZbThvbHBILXN3Z9IBxAFBVV95cUxOWGxkd01BS3Fadnl0ckJfRDV2WmtfWUFsb0ZNM1JxMzNmbi1HN1d4N2dYMGY2YV9JeTJMR3dIdFJ4VEFRMVl1MWxJSEV4cGIzajBTcjliTk1PWXoyTGdPSHFNTTM4clUxcWlLRl9KQWxMajUxRE8zTnZwYnc2SkFsM2NuZm42OEljVmhyeXU3R19LeXo0WFNhS1lQUmZQY0xWMGxfSWlyXzM5MHo4b0hibWJGNk5LblJYWXdqdkI4OE96YVYt?oc=5",
+   "outlet": "ABC7 Bay Area",
+   "authors": [],
+   "date": "2026-07-22",
+   "topics": [
+    "encampment",
+    "encampments",
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-23",
+   "summary": " Oakland revives controversial plan to pay unhoused residents to clean areas around encampments    ABC7 Bay Area "
+  },
+  {
+   "id": "c28e48af7370416c",
+   "title": "Judge grants class action status to Berkeley unhoused individuals with disabilities threatened by city policy",
+   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNNmphb2RnbXBoSk5DYndPdU5mWkh1aUxKd19SRG43T3plei1vaGh5WkdWeDRMVWoyN05NZkVqOHZlYWdGSHJYaldITDllbEN6alBKVlBSdzdJSnVsdHRFVUVlUkFVXzNZa3lMdVZDbnlVSjQyWUFoWmlwUGxCMjBPX3lzVlhoZHlXWm01d3hROFAzUHRGbERzUGRmS0YwRm14WFZ4N2NIbV9pcU9OQzYxOHJ0ODREcDhkdTlNbWRGS195UDdDUTdSTlQzTTJLVkM4QmpjcGhMS3kwSFVtcDl1dXJubU0zUXVRSWdvWnVRRV85Z3BFanhnMWZGSXhQa01pSGM1U2dPXzZHNmwxZUVkVTJRekI5eEVLTDdaMEJzUE8xcVgyb0lMUTB3?oc=5",
+   "outlet": "Daily Cal",
+   "authors": [],
+   "date": "2026-07-22",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-23",
+   "summary": " Judge grants class action status to Berkeley unhoused individuals with disabilities threatened by city policy    Daily Cal "
   },
   {
    "id": "c004945fd73b686d",
@@ -785,5 +837,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-07-22"
+ "updated": "2026-07-23"
 }
