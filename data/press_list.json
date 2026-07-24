@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23",
+ "generated": "2026-07-24",
  "contacts": [
   {
    "id": "oaklandvoices@gmail.com",
@@ -2107,6 +2107,25 @@
    "added": "2026-07-18",
    "last_byline": "2026-07-17",
    "last_byline_url": "https://oaklandside.org/2026/07/17/oakland-vendor-raid-lawsuit-2026/",
+   "byline_count": 1,
+   "seeded": false
+  },
+  {
+   "id": "ashley_mcbride",
+   "name": "Ashley McBride",
+   "outlet": "The Oaklandside",
+   "email": null,
+   "category": "Reporter / journalist",
+   "beat": "auto: homeless, homelessness",
+   "phone": null,
+   "status": "new",
+   "status_note": "auto-added from byline — needs contact info",
+   "deliverability_note": null,
+   "relevance": null,
+   "source": "auto_scan",
+   "added": "2026-07-24",
+   "last_byline": "2026-07-23",
+   "last_byline_url": "https://oaklandside.org/2026/07/23/kingmakers-oakland-artificial-intelligence-sankofa-kings/",
    "byline_count": 1,
    "seeded": false
   }

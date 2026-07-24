@@ -1,24 +1,24 @@
 {
- "ran": "2026-07-23T16:04:05+00:00",
+ "ran": "2026-07-24T15:45:51+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 17,
-   "matched": 3,
+   "entries": 20,
+   "matched": 4,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 20,
+   "entries": 14,
    "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 6,
+   "entries": 5,
    "matched": 0,
    "error": null
   },
@@ -33,7 +33,7 @@
    "feed": "The Oaklandside",
    "ok": true,
    "entries": 20,
-   "matched": 0,
+   "matched": 1,
    "error": null
   },
   {
@@ -59,17 +59,17 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "SF Standard",
@@ -94,23 +94,27 @@
   },
   {
    "feed": "Reddit r/oakland",
+   "ok": true,
+   "entries": 3,
+   "matched": 0,
+   "error": null
+  },
+  {
+   "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "Reddit r/bayarea",
-   "ok": true,
-   "entries": 0,
-   "matched": 0,
-   "error": null
   }
  ],
- "new_articles": 3,
+ "new_articles": 5,
  "changes": {
-  "bylines_updated": [],
-  "added": [],
+  "bylines_updated": [
+   "Ashley McBride \u2014 Sankofa Kings trains Black boys and young men to create, not just cons"
+  ],
+  "added": [
+   "Ashley McBride (The Oaklandside) \u2014 Sankofa Kings trains Black boys and young men to create, not just cons"
+  ],
   "restored": [],
   "removed": [],
   "flagged": []
