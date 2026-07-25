@@ -1,17 +1,17 @@
 {
- "ran": "2026-07-24T15:45:51+00:00",
+ "ran": "2026-07-25T15:19:58+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 20,
-   "matched": 4,
+   "entries": 15,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 14,
+   "entries": 8,
    "matched": 0,
    "error": null
   },
@@ -33,7 +33,7 @@
    "feed": "The Oaklandside",
    "ok": true,
    "entries": 20,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -59,17 +59,17 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "SF Standard",
@@ -88,7 +88,7 @@
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
-   "entries": 1,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
@@ -107,14 +107,10 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 5,
+ "new_articles": 0,
  "changes": {
-  "bylines_updated": [
-   "Ashley McBride \u2014 Sankofa Kings trains Black boys and young men to create, not just cons"
-  ],
-  "added": [
-   "Ashley McBride (The Oaklandside) \u2014 Sankofa Kings trains Black boys and young men to create, not just cons"
-  ],
+  "bylines_updated": [],
+  "added": [],
   "restored": [],
   "removed": [],
   "flagged": []
