@@ -1,6 +1,43 @@
 {
  "articles": [
   {
+   "id": "681554ef73090bcc",
+   "title": "Resource - Cal Victim Compensation Board",
+   "url": "https://www.reddit.com/r/oakland/comments/1v8nyqk/resource_cal_victim_compensation_board/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/According_Cicada2041"
+   ],
+   "date": "2026-07-28",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-07-28",
+   "summary": "   Just want to flag this in case it's helpful - the Cal Victim Compensation Board exists to support victims in crimes with medical bills, counseling, lost wages etc. (not automatic, have to check eligibility and apply). I was randomly attacked by a homeless person and sought help with medical bills"
+  },
+  {
+   "id": "4c847914e493d541",
+   "title": "What is up with the RVs and tent encampments with over a dozen bicycles?",
+   "url": "https://www.reddit.com/r/oakland/comments/1v8mi28/what_is_up_with_the_rvs_and_tent_encampments_with/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/justsomegraphemes"
+   ],
+   "date": "2026-07-28",
+   "topics": [
+    "encampment",
+    "encampments"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-07-28",
+   "summary": "                 Aside from this RV, I've seen two tent encampments with the same \"​setup\" of over a dozen bikes in ​various states. If they're legally obtaining them for scrapping then I'll gladly ​​mind my own business. However, ​I have a special kind of ​hatred for bicycle thieves ​so I can't hel"
+  },
+  {
    "id": "c782f3ee52a0da8d",
    "title": "Proposed Fee on Vacant Venice Properties Would Fund Homelessness Programs",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPelFoNmdFU3pQdHQ2U1c5RXF0WlhqekR1ZGpIVmJ2NUVUb01XbTcydFNJVEpjakk1R0dGcDZ5ZzNpMUl4TXFIVldnOEt1YnVZeWVNS0dYSERTYWlzdlNYX081M3gzdDY1emdxNkZkZnBhWXIxb0ZJYWFaV0ZzY2xTdU1XbU01bjVwdl9kUnh3bWF0dUhOR2s1elluMGd0NzYwbHBtbFEtakg3dw?oc=5",
@@ -170,6 +207,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-07-23",
    "summary": " Judge grants class action status to Berkeley unhoused individuals with disabilities threatened by city policy    Daily Cal "
+  },
+  {
+   "id": "5e01241c1bed453a",
+   "title": "Fire at Fresno encampment starts days after eviction notice served",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdGNYajVhZU9LUXRCX0FWNkVtQWlQcHMtTkxxeXVKRDBJR0wwVTFtbVpCNTkxZWZmcnNIZUVtdzZGc1MyR1p2aGNTalJWY05NX3Mtd2RHWkQ5ZThMOWxwOWdZd20xTHF4REVIQU1aLUpPanRXeDUzMFRrcUYzam5WWEk1OG92SzU4Q2paNHlEZWU1R0N1MTQ4V0xR0gGfAUFVX3lxTE5yR1dYVW1mYVJHaG9fcVpEYjV5dHNuaDE0Qmt6dmJvZmRtRzh5RnRJUjdxVjdNaFg1eFBiTjV6T1R0QWY4V0dHdTR2blk3MDhGNU1PUGoyUGRoUk9ORDJRcHFKUmQxSnlSeTBLZFM2bUgtcnY2eXV1UGp0QzhQaldpZVYtbTlkanN0MWtPelFGYjUyN3JQcmtGQXY3djM5UQ?oc=5",
+   "outlet": "yourcentralvalley.com",
+   "authors": [],
+   "date": "2026-07-22",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — encampment sweeps East Bay",
+   "found_on": "2026-07-28",
+   "summary": " Fire at Fresno encampment starts days after eviction notice served    yourcentralvalley.com "
   },
   {
    "id": "c004945fd73b686d",
@@ -939,5 +992,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-07-27"
+ "updated": "2026-07-28"
 }
