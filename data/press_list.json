@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28",
+ "generated": "2026-07-29",
  "contacts": [
   {
    "id": "oaklandvoices@gmail.com",
@@ -2126,6 +2126,25 @@
    "added": "2026-07-24",
    "last_byline": "2026-07-23",
    "last_byline_url": "https://oaklandside.org/2026/07/23/kingmakers-oakland-artificial-intelligence-sankofa-kings/",
+   "byline_count": 1,
+   "seeded": false
+  },
+  {
+   "id": "alex_n._gecan",
+   "name": "Alex N. Gecan",
+   "outlet": "Berkeleyside",
+   "email": null,
+   "category": "Reporter / journalist",
+   "beat": "auto: shelter",
+   "phone": null,
+   "status": "new",
+   "status_note": "auto-added from byline — needs contact info",
+   "deliverability_note": null,
+   "relevance": null,
+   "source": "auto_scan",
+   "added": "2026-07-29",
+   "last_byline": "2026-07-28",
+   "last_byline_url": "https://www.berkeleyside.org/2026/07/28/bacs-shelter-reopens-after-arson",
    "byline_count": 1,
    "seeded": false
   }
