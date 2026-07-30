@@ -1,6 +1,57 @@
 {
  "articles": [
   {
+   "id": "709b669218ed432b",
+   "title": "Housing nonprofits say homelessness crisis is worsening in Pontiac",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLXFuWGxZeHpQVVk1X2FFRmxLd0wxZ2tIa0FleE9tOTNVTERYUTMxWldMaDcyYmR1VXJ3YnRMLWw3c05oaGYzVVRLd3ppQ2drMTBKdXVSRWZTbmZRclF1dUFiU19mX2pKY3JacnRqX1h5Sk96ZEVzako0cjUyWlNTdlBoU09XajVTZ2FBbnFrQ1hKandRVFV1NzMxN2VCaWpIZ0QzME9lSzN5REJ1S2stMlhLSHA?oc=5",
+   "outlet": "WXYZ Channel 7",
+   "authors": [],
+   "date": "2026-07-30",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-30",
+   "summary": " Housing nonprofits say homelessness crisis is worsening in Pontiac    WXYZ Channel 7 "
+  },
+  {
+   "id": "569952f81540674c",
+   "title": "Welcome Inn has big plans for year-round shelter",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPenZnMVltX1NJeXdabGJySVVKY2h4MzhqNlloc2c5SFhvLVlnNDctenlJMXdmeF9CcG14SDhjZF80WXpGekxRZTJMSVBnQjIxbzZNMUZmTWtrWS1YSUtaa2c1SkVwUjBmUVBxc3AzRmVDNkZNY1BuMm1qY0NiemFDYmdrNk8wY3JjREg1SkM4YmFyRFRpTS1JY3REQjYzMW8?oc=5",
+   "outlet": "C&G Newspapers",
+   "authors": [],
+   "date": "2026-07-29",
+   "topics": [
+    "shelter"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-07-30",
+   "summary": " Welcome Inn has big plans for year-round shelter    C&G Newspapers "
+  },
+  {
+   "id": "b23c4578b92e3daf",
+   "title": "Housing question, am I about to be homeless",
+   "url": "https://www.reddit.com/r/berkeley/comments/1va6dzi/housing_question_am_i_about_to_be_homeless/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/NameTooCool"
+   ],
+   "date": "2026-07-29",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-07-30",
+   "summary": "   Hello, I’ve waited every week since June for a wave of housing and still haven’t got one. Last week I didn’t even get an email saying I’m still being considered in the next wave (which everyone gets) and today, on the last day, I still haven’t got anything and the waves usually go out at 12. If I"
+  },
+  {
    "id": "681554ef73090bcc",
    "title": "Resource - Cal Victim Compensation Board",
    "url": "https://www.reddit.com/r/oakland/comments/1v8nyqk/resource_cal_victim_compensation_board/",
@@ -1010,5 +1061,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-07-29"
+ "updated": "2026-07-30"
 }
