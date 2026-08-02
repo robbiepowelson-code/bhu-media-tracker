@@ -1,6 +1,45 @@
 {
  "articles": [
   {
+   "id": "bc20ac30df33c3aa",
+   "title": "Court orders Berkeley to provide disabled encampment residents with relocation assistance before abatements",
+   "url": "https://thestreetspirit.org/2026/08/01/court-orders-berkeley-to-provide-disabled-encampment-residents-with-relocation-assistance-before-abatements/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-08-01",
+   "topics": [
+    "encampment",
+    "sweep",
+    "sweeps"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-08-02",
+   "summary": " Two lawsuits are reshaping how the city conducts encampment sweeps. One just became a class action. \n The post  Court orders Berkeley to provide disabled encampment residents with relocation assistance before abatements  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "edf55adb273083e5",
+   "title": "Berkeley slashes two safety net programs: a mental health crisis team and a homeless shelter",
+   "url": "https://thestreetspirit.org/2026/08/01/berkeley-slashes-two-safety-net-programs-a-mental-health-crisis-team-and-a-homeless-shelter/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Bradley Penner"
+   ],
+   "date": "2026-08-01",
+   "topics": [
+    "homeless",
+    "shelter"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-08-02",
+   "summary": " City leaders are closing a 47-year-old crisis team a year after ending a similar non-police crisis response unit launched post-George Floyd. \n The post  Berkeley slashes two safety net programs: a mental health crisis team and a homeless shelter  appeared first on  Street Spirit . "
+  },
+  {
    "id": "01a7f3fc6ffa91da",
    "title": "Federal judge halts Berkeley from sweeping 8th and Harrison encampment days before scheduled clearing",
    "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbkhmeVE3dndXaVBWdFoxQTlsaFJtWE0zc1VDMk80Wm1NT1ZDYVAycldiOHNjWF9OQ2I5N25kMXVZUkpSMW1XOVhlemx1MW82bzdEVXAtMDZfMjRrMVlTWkpRRmtUSFl6T3hoSWRPTEd3alZTZnJUX280VTVYYWZxRm92eHNodHdHRXJfc2hsQnpMMTlTVHJFa2ppUVZRdHdFRlZYZER4cEQ3d3lIT2hnbXdNRExqcjU5V3AwVmxGai03bV9vTGQ5dkZHczF6b2xHaW5sWjJYLUVoSFdTMjFwRGhaR3BsOGNTMkp6MzJLYzU5SVlHdlF0aEt1RHlvOXoxZ0N5N2JXamk2YnF4dWE5ZkdQdWJkdGI1RmZYSkxHTQ?oc=5",
@@ -81,6 +120,23 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-07-31",
    "summary": " Vallejo Man Found Shot Dead In Encampment, Eighth Homicide Of 2026    Hoodline "
+  },
+  {
+   "id": "7d38abfe696a2827",
+   "title": "Fire erupts at St. Paul encampment less than a week before city sweep",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LQUhobUdkaTJ4Tm9yc3ZVVG9XOFZ6c0Z5SkxhR0pYa3Y2YzhiQkExOHBFYWhtazdnN1ltUHJSNDk2UV91SUY2MzFPYnd5OWZyMExSTGdmSWJvUmVqZEFLcW9TRDh1RlJETmZKZERtT1I?oc=5",
+   "outlet": "Pioneer Press",
+   "authors": [],
+   "date": "2026-07-30",
+   "topics": [
+    "encampment",
+    "sweep"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — encampment sweeps East Bay",
+   "found_on": "2026-08-02",
+   "summary": " Fire erupts at St. Paul encampment less than a week before city sweep    Pioneer Press "
   },
   {
    "id": "569952f81540674c",
@@ -1161,5 +1217,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-08-01"
+ "updated": "2026-08-02"
 }
