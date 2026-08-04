@@ -1,11 +1,11 @@
 {
- "ran": "2026-08-03T16:41:48+00:00",
+ "ran": "2026-08-04T16:23:51+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 5,
-   "matched": 0,
+   "entries": 8,
+   "matched": 3,
    "error": null
   },
   {
@@ -107,7 +107,7 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 0,
+ "new_articles": 3,
  "changes": {
   "bylines_updated": [],
   "added": [],
