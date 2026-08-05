@@ -1,17 +1,17 @@
 {
- "ran": "2026-08-04T16:23:51+00:00",
+ "ran": "2026-08-05T16:10:50+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 8,
-   "matched": 3,
+   "entries": 6,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 1,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
@@ -33,15 +33,15 @@
    "feed": "The Oaklandside",
    "ok": true,
    "entries": 20,
-   "matched": 0,
+   "matched": 1,
    "error": null
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
@@ -95,7 +95,7 @@
   {
    "feed": "Reddit r/oakland",
    "ok": true,
-   "entries": 2,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
@@ -107,9 +107,11 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 3,
+ "new_articles": 1,
  "changes": {
-  "bylines_updated": [],
+  "bylines_updated": [
+   "Darwin BondGraham \u2014 OPD sued for withholding information about fatal police shooting"
+  ],
   "added": [],
   "restored": [],
   "removed": [],

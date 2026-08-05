@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04",
+ "generated": "2026-08-05",
  "contacts": [
   {
    "id": "oaklandvoices@gmail.com",
@@ -28,15 +28,15 @@
    "category": "Reporter / journalist",
    "beat": "Policing, OPD, use-of-force, public records, investigations",
    "phone": null,
-   "status": "unverified",
-   "status_note": "Not yet verified",
+   "status": "active",
+   "status_note": "verified by byline 2026-08-04",
    "deliverability_note": null,
    "relevance": "HIGH — Oaklandside leads OPD/records coverage",
    "source": "seed_spreadsheet",
    "added": "2026-07-14",
-   "last_byline": null,
-   "last_byline_url": null,
-   "byline_count": 0,
+   "last_byline": "2026-08-04",
+   "last_byline_url": "https://oaklandside.org/2026/08/04/homeless-shooting-fruitvale-oakland-police-records-lawsuit/",
+   "byline_count": 1,
    "seeded": true
   },
   {
