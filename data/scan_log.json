@@ -1,18 +1,18 @@
 {
- "ran": "2026-08-13T15:16:00+00:00",
+ "ran": "2026-08-14T15:07:55+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 14,
-   "matched": 1,
+   "entries": 19,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 8,
-   "matched": 0,
+   "entries": 18,
+   "matched": 2,
    "error": null
   },
   {
@@ -88,7 +88,7 @@
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
-   "entries": 4,
+   "entries": 3,
    "matched": 0,
    "error": null
   },
@@ -101,13 +101,13 @@
   },
   {
    "feed": "Reddit r/bayarea",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 1,
+ "new_articles": 2,
  "changes": {
   "bylines_updated": [],
   "added": [],
