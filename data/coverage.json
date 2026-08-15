@@ -1,6 +1,40 @@
 {
  "articles": [
   {
+   "id": "d9471fd3847791a2",
+   "title": "City must hit the streets to find homeless tent sites, judge says",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMm1aSVhhRjQ4SnFabVR0aVlfUEc0T3BmbDRhNExVeVZWSER3bmQ0ZUp2NS05bDJxS2xVTEdOTExtenk4eWhOTzZCZkpSUGROeEFtS0FTVExKSGhFWHFNRzl0bGRRSk9fV3ZndXByZkJ3NjdCNHlZVDkzckRTS3lLNm1QYlRhVlZkVFVnWE0xS1g5eEZqUGlOQzRWYTdvUQ?oc=5",
+   "outlet": "The Berkeley Scanner",
+   "authors": [],
+   "date": "2026-08-15",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-15",
+   "summary": " City must hit the streets to find homeless tent sites, judge says    The Berkeley Scanner "
+  },
+  {
+   "id": "15a1bdf91705c047",
+   "title": "Berkeley must hit the streets to find homeless tent sites, judge says",
+   "url": "https://www.reddit.com/r/berkeley/comments/1voo6pq/berkeley_must_hit_the_streets_to_find_homeless/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/BerkeleyScanner"
+   ],
+   "date": "2026-08-15",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-08-15",
+   "summary": "                submitted by     /u/BerkeleyScanner       [link]       [comments]      "
+  },
+  {
    "id": "c1f33b73aa615d4b",
    "title": "Oakland street vendors push back against city crackdown",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTlgxdGRvcGpKRC16MnVvUHNiLUMxQWh6UlpGN3BnNnFSdVU1R0JpaEVDNllmNWIxSi15aE9zNmIzQU8xWEYwaFRPZGdxLTE5SnFwd1NDMFNZbHlpbGMwOWUwdTFCaDFOdHR5VDZGNDBNMFZBTS1PXzVOSmZNU3phODBESi01ajRFSEpZRV9FeTRITnpuTUFGVS02QzdJdmc?oc=5",
@@ -33,6 +67,23 @@
    "feed": "Google News — street vendors Berkeley/Oakland",
    "found_on": "2026-08-14",
    "summary": " Oakland street vendors rally to demand end to crackdown on their businesses    KION Central Coast "
+  },
+  {
+   "id": "3bdb42ecc37dd1a6",
+   "title": "Bed bugs at Royal Oak Library highlight another issue: Homelessness",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV1Q4LXNEZEliVWpHZmtHcWtLQjlzeUF2R0k5M0VncEVqVVBqUVQzNU5SMzBJYU82V185ZzVPRXkzWDBBUEFCZW1GZ3MtU2c0bWxCUjI5NXBURTUzYmplOGNBX0pHVWp1UVlmWnFvcnJjSXlNQU95Q1dCaERaUy1DRnlOdmFDLTNicHQ0cjF4U0tvTVJQLXB6T1lGT0czZXV4U2VkbU1hQ2hITzBTd3dsWmJ4M0ktU2RFTGZN?oc=5",
+   "outlet": "Detroit Free Press",
+   "authors": [],
+   "date": "2026-08-14",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-15",
+   "summary": " Bed bugs at Royal Oak Library highlight another issue: Homelessness    Detroit Free Press "
   },
   {
    "id": "d16bd64be594a268",
@@ -1608,5 +1659,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-08-14"
+ "updated": "2026-08-15"
 }
