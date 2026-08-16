@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "59cba75aa59c5703",
+   "title": "Lewis and Clark Encampment returns to the Sioux City Riverfront",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3B5UTZNMFl2di1Xd3ExSzZlZnhwbHdkTHZzVW9ldzNqdWlGanRURFA5SUU1RGdHQXpJc3JONkdJQ25yd0lHQmZIY0t6WlpNaWM2alF2UUFmc1p5LXR1U0kzcmlqbmh5VExaMTlKQV9RVkN6RFZlZG9OMzlKNUEtdUNkSzBZVnZoUlY4bDZPUUs2bDVJVUV1dlVEUVY?oc=5",
+   "outlet": "Live 5 News",
+   "authors": [],
+   "date": "2026-08-16",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-16",
+   "summary": " Lewis and Clark Encampment returns to the Sioux City Riverfront    Live 5 News "
+  },
+  {
    "id": "d9471fd3847791a2",
    "title": "City must hit the streets to find homeless tent sites, judge says",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMm1aSVhhRjQ4SnFabVR0aVlfUEc0T3BmbDRhNExVeVZWSER3bmQ0ZUp2NS05bDJxS2xVTEdOTExtenk4eWhOTzZCZkpSUGROeEFtS0FTVExKSGhFWHFNRzl0bGRRSk9fV3ZndXByZkJ3NjdCNHlZVDkzckRTS3lLNm1QYlRhVlZkVFVnWE0xS1g5eEZqUGlOQzRWYTdvUQ?oc=5",
@@ -33,6 +49,23 @@
    "feed": "Reddit r/berkeley",
    "found_on": "2026-08-15",
    "summary": "                submitted by     /u/BerkeleyScanner       [link]       [comments]      "
+  },
+  {
+   "id": "56496d719c79c380",
+   "title": "“Boston Miracle” Strategy Cut Murders. Can It Work on Crimes Tied to Homelessness?",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdFFheWVoTEtuS0tFS2wxeXB6eHVHR2lIR0dQdk1NamZ4RlZjZVRmcjRKb21nRUN0QUs0d2ZBMmJGODVVQ04xRl95Z3hsMWFEUkZWU0gxV1ZmRmFnbTFWTDBLc2UtbWdXeXRTT0xUVWVQdUlEZFpLWUdXT0libTRkMmpR?oc=5",
+   "outlet": "The Marshall Project",
+   "authors": [],
+   "date": "2026-08-15",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-16",
+   "summary": " “Boston Miracle” Strategy Cut Murders. Can It Work on Crimes Tied to Homelessness?    The Marshall Project "
   },
   {
    "id": "c1f33b73aa615d4b",
@@ -1659,5 +1692,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-08-15"
+ "updated": "2026-08-16"
 }
