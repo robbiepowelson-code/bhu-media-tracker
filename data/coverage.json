@@ -1,6 +1,40 @@
 {
  "articles": [
   {
+   "id": "7cce68c59375394a",
+   "title": "homeless",
+   "url": "https://www.reddit.com/r/berkeley/comments/1vrduy5/homeless/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/Working-Hat-3068"
+   ],
+   "date": "2026-08-18",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-08-18",
+   "summary": "   Messed up and applied for housing kinda late… my application is pending and im waiting to move in later this week. Showed up to Berkeley WAY too early and now im here for a few days before my housing is ready. What are some places I can go to sleep in my car or just do im bored   UPDATE: ended up"
+  },
+  {
+   "id": "8a01e2a5c628855a",
+   "title": "Judge imposes new conditions on Berkeley’s move to sweep Eighth and Harrison camp",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSklkSHQzZG9vVXZZczgxcTR1d0RsN0lud3pNWnA5clhZSk5QeXUwWkoyZ0pjM2ZPTTFrN2F2eDJjbnpSTjYxb2F6Q3ZMWGMtLTg3b1RkWXdNVU85SFcxcEgyczNmRU1zOV9RR1lsaWVYdHF5Z1ZoZTIwbTJqNzRQUg?oc=5",
+   "outlet": "Berkeleyside",
+   "authors": [],
+   "date": "2026-08-17",
+   "topics": [
+    "sweep"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-18",
+   "summary": " Judge imposes new conditions on Berkeley’s move to sweep Eighth and Harrison camp    Berkeleyside "
+  },
+  {
    "id": "59cba75aa59c5703",
    "title": "Lewis and Clark Encampment returns to the Sioux City Riverfront",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3B5UTZNMFl2di1Xd3ExSzZlZnhwbHdkTHZzVW9ldzNqdWlGanRURFA5SUU1RGdHQXpJc3JONkdJQ25yd0lHQmZIY0t6WlpNaWM2alF2UUFmc1p5LXR1U0kzcmlqbmh5VExaMTlKQV9RVkN6RFZlZG9OMzlKNUEtdUNkSzBZVnZoUlY4bDZPUUs2bDVJVUV1dlVEUVY?oc=5",
@@ -1709,5 +1743,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-08-17"
+ "updated": "2026-08-18"
 }
