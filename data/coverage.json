@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "a10c969175d59f78",
+   "title": "Arson charge follows fire at Berkeley encampment",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNzVlMDBwVUplLW1lSzYyQS02c2p6ajV0TkdnMl9GMVgtYTloSm9sLVdKLV9zU1dTUU9KTlpKQ1pudWFFYlVaYlpLZGk4d3Z5M0tyTHJXUHBXZW5FUkprZGxTejRseUlGSUdxR2NMMW5NMTUycU9DemVheWdVUTFOelFmelJhX1JMNWt4WkRyLWI?oc=5",
+   "outlet": "The Berkeley Scanner",
+   "authors": [],
+   "date": "2026-08-19",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-19",
+   "summary": " Arson charge follows fire at Berkeley encampment    The Berkeley Scanner "
+  },
+  {
    "id": "7cce68c59375394a",
    "title": "homeless",
    "url": "https://www.reddit.com/r/berkeley/comments/1vrduy5/homeless/",
@@ -1743,5 +1759,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-08-18"
+ "updated": "2026-08-19"
 }

@@ -1,17 +1,17 @@
 {
- "ran": "2026-08-18T14:53:54+00:00",
+ "ran": "2026-08-19T14:53:58+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 10,
+   "entries": 11,
    "matched": 1,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 11,
+   "entries": 9,
    "matched": 0,
    "error": null
   },
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
@@ -59,17 +59,17 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "SF Standard",
@@ -89,7 +89,7 @@
    "feed": "Reddit r/berkeley",
    "ok": true,
    "entries": 2,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -107,7 +107,7 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 2,
+ "new_articles": 1,
  "changes": {
   "bylines_updated": [],
   "added": [],
