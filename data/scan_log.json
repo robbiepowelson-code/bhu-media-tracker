@@ -1,18 +1,18 @@
 {
- "ran": "2026-08-20T14:55:46+00:00",
+ "ran": "2026-08-21T14:54:10+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 17,
+   "entries": 27,
    "matched": 4,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 9,
-   "matched": 0,
+   "entries": 6,
+   "matched": 3,
    "error": null
   },
   {
@@ -26,7 +26,7 @@
    "feed": "Berkeleyside",
    "ok": true,
    "entries": 12,
-   "matched": 0,
+   "matched": 1,
    "error": null
   },
   {
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
@@ -59,10 +59,10 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
@@ -94,23 +94,27 @@
   },
   {
    "feed": "Reddit r/oakland",
-   "ok": true,
-   "entries": 0,
-   "matched": 0,
-   "error": null
-  },
-  {
-   "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "Reddit r/bayarea",
+   "ok": true,
+   "entries": 1,
+   "matched": 0,
+   "error": null
   }
  ],
- "new_articles": 4,
+ "new_articles": 8,
  "changes": {
-  "bylines_updated": [],
-  "added": [],
+  "bylines_updated": [
+   "Tovin Lapan \u2014 Introducing BreakFest, Nosh\u2019s big morning bash with a shot of spice"
+  ],
+  "added": [
+   "Tovin Lapan (Berkeleyside) \u2014 Introducing BreakFest, Nosh\u2019s big morning bash with a shot of spice"
+  ],
   "restored": [],
   "removed": [],
   "flagged": []
