@@ -1,24 +1,24 @@
 {
- "ran": "2026-08-21T14:54:10+00:00",
+ "ran": "2026-08-22T14:38:14+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 27,
-   "matched": 4,
+   "entries": 22,
+   "matched": 5,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 6,
-   "matched": 3,
+   "entries": 8,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 6,
+   "entries": 3,
    "matched": 0,
    "error": null
   },
@@ -26,7 +26,7 @@
    "feed": "Berkeleyside",
    "ok": true,
    "entries": 12,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -107,14 +107,10 @@
    "error": null
   }
  ],
- "new_articles": 8,
+ "new_articles": 5,
  "changes": {
-  "bylines_updated": [
-   "Tovin Lapan \u2014 Introducing BreakFest, Nosh\u2019s big morning bash with a shot of spice"
-  ],
-  "added": [
-   "Tovin Lapan (Berkeleyside) \u2014 Introducing BreakFest, Nosh\u2019s big morning bash with a shot of spice"
-  ],
+  "bylines_updated": [],
+  "added": [],
   "restored": [],
   "removed": [],
   "flagged": []
