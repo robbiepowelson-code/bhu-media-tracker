@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "3784962e0a2020cb",
+   "title": "This Bay Area encampment went viral for its size. Here’s why clean-up efforts dragged on",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWjZkNGhWQzRMS245QXBWRlVQa204NUhBdDF0MUhOb20yVmJFY1F4cjRGSDNZUi1aQjA1NjlOdzRfbmg3NDlYbkxQVDBEc2NfQmRKTV96V25jRWxHZDNJN2xfejRBUXBjdVlUWGNGVzZPLUNjUk1FMXFnLU82OW9MWkdPcXBPay02di00LVNWbmJ0Y0Z3?oc=5",
+   "outlet": "San Francisco Chronicle",
+   "authors": [],
+   "date": "2026-08-23",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-23",
+   "summary": " This Bay Area encampment went viral for its size. Here’s why clean-up efforts dragged on    San Francisco Chronicle "
+  },
+  {
    "id": "06827d2a08646087",
    "title": "California Homeless",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYzhIT3hlNHpWa2lSRWUtTDRheWZyZ2Y0WVRxY2lWUHdZOXJiZFU2RkZUU0lVMS1IM0MtZ2xhel9JMWtKWDNvU3ktRGZQT1BVWktuRDdSYjFOMklJYTl1Y3p4SVRqdkNZeUF6cURIY01IZTREcWh2RmlfMmNJYmctX1U0ZXRTUzNyaW9admRjaVhLTUFnX09NbHZUUGI3WDdONTB1bzNFb1l5Y0g2Q1E?oc=5",
@@ -15,6 +31,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-08-22",
    "summary": " California Homeless    The Batesville Daily Guard "
+  },
+  {
+   "id": "c2efbeab46606c10",
+   "title": "San Francisco homeless center workers arrested for allegedly hiding cop shooter from police",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdFEyYXlJTkpYd0taX2FJY2w4LU0xSTVYNnBBOXAtYUx0ZjB4VGc5Yjl4VHpFMGZSQ3BtOWN3X2pXdEtaRzMyQjhsODhSN1hxNkJhRHZKa2YtVnpMc20xbnlMSWpmelVzT0NjQTJyeWF4VHQydnp3SkROeFQxeng5UHVkNnZOSEF2cmhXenpRU0ZIcTJlbG9WZVRMS3BKYkwzSkNaU2dydlJpLUU1MVp5elJ1N1BodHVvd1Nrd3o5U0lvbXNMOF83eEZ3?oc=5",
+   "outlet": "New York Post",
+   "authors": [],
+   "date": "2026-08-22",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-08-23",
+   "summary": " San Francisco homeless center workers arrested for allegedly hiding cop shooter from police    New York Post "
   },
   {
    "id": "14988cc3d96ae4cf",
@@ -2041,5 +2073,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-08-22"
+ "updated": "2026-08-23"
 }
