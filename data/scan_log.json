@@ -1,25 +1,25 @@
 {
- "ran": "2026-08-23T14:39:48+00:00",
+ "ran": "2026-08-24T15:00:55+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 14,
-   "matched": 2,
+   "entries": 10,
+   "matched": 1,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 7,
+   "entries": 6,
    "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 5,
-   "matched": 0,
+   "entries": 4,
+   "matched": 1,
    "error": null
   },
   {
