@@ -1,6 +1,38 @@
 {
  "articles": [
   {
+   "id": "2b3fc122d78e6ef7",
+   "title": "COURT WATCH: Judge Releases Unhoused Man, Recommends Pretrial Services for Food and Housing",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16RXZqaFA0TE5mOEpPaHZpSnlBZWhhcVdfdFR3Nms2cjhlUmxFbGlUazA5dlR1aVItVjlCMGNmZUZNWGs1WUtUcGlaOXhYOHk5dU51eUtsS2lvZnlpSG1yUXVXc1pPWkhXMWw0TGc4UQ?oc=5",
+   "outlet": "davisvanguard.org",
+   "authors": [],
+   "date": "2026-09-03",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-03",
+   "summary": " COURT WATCH: Judge Releases Unhoused Man, Recommends Pretrial Services for Food and Housing    davisvanguard.org "
+  },
+  {
+   "id": "5d69a3d4613abb00",
+   "title": "Chevron’s $7 Billion Venezuela Bet & UC Berkeley Homeless Camp Goes Viral",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwc25Ec2hLbkU1MzJCYUpQMmhydEVuWWZza0k3azduNDRKOXI1MmVxd29hSWtzRlExS3hLQzhNMVp6aEJZdUh2clNrYjBiT3ZOVC1Pb2dPTQ?oc=5",
+   "outlet": "The Daily Wire",
+   "authors": [],
+   "date": "2026-09-03",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-03",
+   "summary": " Chevron’s $7 Billion Venezuela Bet & UC Berkeley Homeless Camp Goes Viral    The Daily Wire "
+  },
+  {
    "id": "4b7c9a2e9f3147e1",
    "title": "Berkeley is arguing with its homeless residents over which sidewalks they can camp on",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQVVEMzUwR2dfNkFRZnYzZ1RXU2NfMGFncmJUdUFUUGVJakI4WGc2akJLMUZ3c0JVcGJYS25oUDNMbjNMd0RJdkNyVEUyWWxodUF3SUFOQjVrcEx5bktkaXhGVlVPZmN3LTZWRWh6Tng5OEtBWHBDX3FrTXpZRmVPZ0ZrSENsa0N5cnMtcENkSHZlc1E?oc=5",
@@ -31,6 +63,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-09-02",
    "summary": " Daniel Lurie’s homeless reforms will finally deliver accountability    New York Post "
+  },
+  {
+   "id": "9fd7363fa09ddfe5",
+   "title": "Why Berkeley Can't Clear a Homeless Camp That Went Viral Last Month",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZEo1NEpVTlEybnBYekV5OXYtY0plVGI5akdXWmdfRmlocE01Y0JRZ19NQTVfN2hTWEpPQXJtM21NVmJxcE5zMUhlMkFnSDVrLUpndlEzU1dsZVBKZnNUa1d3ejdfSUpSSEdrclhhNlU0dmJVLWxOWnhrNmF1UTVsQ2JNQlJIM0luc2FNamxLRk1fOE50VlNuSGNGUV9CaEFRd21VQTRB?oc=5",
+   "outlet": "hotair.com",
+   "authors": [],
+   "date": "2026-09-02",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-03",
+   "summary": " Why Berkeley Can't Clear a Homeless Camp That Went Viral Last Month    hotair.com "
   },
   {
    "id": "d14d12fad703795c",
@@ -2710,5 +2758,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-09-02"
+ "updated": "2026-09-03"
 }
