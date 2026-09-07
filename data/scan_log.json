@@ -1,11 +1,11 @@
 {
- "ran": "2026-09-06T17:03:51+00:00",
+ "ran": "2026-09-07T18:45:03+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 10,
-   "matched": 1,
+   "entries": 5,
+   "matched": 0,
    "error": null
   },
   {
@@ -87,27 +87,27 @@
   },
   {
    "feed": "Reddit r/berkeley",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Blocked"
+   "error": null
   },
   {
    "feed": "Reddit r/oakland",
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Blocked"
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Reddit r/bayarea",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   }
  ],
- "new_articles": 1,
+ "new_articles": 0,
  "changes": {
   "bylines_updated": [],
   "added": [],
