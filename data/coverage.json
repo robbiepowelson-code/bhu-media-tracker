@@ -1,6 +1,23 @@
 {
  "articles": [
   {
+   "id": "e91fd5276c8ab90f",
+   "title": "RV fire at Oakland homeless encampment extinguished",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYlRmNF9fSTRuRXhTMFZfMXktc24tM3dfUVltNl9rMmFpU2NQY2RhMW5jTFJRN0JBMTBHTjhHRUpOMnl6U1BCXy1FNzZ2dWowTEJ5OHYwbXlPUFI5VHhDdk1LNWFyODA2TGtiaTdySE11MzhnV2xaNVdQMVhpUkhVTmFHTEMtWklJcGYzbElRYWFFZ9IBlwFBVV95cUxNLThmQmE0ZnZSd3pWM1lhT1ZISlVfRElBcjlKTWdvUmhDUHdsNWV6T0RxQVB1Y0hqX0lOaHd6UGJjZ1NYaXRyU2Flc1dXTzlCUWdCbmFtX1F3UjVvR1dlLXo5VjBxVEVPek9yRklOeXNUU3BTOXA4MGMtT2pFNXo4cExIa1JLLTZXdkRUeGoxN09kODZtNlZJ?oc=5",
+   "outlet": "Bay Area News Group (Merc/EB Times)",
+   "authors": [],
+   "date": "2026-09-08",
+   "topics": [
+    "encampment",
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-08",
+   "summary": " RV fire at Oakland homeless encampment extinguished    The Mercury News "
+  },
+  {
    "id": "253c64e2c41d8474",
    "title": "Alameda County Case Dismissed after Unhoused Man Spends Nearly Two Years in Custody Amid Questions over Evidence",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iZHRNMmdabk9pVjRtc2sxSi00bVI4c0hjTmtwMkRNaGhPZ3IwQ2NsTndMcnFCUHVmOVV2TmluM0FlNzEwdUJFUnpCQVplZEJwSWpYQ3BMY2FVNWozTEJDNFpieGVISnJvTzRlREp2Zm14NkpqOFAydTU2cm9Xdw?oc=5",
@@ -2897,5 +2914,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-09-07"
+ "updated": "2026-09-08"
 }
