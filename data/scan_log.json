@@ -1,17 +1,17 @@
 {
- "ran": "2026-09-08T17:56:58+00:00",
+ "ran": "2026-09-09T17:51:03+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 9,
-   "matched": 1,
+   "entries": 18,
+   "matched": 2,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 1,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": true,
-   "entries": 40,
+   "ok": false,
+   "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Street Spirit",
@@ -59,17 +59,17 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
+   "ok": false,
+   "entries": 0,
+   "matched": 0,
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+  },
+  {
+   "feed": "Bing News \u2014 street vendors East Bay",
    "ok": true,
    "entries": 0,
    "matched": 0,
    "error": null
-  },
-  {
-   "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": false,
-   "entries": 0,
-   "matched": 0,
-   "error": "ParseError: no element found: line 1, column 0"
   },
   {
    "feed": "SF Standard",
@@ -97,17 +97,17 @@
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Blocked"
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Reddit r/bayarea",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   }
  ],
- "new_articles": 1,
+ "new_articles": 2,
  "changes": {
   "bylines_updated": [],
   "added": [],
