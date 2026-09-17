@@ -1,11 +1,11 @@
 {
- "ran": "2026-09-16T18:12:50+00:00",
+ "ran": "2026-09-17T14:29:11+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 46,
-   "matched": 20,
+   "entries": 54,
+   "matched": 7,
    "error": null
   },
   {
@@ -18,7 +18,7 @@
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 10,
+   "entries": 9,
    "matched": 0,
    "error": null
   },
@@ -26,7 +26,7 @@
    "feed": "Berkeleyside",
    "ok": true,
    "entries": 12,
-   "matched": 0,
+   "matched": 1,
    "error": null
   },
   {
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
@@ -66,10 +66,10 @@
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "SF Standard",
@@ -82,39 +82,37 @@
    "feed": "SFGATE Bay Area",
    "ok": true,
    "entries": 15,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
    "entries": 1,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Reddit r/oakland",
-   "ok": true,
-   "entries": 1,
-   "matched": 0,
-   "error": null
-  },
-  {
-   "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "Reddit r/bayarea",
+   "ok": true,
+   "entries": 0,
+   "matched": 0,
+   "error": null
   }
  ],
- "new_articles": 22,
+ "new_articles": 8,
  "changes": {
   "bylines_updated": [
-   "Madilynne Medina \u2014 Deadly disease traced back to 'severely rat-infested' RV in Berkeley"
+   "Alex N. Gecan \u2014 Berkeley sweeps much of Eighth and Harrison homeless encampment"
   ],
-  "added": [
-   "Madilynne Medina (SFGATE) \u2014 Deadly disease traced back to 'severely rat-infested' RV in Berkeley"
-  ],
+  "added": [],
   "restored": [],
   "removed": [],
   "flagged": []
