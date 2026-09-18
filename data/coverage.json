@@ -1,6 +1,24 @@
 {
  "articles": [
   {
+   "id": "558813f62364e43d",
+   "title": "Remembering Noah Zimmerman, political activist and an expert technician",
+   "url": "https://www.berkeleyside.org/2026/09/18/noah-zimmerman-obituary",
+   "outlet": "Berkeleyside",
+   "authors": [
+    "Family of Noah Zimmerman"
+   ],
+   "date": "2026-09-18",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Berkeleyside",
+   "found_on": "2026-09-18",
+   "summary": "   He dropped out of law school at USC to build a Subaru race car from the ground up and later worked at the encampment during Occupy Oakland and at a social services organization in Portland."
+  },
+  {
    "id": "c4d7bf68be126382",
    "title": "City continues sweep of Harrison encampment, 40 allegedly displaced so far",
    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNU0plVEpDeHhZaUhFNUJ4eWlHRG1yWjBQYTZfX0pfYlFTdy1tLTV4VW9YLXNPNkxzSkdxck9UT245UlJJS3F5TC01WUVfdFVQVklXYjJOZGIxTGV5Zm1ZeC1CRWxSUmhjNnE4OThaQzhxTm1TOFExQWxySWV2Y1k2R192MDRkM0VOS1ZhSE1yU01zbDdUUW93MXhBUVB0VnhaMFFJdTl6a0NLckVCM2V5ZEJXWTRTRm1KT3RKazJxUEJhTTdIck5tMUF2RnVkQ0NYUE9QbmhZd3ZkaVJGTk5sVWpPcG5GdDlydm1QdEI3Qll6Z2djVnZqVmRn?oc=5",
@@ -48,6 +66,105 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-09-17",
    "summary": " San Jose reports 32% drop in homeless population with new tracking model    KTVU "
+  },
+  {
+   "id": "fdb22dded40dfe22",
+   "title": "Berkeley continues sweep of Harrison encampment, 40 allegedly displaced so far",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPX1k3UUJmTjZlMzBOejdaUlNqei16Z1pPX0VIU0FmOWtXTWxxcjMwbURuUEhfV1lkdkhJckNZTmdPd1NGSTZ4NVNvLU5xMUF5R0xSWklSLWVsa3Y2ZVlJakVORy1aR0pld013UzFNRHpKVEstMjRJU0xkVlFtNDR0UVNUSW5hOEZQT25vNGY3SlhjSnlxREkzdWllMkhOdEhPQWRPeldad1o5ZzVjLW1ZVGNXT01vV0l1MXJWWEROaF9yOGg1YzBSMXFpVUZ6OXhsU2lQWGh4ZEUyU0FKWmxza0ZGcmVlVnZNZjFsOHlrNkRaeVIxbkxDeGNxTlRndWc?oc=5",
+   "outlet": "Daily Cal",
+   "authors": [],
+   "date": "2026-09-17",
+   "topics": [
+    "encampment",
+    "sweep"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-18",
+   "summary": " Berkeley continues sweep of Harrison encampment, 40 allegedly displaced so far    Daily Cal "
+  },
+  {
+   "id": "eb26a537d78f7080",
+   "title": "Homeless Oakland Man Tried To Kill Teen Girl He Was Trafficking: Police",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMmZacW1RNy0xTlp5dy1QLTFxQ2daMlExUlMyM0xNdmFPZDVWYUU3LWFka0lxWDE3MXo3bXJURmxEaDJRckFjYlRSNkkwVmJDUkIybmZSdkw3RHVfa0dHX0x3SkFvd0JTS01ZcWt4ZXI3OUJsRVplYUg1a25SMjROSkFtMjRDUXBwN1dYXzdxZGJXQmx1X1lqN2d3bFpIVUFZQWRVUmRfUzg3VTTSAcABQVVfeXFMTjhDaXNoZlZfOUxqcUpjRXlDaFZNUWdyUGNfbkE2WThDSG9qYm05RzlaNDQ0RW80Y0xuczhtSndpdHVXczY1Q0l0V2tHV25IZW16b1c3c1BNdDB4Q0MzdVZFUkxxWFlQS09faDNrYjdZWTIxVVBtXzJYNWU2UHEwdFh6S2VfYl9HbjFJa3pUaW5uSzY2RTBFYkVDTkp0N3Q3NFBic3Y3dTZFSXVqUVZ3MnhtRGdOR1NaOWRNQTFPeDI0?oc=5",
+   "outlet": "Patch",
+   "authors": [],
+   "date": "2026-09-17",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-18",
+   "summary": " Homeless Oakland Man Tried To Kill Teen Girl He Was Trafficking: Police    Patch "
+  },
+  {
+   "id": "947537dcdae64dbe",
+   "title": "Cleanup begins at encampment",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcXAya0NHekpoNURGUUdLZTc4cGw5OW1rcGw4d29ERy1odll4M25fMy0xV0xQY2xlVWhiWUtVMGdYcmxHcm1kVDB6MG1ablBMaE5HTnNPc0hnOHFYWklva0VtamlHZi1IRkR5N0JVQURHY3FJSVczaG13VDVHWC1GVUtfMl9oajJPSWQzdlo0NTdHR3llZXYycw?oc=5",
+   "outlet": "PressReader",
+   "authors": [],
+   "date": "2026-09-17",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-18",
+   "summary": " Cleanup begins at encampment    PressReader "
+  },
+  {
+   "id": "5285bc0cefe90547",
+   "title": "San Jose sees drop in homelessness",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ndDFzZWZJaUNnbDczZWtVY1U0UTRtbzlMVFRWUzdrMzBMZnVoZjctRkoyYmh5LTB2ZWJfUk5mQk1qMU9Sel9wUE41MEdYNGZRUk5tUklMYzN1MExsbEpudmtOZ1ZFVVVEQTVNVlBlWHdHMk4wUXfSAXtBVV95cUxOQ3NNcENUZzZGZEVhMnN3T1g5T2FETlpmZVQwdy0wMFNhTmhidWNwS2hDUVdma1lYeXNENUIzNFltUmlIT2dBQ0FwT19scHRBZm96OUJSTUVmSjJmRmJxbkJNWS1KQXJ6bmdqTDc1SmJTSUtGX2VPcXlNak0?oc=5",
+   "outlet": "KTVU",
+   "authors": [],
+   "date": "2026-09-17",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-18",
+   "summary": " San Jose sees drop in homelessness    KTVU "
+  },
+  {
+   "id": "faea29f8e1dd312d",
+   "title": "Authorities Search For Possible Homeless Victim In Alameda Point Warehouse Fire",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOczlRbnNVUElJaG8wRWlCYkJ2Y1lBNl9MdU9UMXNrMUVKS2ZVYk9aVHF2WlJha3ZQU1hSa0VINlRtM1dLQmtSZUE5ZkIxTXNvX21Ia3J2WkJVVlk3cU0xS29aMUJNNEVGMzJ4WGFFdm9iZXh2ZjliamZGa1VEdWJ0eTFYWUU5eWIwcDNodWtCOXlXQzRfeFpXeENnM2F1c1lVcE9kdkkzd2I3Y1JfWHc?oc=5",
+   "outlet": "SFist",
+   "authors": [],
+   "date": "2026-09-17",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-18",
+   "summary": " Authorities Search For Possible Homeless Victim In Alameda Point Warehouse Fire    SFist "
+  },
+  {
+   "id": "5d6a56e5ef687b45",
+   "title": "Deadly disease hits Berkeley homeless encampment after vagrants decided to breed RATS and woke activists sued to stop city from clearing the squalor away",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcFlzMFpPWWhrV3VUUkRELW8wM0paWGtkdTBaSWxpNmZmbWNhbkZCSjhsY3o3QWp0R1RRVnN2cUNoakpOS2FjREl5c3ktNlF4eWtaM0U1UFZTcWI4N1pqWUhpSWFEQ0RyUGtaWE43OWR0dDYzZ2RmWllVMTBMNV9pSmZOS3pESk4yYi0xZ1hvVEZMLTN2UjBvQnlB0gGfAUFVX3lxTFB0U2dabXFWV294WGNxZ2lhREtEdzNsMTZpWnBja3JpYXNwczd6NWtfVEJzeFFaYmdMQVV1bDNlOEVDRG1rVWV0TGlzcUZucEpvTjAxWmlDTGlUd0tJb2wwZVVSMll1bE5GTF9INE5BUHR0YUFnLXdiajctNTloR2VndnRoM1pUNW5UYVRHOERoY0hMMUl4bGxXZURUTW90Zw?oc=5",
+   "outlet": "Daily Mail",
+   "authors": [],
+   "date": "2026-09-17",
+   "topics": [
+    "encampment",
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-18",
+   "summary": " Deadly disease hits Berkeley homeless encampment after vagrants decided to breed RATS and woke activists sued to stop city from clearing the squalor away    Daily Mail "
   },
   {
    "id": "f3aebc1d20375ff0",
@@ -3772,5 +3889,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-09-17"
+ "updated": "2026-09-18"
 }

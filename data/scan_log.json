@@ -1,11 +1,11 @@
 {
- "ran": "2026-09-17T14:29:11+00:00",
+ "ran": "2026-09-18T14:27:56+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 54,
-   "matched": 7,
+   "entries": 43,
+   "matched": 6,
    "error": null
   },
   {
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": true,
-   "entries": 40,
+   "ok": false,
+   "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Street Spirit",
@@ -88,31 +88,33 @@
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
-   "entries": 1,
+   "entries": 2,
    "matched": 0,
    "error": null
   },
   {
    "feed": "Reddit r/oakland",
+   "ok": true,
+   "entries": 1,
+   "matched": 0,
+   "error": null
+  },
+  {
+   "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "Reddit r/bayarea",
-   "ok": true,
-   "entries": 0,
-   "matched": 0,
-   "error": null
   }
  ],
- "new_articles": 8,
+ "new_articles": 7,
  "changes": {
   "bylines_updated": [
-   "Alex N. Gecan \u2014 Berkeley sweeps much of Eighth and Harrison homeless encampment"
+   "Family of Noah Zimmerman \u2014 Remembering Noah Zimmerman, political activist and an expert technicia"
   ],
-  "added": [],
+  "added": [
+   "Family of Noah Zimmerman (Berkeleyside) \u2014 Remembering Noah Zimmerman, political activist and an expert technicia"
+  ],
   "restored": [],
   "removed": [],
   "flagged": []
