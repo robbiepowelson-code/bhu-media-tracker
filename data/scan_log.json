@@ -1,11 +1,11 @@
 {
- "ran": "2026-09-18T14:27:56+00:00",
+ "ran": "2026-09-19T14:23:47+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 43,
-   "matched": 6,
+   "entries": 40,
+   "matched": 4,
    "error": null
   },
   {
@@ -26,7 +26,7 @@
    "feed": "Berkeleyside",
    "ok": true,
    "entries": 12,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 40,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "Street Spirit",
@@ -88,7 +88,7 @@
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
-   "entries": 2,
+   "entries": 3,
    "matched": 0,
    "error": null
   },
@@ -107,14 +107,10 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 7,
+ "new_articles": 4,
  "changes": {
-  "bylines_updated": [
-   "Family of Noah Zimmerman \u2014 Remembering Noah Zimmerman, political activist and an expert technicia"
-  ],
-  "added": [
-   "Family of Noah Zimmerman (Berkeleyside) \u2014 Remembering Noah Zimmerman, political activist and an expert technicia"
-  ],
+  "bylines_updated": [],
+  "added": [],
   "restored": [],
   "removed": [],
   "flagged": []

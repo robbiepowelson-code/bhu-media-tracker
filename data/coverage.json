@@ -1,6 +1,56 @@
 {
  "articles": [
   {
+   "id": "5bed7d2bec721acc",
+   "title": "Oakland launches pilot program to clean streets and help unhoused community",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tMGk4N0tqWDJJb3piaDBtUHdfOGd6aW8zeUlLTWdWVHl4Nlh2VEVJNmpxOGpmT1hhWVczTmdXQ01fQ0hMWGkzTkxHQmloYkdMZ0REeExoV3llTXMweVRQLWRmXzYxaUNMSWhQRmJTZjM5cDI3RW9JNzhn0gGCAUFVX3lxTFBodG1tR2dUaEE2TXUwUTY4eXhiWGhLNnZ1NXZFQ0ctT1Q1LS1qR3RWSV9KOVNNOXlpMjdhc01HMWlCbUFVMVJ4V0twZHVZbGFwa2VpSTl3OGV3VFZteGR3WDZScmFpQi13a0RHSGtKOW9kVlFfanN6NUo3R3huMVpnLUE?oc=5",
+   "outlet": "NBC Bay Area / NBCUniversal",
+   "authors": [],
+   "date": "2026-09-19",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-19",
+   "summary": " Oakland launches pilot program to clean streets and help unhoused community    NBC Bay Area "
+  },
+  {
+   "id": "bbc55d868ea541e3",
+   "title": "Deadly rat urine disease linked to infested RV after hazmat crews swooped on massive California tent city",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnVQZWdQd1o0eXRzaDNiUkhRY1pYQXVucEtHRVdBU0JhM1Nva0p1OEJhSEU1QVBSSjZabnNDazdXSlZIUGlwUTlfaHRjdkZHUTQ4bm1MR0w1X1J2aEEtZ20yV2diejhoQkJ4UF9PVEZuMTdLM2VzMXFPZWZPdDZobkVkSmE5R0FuSVpBRnAzWjQ1TmdVb0ZkLThwaV9ZZ3c?oc=5",
+   "outlet": "New York Post",
+   "authors": [],
+   "date": "2026-09-19",
+   "topics": [
+    "tent city"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-19",
+   "summary": " Deadly rat urine disease linked to infested RV after hazmat crews swooped on massive California tent city    New York Post "
+  },
+  {
+   "id": "a953ef38f137bcf5",
+   "title": "Homeless unions for rat urine diseased encampments",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTlU4dzNCR3plaDkwNEdKMDBhWEQ1eFdmSERaVHV2WkYxa1ozMk50bGlveVJDaFZLSXN2NHFveHdYNDY2UFEtOHVGblpZU0xkSUpQS1daWXlKdFVqUjNQWEVWMlN0WUw1MEtEQXRLcDZpZVBqS3VaZzlfSGdyR1pzS0RyMnUxS0RycTFIWWxWNzYtTmVfbWdQbXBodGRHR2dtMlR5Zw?oc=5",
+   "outlet": "washingtonexaminer.com",
+   "authors": [],
+   "date": "2026-09-19",
+   "topics": [
+    "encampment",
+    "encampments",
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-19",
+   "summary": " Homeless unions for rat urine diseased encampments    washingtonexaminer.com "
+  },
+  {
    "id": "558813f62364e43d",
    "title": "Remembering Noah Zimmerman, political activist and an expert technician",
    "url": "https://www.berkeleyside.org/2026/09/18/noah-zimmerman-obituary",
@@ -17,6 +67,22 @@
    "feed": "Berkeleyside",
    "found_on": "2026-09-18",
    "summary": "   He dropped out of law school at USC to build a Subaru race car from the ground up and later worked at the encampment during Occupy Oakland and at a social services organization in Portland."
+  },
+  {
+   "id": "7059b3e45b130809",
+   "title": "Homeless woman attacked with bat near UC Berkeley",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOWV3NlVYY3VVcmZZU050RzQtLUFCUldDWUlGSDU1NUdNMms3ZDdjNXI2N0Q1cEJPSERiQXcyeEZ5MFJISmc2RmRWU2FhZUdkWUNIN015Z2JkcU82UEN1V0FuUHk2MWFxc2xvdEZSMzJhR0hpbnJKUHRYQnF2TENKZ2lieWVlSzBnVEp3Sm5CM0hHVmhCWnhkTm5qSlZQRm5ab2pxaXlPbElSZw?oc=5",
+   "outlet": "The Berkeley Scanner",
+   "authors": [],
+   "date": "2026-09-18",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-19",
+   "summary": " Homeless woman attacked with bat near UC Berkeley    The Berkeley Scanner "
   },
   {
    "id": "c4d7bf68be126382",
@@ -3889,5 +3955,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-09-18"
+ "updated": "2026-09-19"
 }
