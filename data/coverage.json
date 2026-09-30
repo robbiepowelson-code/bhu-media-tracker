@@ -1,6 +1,42 @@
 {
  "articles": [
   {
+   "id": "228a40e559fa29e0",
+   "title": "Tiny homes donated to homeless mothers demolished in Oakland encampment sweep",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOG5BbUc0cUVFNnAySFZ6cVVnUUpzNmdTdXNCNnpCZ1pEWnh2NmFFVlNfbGlxa3B5a0JyRDRodmxCeVd4UkF1dzYxZkNJZk8tZnBoM1BiQlpZOVJBNTBqXzVQc3BNN3JGdVB6NGJyb0pWUHNFSDkxTTA5OFVjU0JZcXFwZjFMM1lCeGVTeDNXWVNSVXc?oc=5",
+   "outlet": "San Francisco Chronicle",
+   "authors": [],
+   "date": "2026-09-30",
+   "topics": [
+    "encampment",
+    "homeless",
+    "sweep",
+    "tiny homes"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-30",
+   "summary": " Tiny homes donated to homeless mothers demolished in Oakland encampment sweep    San Francisco Chronicle "
+  },
+  {
+   "id": "87e678f804e14c30",
+   "title": "Could HUD's $4B grant program reduce homelessness or worsen the problem?",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZDFIUFJUQjJjZm9hUXItNWlNWEIzc0VzOWJ2VVg5dFhTQjdOcWNQaXRlZmVLNzJHX2NTMWhvUUpqQ24zci1XcTN1ODZTbGluVnNmNi1BUDRoZzdRcDZsdEc4VnJSYWRuQVV6OVFVMlVnM1Z4SUJiR0VYdnBFdlMzbFNVd9IBiwFBVV95cUxNSnJYdXRSNFo5Y1EyYjdKUlFRZEl5cmxsYkh2TmEtYW1FLU1kN3FZNkl3Ulp2aENnTU5CdmQzdlZKaEtHU2Eza3dGWkZsMUdXcjNPVGpfUGNrMGd3YVo0XzNYNUo3VXB6WDA5bkRFZ2RvNUFVaWk3bG1kMVpFUFFrLW1iRXpUUkhPR2s0?oc=5",
+   "outlet": "NBC Bay Area / NBCUniversal",
+   "authors": [],
+   "date": "2026-09-30",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-09-30",
+   "summary": " Could HUD's $4B grant program reduce homelessness or worsen the problem?    NBC Bay Area "
+  },
+  {
    "id": "08c35b129377d219",
    "title": "VIDEO: Tri-County Veterans Support Network turning shipping containers into homes for homeless veterans",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3h6aE1jZzNfUkl6am9BaUNEZkJKeVBpejlCZDNhV1ZtOXZTUGxiTnBPMDJTMHhUblpCTzctemdfaEgzZng4XzBLSDlRSTRQSnFyM2dRQVYzb1hqTDhXTkIzN0VRdUFVUEhwME9PbVZPaVJlZjQ3WEIzVThEenZGbFpnMlhKSVFydEk1ekFxNGhHalRlLXlDQzhlT3dSOVhtbFI2a3NqOXdPcHFsY3RJc3E3SlBReVByaHRHb3dsd09EQ2duMHpuaEU1LS1NbnQwcUZQbml6YlU5UVph?oc=5",
@@ -147,6 +183,22 @@
    "feed": "KQED News",
    "found_on": "2026-09-29",
    "summary": "Since Friday’s blaze, many tenants have either sought shelter at the Red Cross or in their cars, with the cause of the fire still under investigation."
+  },
+  {
+   "id": "e747695311436ae1",
+   "title": "Eviction of 87-year-old sparks encampment protest in Madrid over housing crisis",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPajVfLXo0QUJYM3FjWldGS25aQ2dsYnJ5QXB0NFpuQWFETmRGcVdhTFpfZTRaeENKTktaVHZ6RF8tcTBoZGozTmYtdWRTR3JkbXdoelZXblVHMEN6UlVpSmhteFV6YUx3dTByN255b0NhU2VXNjRmUkcxcC1QdWJkc3E3SkVvWmg4cjNGM1lqOXhUNkJiWkh0T21abXpKNUE?oc=5",
+   "outlet": "AP News",
+   "authors": [],
+   "date": "2026-09-27",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — encampment sweeps East Bay",
+   "found_on": "2026-09-30",
+   "summary": " Eviction of 87-year-old sparks encampment protest in Madrid over housing crisis    AP News "
   },
   {
    "id": "4844254872291cca",
@@ -4466,5 +4518,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-09-29"
+ "updated": "2026-09-30"
 }

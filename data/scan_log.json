@@ -1,25 +1,25 @@
 {
- "ran": "2026-09-29T14:29:49+00:00",
+ "ran": "2026-09-30T14:32:13+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 32,
-   "matched": 4,
+   "entries": 12,
+   "matched": 2,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 1,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 5,
-   "matched": 0,
+   "entries": 6,
+   "matched": 1,
    "error": null
   },
   {
@@ -54,15 +54,15 @@
    "feed": "KQED News",
    "ok": true,
    "entries": 30,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
@@ -88,33 +88,29 @@
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
-   "entries": 0,
+   "entries": 1,
    "matched": 0,
    "error": null
   },
   {
    "feed": "Reddit r/oakland",
-   "ok": true,
-   "entries": 3,
-   "matched": 0,
-   "error": null
-  },
-  {
-   "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "Reddit r/bayarea",
+   "ok": true,
+   "entries": 0,
+   "matched": 0,
+   "error": null
   }
  ],
- "new_articles": 5,
+ "new_articles": 3,
  "changes": {
-  "bylines_updated": [
-   "Bryan Vo \u2014 Displaced Tenants From Oakland Apartment Fire Say They Lost Everything"
-  ],
-  "added": [
-   "Bryan Vo (KQED) \u2014 Displaced Tenants From Oakland Apartment Fire Say They Lost Everything"
-  ],
+  "bylines_updated": [],
+  "added": [],
   "restored": [],
   "removed": [],
   "flagged": []
