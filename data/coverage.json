@@ -1,6 +1,44 @@
 {
  "articles": [
   {
+   "id": "7e7b112748ca4396",
+   "title": "Pattern emerges in deaths of unhoused men on Lansing River Trail",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTE4xc2k0UUFrd2p0T3FEUS1UUFVDb1ZyZHBXUGdjVDRwN2FhTW1ObGhKaXhZUWdwaEJaWU5MODdTWlM2NERtNFNTQm92d3QzY09xUXV0aHMtZFFlS2lMTXF0Q2ljZXVpUV9zSXF1bWw5Y1BNSmRTbjhYUjNCQVBsald0V1p0aHNITkVTM1FhV29OU1ZPQ3dHN096WFlYcDZRWllMZjBDMWJFSlp2bWYtS1dwTEV3LXEtMUdYQWFiTk9CRUxhZEV3MGR3ZTc0bm14WWc?oc=5",
+   "outlet": "The Detroit News",
+   "authors": [],
+   "date": "2026-10-05",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-05",
+   "summary": " Pattern emerges in deaths of unhoused men on Lansing River Trail    The Detroit News "
+  },
+  {
+   "id": "69c770c55db95818",
+   "title": "I witnessed Oakland's encampment evictions most days for more than a year. AMA",
+   "url": "https://www.reddit.com/r/oakland/comments/1wxt27h/i_witnessed_oaklands_encampment_evictions_most/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/burningmanat33"
+   ],
+   "date": "2026-10-04",
+   "topics": [
+    "encampment",
+    "homeless",
+    "sweep",
+    "sweeps",
+    "tiny homes"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-10-05",
+   "summary": "   What's up, Oakland. There was some news last week in the Chronicle about the City of Oakland destroying two tiny homes that had been built and donated by volunteers for homeless moms to live in during their \"encampment evictions.\" I noticed people seem shocked that the city would destroy housing "
+  },
+  {
    "id": "f32cc327cc9d4ede",
    "title": "Why Are the Homeless So Young?",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1N3JYT1JOdUNCNkswU2NFTmE5b1NCSHQ5aFNnMHB6QXpNZVZ1MnQ3dVdWckI4dGRQS2Y2dEJSWGFQRVhya3V2ejFWa3JKYk1jV2VKeG1qWWhhS2gyNjNnZXhHWFhodEsxekg2Ymhocy1Nc2d5R3RDTNIBfkFVX3lxTE9raGw1OXhNWjhkd0czaDdVQzdlNlNTdy0tZ25SbTd1UVNJWGYyTTM1TG9kdWswTThqWHZTZG9SREVNa3J1UU5nVGxTblRyUU5kRUVrY1did01GbzJ2MXNnZkUxTUN1XzBKcWx1U2k0TWVvcFpETGpwM0IzTlBkdw?oc=5",
@@ -4736,5 +4774,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-05"
 }
