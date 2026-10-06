@@ -1,11 +1,11 @@
 {
- "ran": "2026-10-05T14:34:55+00:00",
+ "ran": "2026-10-06T14:29:52+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 9,
-   "matched": 1,
+   "entries": 18,
+   "matched": 2,
    "error": null
   },
   {
@@ -18,7 +18,7 @@
   {
    "feed": "Google News \u2014 encampment sweeps East Bay",
    "ok": true,
-   "entries": 2,
+   "entries": 1,
    "matched": 0,
    "error": null
   },
@@ -95,8 +95,8 @@
   {
    "feed": "Reddit r/oakland",
    "ok": true,
-   "entries": 1,
-   "matched": 1,
+   "entries": 2,
+   "matched": 0,
    "error": null
   },
   {
