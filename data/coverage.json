@@ -1,6 +1,41 @@
 {
  "articles": [
   {
+   "id": "d9317c7fbd814a08",
+   "title": "Half of young adults face housing insecurity due to lack of financial education",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd08yRUtQVm9vMWlFME1tX0xKODV4a0Rkd2FEWkJlN2JvaTRLMjY0ejNFYjBRLTJFZmFqMXE0YjZfS0FzQ3pwQmNqZ3BtaEJtN3Y5VnJvcUd6Mms1SXZ4enVYTDZhVEp5WG91YWc2VVU1dE5WdmtCZTMweFFwZDNRclF5V1VURk1lSUs4QjVzOVVMUTRsclZjbU9ObEdhdXhDSFZmNWZoTjhIOEwwUldHak96Y3c1eU82QVE?oc=5",
+   "outlet": "Credit Connect",
+   "authors": [],
+   "date": "2026-10-08",
+   "topics": [
+    "housing insecurity"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-08",
+   "summary": " Half of young adults face housing insecurity due to lack of financial education    Credit Connect "
+  },
+  {
+   "id": "89b9fca6040ac389",
+   "title": "Documentary about Glide and San Francisco’s Tenderloin screening tomorrow night at The New Parkway — 6:30 PM",
+   "url": "https://www.reddit.com/r/oakland/comments/1x0g0yp/documentary_about_glide_and_san_franciscos/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/Little-Ad-8917"
+   ],
+   "date": "2026-10-08",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-10-08",
+   "summary": "                 ​   H   A film I’ve been working on for the past few years, Fire Within, is screening tomorrow night at The New Parkway Theatre at 6:30 PM.   It’s an intimate documentary set in San Francisco’s Tenderloin, centered around the community of Glide Memorial Church.   The film follows fo"
+  },
+  {
    "id": "2838858ca59ecb81",
    "title": "Half of UK young adults facing housing insecurity highlight lack of financial education",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdEpJSjlNcWtYWGdFQW5BV2UwM1JkdG9GamRQaFlPeWdpdEl4U3lCek5LSUpGdVBTRGJaMDA0ai1iWERTcnZySXg4ZjhsMFdOdEs3MW1GSGxaTmVXcUhWcHhDbFlfaTRYMGxoUUtoN3hLbmtERGhoanZ1aHhZME1EbWo1blpOZjVjTFZoZ2VxRUJha2xfbHpNZXZWd1A3WlJybThIN0NDOVJXM1Z3MnlOT3FWbHg?oc=5",
@@ -33,6 +68,23 @@
    "feed": "Reddit r/oakland",
    "found_on": "2026-10-07",
    "summary": "   Hi! I live in an apartment building a block from a flock camera. Crime is moderate in our neighborhood- mostly bipping and car thefts and harmless homeless. I think Flock cameras are creepy as hell. Are they helping your neighborhood at all if you have one close by? I haven't really noticed any d"
+  },
+  {
+   "id": "c472fb526f6c04b9",
+   "title": "Berkeley to consider ban on encampments near preschools",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUtuZEY2d25lOFNVWi14RXBfR19KV1JITUI2ZFVOaWQ1Y20tUFVyTE5VRDcwTzdzV1hyc2l3MG1NVG9mQkZibkNtYkRDYUlYcTF4VVMyTEM5SWVkS3JnV0pRXzR6MzUwN1NkRTMyUlB5b0F4cm96SWNkUE84LVJVd05IbUUyX2I1LVBtd05teDF6S1U?oc=5",
+   "outlet": "The Berkeley Scanner",
+   "authors": [],
+   "date": "2026-10-07",
+   "topics": [
+    "encampment",
+    "encampments"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-08",
+   "summary": " Berkeley to consider ban on encampments near preschools    The Berkeley Scanner "
   },
   {
    "id": "358ea0e11b7ee8e5",
@@ -4874,5 +4926,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-07"
+ "updated": "2026-10-08"
 }
