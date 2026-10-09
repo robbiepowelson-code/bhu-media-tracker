@@ -1,6 +1,38 @@
 {
  "articles": [
   {
+   "id": "b0b792b81675cec5",
+   "title": "Berkeley 1 of 3 California cities allowed to implement homeless outreach teams",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZzE5X0pOYXU4aklLS19DcGxqOFE3VGFabTU3R1VnOS1odldoeTJ2M01zQ2RhMllVaW9iNE0yUF90eGROWDMteXVFbjlQekVGSmdWeGNWd3g1WjZ6ZUprUDFTVHc0VFhnTThKZGFSYjdqYndxVzVBTFJIc2hYNy1yVUlmX09rQmVBSlBSNUtFMjdkNXFHOEY3NFAxdXFaSGIwTUs1SExaaEN6YThjblVfYXU0aEJJSmV5SjZlSDZqWUFyb3FoZWhNaVJyTG41Q0pfelpQTWhEYkwtOFhPR21oemdBTjBzSnhDcFAxLU81T3QxTzRaNWt1cWVyemNRUDAw?oc=5",
+   "outlet": "dailycal.org",
+   "authors": [],
+   "date": "2026-10-09",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-09",
+   "summary": " Berkeley 1 of 3 California cities allowed to implement homeless outreach teams    dailycal.org "
+  },
+  {
+   "id": "0b272162dcec8a4b",
+   "title": "Tackling homeless will call for bold and widespread interventions",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTJHd01wTml3MGl4U0FERzU4YnpWMGR4WF9KZlYzd2NTTThKRFdmOTVYVTZtUUxLREtfZFV2SS1FVm91ZkNOVVVhVDRVbEFybm5vOG9HWkc0OXpVYXJZbkVDeG9oemFTb1QwU1p4OXAxSUE4LWxqY3VXY01ub0JNdVNzN01zdVNwd0oyZE9Faloya2g4UkNOMWFzRjhpQWFKMk9hNjRXaw?oc=5",
+   "outlet": "Estates Gazette",
+   "authors": [],
+   "date": "2026-10-09",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-09",
+   "summary": " Tackling homeless will call for bold and widespread interventions    Estates Gazette "
+  },
+  {
    "id": "d9317c7fbd814a08",
    "title": "Half of young adults face housing insecurity due to lack of financial education",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd08yRUtQVm9vMWlFME1tX0xKODV4a0Rkd2FEWkJlN2JvaTRLMjY0ejNFYjBRLTJFZmFqMXE0YjZfS0FzQ3pwQmNqZ3BtaEJtN3Y5VnJvcUd6Mms1SXZ4enVYTDZhVEp5WG91YWc2VVU1dE5WdmtCZTMweFFwZDNRclF5V1VURk1lSUs4QjVzOVVMUTRsclZjbU9ObEdhdXhDSFZmNWZoTjhIOEwwUldHak96Y3c1eU82QVE?oc=5",
@@ -34,6 +66,23 @@
    "feed": "Reddit r/oakland",
    "found_on": "2026-10-08",
    "summary": "                 ​   H   A film I’ve been working on for the past few years, Fire Within, is screening tomorrow night at The New Parkway Theatre at 6:30 PM.   It’s an intimate documentary set in San Francisco’s Tenderloin, centered around the community of Glide Memorial Church.   The film follows fo"
+  },
+  {
+   "id": "99745fdd5a394adf",
+   "title": "City moves to clear notorious south Seattle homeless encampment after neighbors' pleas",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdkJvOFZ3eGtEc05tMXF5UVZpbGswMnh2RFp4LU8zazNtTm1PWGFyWHdWWTk5SGM0VERWcnA5QnRPZnN1TVRJMWo1dDdiQ28yX3Vac1NlQ3lrTVdXbGVTVzFvVzhPQUVES1NJQktQUHlvSTJtNWFlcWVtVThKTDFEdXJseVh5RUdqbDU2cm51RktNOGpaS1Q3cWhkUklTR2hFTGdCaWFtTkIyUEY3Nk9hZk1Xb2Q3NGpYWlE5ODJMbkxkbU9mekZTTEVia1RzVE1JM3JZLWpVOHBveTU2dUNUTkxldGZEMEw2bVczc2dWVnc2eTJ3eEtsLXJ4ZjV6Ry10OGc?oc=5",
+   "outlet": "KOMO",
+   "authors": [],
+   "date": "2026-10-08",
+   "topics": [
+    "encampment",
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — encampment sweeps East Bay",
+   "found_on": "2026-10-09",
+   "summary": " City moves to clear notorious south Seattle homeless encampment after neighbors' pleas    KOMO "
   },
   {
    "id": "2838858ca59ecb81",
@@ -4926,5 +4975,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-08"
+ "updated": "2026-10-09"
 }
