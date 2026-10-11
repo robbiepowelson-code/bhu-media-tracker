@@ -1,6 +1,39 @@
 {
  "articles": [
   {
+   "id": "57e96bad52a2bb6c",
+   "title": "Marin County launches program to prevent homelessness",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObi1uM1hRazNlZzFBOGpJRGg0TkJnendBaUpJUm9LYTlsNjNmal85bkdvcUQ3WXU3WFFUeTJqcTVBX3dkOXhGWFhOaWdMUWRKNmU4cFUyaGswQ1NndjZkZzl1TV9iYWpvR3BtR3lBM2pseXZSdnhaUWU4cmJuT1FMZFEtWU1wLVR4X2dwY0VJaHRicnc?oc=5",
+   "outlet": "Marin Independent Journal",
+   "authors": [],
+   "date": "2026-10-11",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-11",
+   "summary": " Marin County launches program to prevent homelessness    Marin Independent Journal "
+  },
+  {
+   "id": "279c47bf4336c4bc",
+   "title": "Berkeley Shelter Arsonist Gets 16 Months; Dog Seized Day Before Fire",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSW15Ukp1eDdEYzFzLW9Sa1Vab2Q5TV83bGlOdnp2YUVycE9MSjk1Wnp3aUNaSFlMdFp5UlpNYW1LZWVMUzA1UnVlaVFhdFJxOTVxR0lvVGZwV3RUblFycFBIQ1pISHNyNkY3cHR2V3dMRXU3ZkQ5N2xzMXFNRUJSUUpINHJJMGU1WWh5Y3I5dUgyY3gyYmhodEJMQWFQZw?oc=5",
+   "outlet": "Hoodline",
+   "authors": [],
+   "date": "2026-10-10",
+   "topics": [
+    "shelter"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-11",
+   "summary": " Berkeley Shelter Arsonist Gets 16 Months; Dog Seized Day Before Fire    Hoodline "
+  },
+  {
    "id": "b0b792b81675cec5",
    "title": "Berkeley 1 of 3 California cities allowed to implement homeless outreach teams",
    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZzE5X0pOYXU4aklLS19DcGxqOFE3VGFabTU3R1VnOS1odldoeTJ2M01zQ2RhMllVaW9iNE0yUF90eGROWDMteXVFbjlQekVGSmdWeGNWd3g1WjZ6ZUprUDFTVHc0VFhnTThKZGFSYjdqYndxVzVBTFJIc2hYNy1yVUlmX09rQmVBSlBSNUtFMjdkNXFHOEY3NFAxdXFaSGIwTUs1SExaaEN6YThjblVfYXU0aEJJSmV5SjZlSDZqWUFyb3FoZWhNaVJyTG41Q0pfelpQTWhEYkwtOFhPR21oemdBTjBzSnhDcFAxLU81T3QxTzRaNWt1cWVyemNRUDAw?oc=5",
@@ -175,6 +208,59 @@
    "feed": "Reddit r/bayarea",
    "found_on": "2026-10-10",
    "summary": "                  https://urbancompassionproject.org/events/     https://www.instagram.com/urbancompassionproject    For those who don’t know us, Urban Compassion Project started in Oakland in 2021. Since then:  • 5,000+ volunteers have joined our work  • We’ve removed approximately 2.85 million pou"
+  },
+  {
+   "id": "c08c2d09a4a3c366",
+   "title": "New Program Aims To Keep Residents From Becoming Homeless In Marin County",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTWIwWGdkZWZGRTZlS0RWcTJzZ0FNR2RtbHFWUXZtNnRFV1ZzMzM3WEl0VG9UdUd6TXBvLWctMTlLczgwVEJ5ajlmT3J3VUpRWjZuRkZ3Z3RtUS0wZ3dRN2pyUHJuYndFaUlHN0JFdGk1Sm5aUlo1RzJnUF8ycHRLdk5ndEUyY2xRSlEtTnZ0S09zcVoxcm9lMHZkU3FRQlU4SWNn0gHDAUFVX3lxTE44UEotYkJlWGJfRU5NR2paQlhiSFZnYlpQZjEyMG9FTk9XMzVsQmJtWXBUZ1REUkdUN3VNb2x2S0VjaGF4dF9XV1hmSldNcVFOUWQ5bGxmUVNseW83N3ZMTXZLTi1Fenp4ck5saEp5UncwUlkzNUNZaTJKN2s2STU1R1RIVDJIMHY0RmNCSjJHVnNfYmNsR1k2UHdad1hCdDN0VGRzQURsVTJCQ25qSHo2SXoyaHI0M0ZXX1hKYldNbVZTUQ?oc=5",
+   "outlet": "Patch",
+   "authors": [],
+   "date": "2026-10-09",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-11",
+   "summary": " New Program Aims To Keep Residents From Becoming Homeless In Marin County    Patch "
+  },
+  {
+   "id": "7ee2a8dab180a04f",
+   "title": "Oakland, sign up to clean up!Lake Merritt Channel.",
+   "url": "https://www.reddit.com/r/oakland/comments/1x1v263/oakland_sign_up_to_clean_uplake_merritt_channel/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/urbancompassionproj"
+   ],
+   "date": "2026-10-09",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-10-11",
+   "summary": "                 For those who don’t know us, Urban Compassion Project started in Oakland in 2021. Since then:  • 5,000+ volunteers have joined our work  • We’ve removed approximately 2.85 million pounds of waste from communities across the Bay Area since 2021.  • 5,000 volunteers have participated "
+  },
+  {
+   "id": "5db48e00ec80a49b",
+   "title": "Oakland’s ‘Street Vet’ Provides Care to Unhoused Residents’ Four-Legged Friends",
+   "url": "https://www.reddit.com/r/oakland/comments/1x1rwpr/oaklands_street_vet_provides_care_to_unhoused/",
+   "outlet": "Reddit r/oakland",
+   "authors": [
+    "/u/runswithscissors475"
+   ],
+   "date": "2026-10-09",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/oakland",
+   "found_on": "2026-10-11",
+   "summary": "                submitted by     /u/runswithscissors475       [link]       [comments]      "
   },
   {
    "id": "d9317c7fbd814a08",
@@ -5119,5 +5205,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-10"
+ "updated": "2026-10-11"
 }
