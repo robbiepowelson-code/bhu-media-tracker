@@ -1,11 +1,11 @@
 {
- "ran": "2026-10-11T14:27:51+00:00",
+ "ran": "2026-10-12T14:37:57+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 7,
-   "matched": 3,
+   "entries": 8,
+   "matched": 2,
    "error": null
   },
   {
@@ -59,10 +59,10 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
@@ -96,7 +96,7 @@
    "feed": "Reddit r/oakland",
    "ok": true,
    "entries": 5,
-   "matched": 2,
+   "matched": 0,
    "error": null
   },
   {
@@ -107,7 +107,7 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 5,
+ "new_articles": 2,
  "changes": {
   "bylines_updated": [],
   "added": [],

@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "8e7c7b92c77c10d4",
+   "title": "New ‘Sunrise Village’ Brings Hope to Once-Homeless Woodbridge–Perth Amboy People & Families",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNHJBUXVsT0t5b3hweTFZbnVxNXBWdUpBV2k3Yk9GOWktUVVCdkR3U2FmTWlaRUZJb1BrdkdKd1YwUVdGTjk5eElRaUlUeUNSd3RlbDVUUVJyblBJOWtXeDdmTjVZZDRCVXpYYl93MHhIcVNGVnFRVzNzNEVjc2p2QV9oaUhYRWc2Q3hFN1B3ZTk4QzQ3UEs4UUVOU2dYTXIyd3BpMDRydjc2ZlFtU0R5eVdCbUV4QTlqMlFBaEEyQUxRQ090WjZrcU90UThyMi1wQlo4WkRsSllmZUFrOTJkelE0dWRBMVE?oc=5",
+   "outlet": "TAPinto",
+   "authors": [],
+   "date": "2026-10-12",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-12",
+   "summary": " New ‘Sunrise Village’ Brings Hope to Once-Homeless Woodbridge–Perth Amboy People & Families    TAPinto "
+  },
+  {
    "id": "57e96bad52a2bb6c",
    "title": "Marin County launches program to prevent homelessness",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObi1uM1hRazNlZzFBOGpJRGg0TkJnendBaUpJUm9LYTlsNjNmal85bkdvcUQ3WXU3WFFUeTJqcTVBX3dkOXhGWFhOaWdMUWRKNmU4cFUyaGswQ1NndjZkZzl1TV9iYWpvR3BtR3lBM2pseXZSdnhaUWU4cmJuT1FMZFEtWU1wLVR4X2dwY0VJaHRicnc?oc=5",
@@ -16,6 +32,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-10-11",
    "summary": " Marin County launches program to prevent homelessness    Marin Independent Journal "
+  },
+  {
+   "id": "fef7d64f91eae53d",
+   "title": "Berkeley Now One of 3 California Cities Cleared to Run Homeless Outreach Teams",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZlJNUDhOX3Uxb3p0ZUFjaDdGdzB6NTJhRkpYVzl5aE1maDdmejFpUnhySHZ3NFhvUWdTSFcyMVY4aWMzYjRMVFhJYTNPU2l5Z2xfU05RbUt4NkFvTHpqQ0t3UDh4aU9xeTNvUF91c2gzNko5NW9zZGpaWE80T0tVQkh1YUU3bHZzbS00dl95SC1zSE4wcEF5aG1RTkVPY3JnNEhhN3BOa1V2R3Nj?oc=5",
+   "outlet": "Hoodline",
+   "authors": [],
+   "date": "2026-10-11",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-12",
+   "summary": " Berkeley Now One of 3 California Cities Cleared to Run Homeless Outreach Teams    Hoodline "
   },
   {
    "id": "279c47bf4336c4bc",
@@ -5205,5 +5237,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-11"
+ "updated": "2026-10-12"
 }
