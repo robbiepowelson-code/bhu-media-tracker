@@ -1,6 +1,38 @@
 {
  "articles": [
   {
+   "id": "afdd1ed047fea375",
+   "title": "5 Lansing River Trail deaths of homeless men now include 2 of ‘indeterminate’ cause",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSnV2UGtaZkxzRk93WFpfZnNTS2EteW9MUnYyZWdjUHd6UEtYcUFGRThUSzZkcHlXQmYwNEJXZDBSQkluM3NHc3d0eU9aTURhczlYU2NxRzdnMFZqQ00yTm9OYjlfdHJmdG9TX29id1VCOHFuQ19wWnM4TDViNzdYejUwNGZyVGhOczBVWF8tOHNkTXE4ZU1nNzBHZm45X0Qtdlp0MEMydk9UZXlqN3ZtQmNyZjlpQWsyZnVHbXBn?oc=5",
+   "outlet": "MLive.com",
+   "authors": [],
+   "date": "2026-10-15",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-15",
+   "summary": " 5 Lansing River Trail deaths of homeless men now include 2 of ‘indeterminate’ cause    MLive.com "
+  },
+  {
+   "id": "6df9ca816781dba8",
+   "title": "Man who set fire to Berkeley Animal Shelter sentenced to prison",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObFFuQ2kyUlY4WWtqcHk5VVVkalMtLV9PNk5TSTBGTlp3V2o3RTlidVhaYWstdWNidy10NFVPai1GN1ZlQXZQZHI3X0s3ZVF4OW1vZ3duTTZwcUx1Y19feDF2VVhRX2tPdGhLOU9ILW51c2M2cmJDS3JIdFRNeUduNGV6VVNDMjFIOFkyRld6UW01dHNGMW1SbzlMbDgwNTl2TW44VUhZWFlkU01EVERnQnFWQzVEdk5BTUdiUjl4V2NSX2MyRDNqWkRwX21pcnJyNk9EMlJJclI1RUZtbnRKbnFyTXRWLWt2ZmE5ZFl4b09jSE9MeTFlNg?oc=5",
+   "outlet": "Daily Cal",
+   "authors": [],
+   "date": "2026-10-15",
+   "topics": [
+    "shelter"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-15",
+   "summary": " Man who set fire to Berkeley Animal Shelter sentenced to prison    Daily Cal "
+  },
+  {
    "id": "2b88451eaa169263",
    "title": "Berkeley considers homeless encampment buffer zone following latest encampment sweep",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzNlV3lZZ0xKcUd3OHNHb055NDl2djlSNkNFUUxqT3pCMV9pM0VyUWVXRy1rT0I2Rk43cmZVZTRScGNYb0VsZDFWb09yWHYzNS1MZ2FMNk4tR0xoVmItSG45OWxaV2ZfUzA1WmNNcGhUdm9COFdTN1JtZWV6TkxMSkRQOEtPNWRkRk1v?oc=5",
@@ -50,6 +82,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-10-14",
    "summary": " When cities clear homeless camps, disabled residents lose their lifelines    Straight Arrow "
+  },
+  {
+   "id": "5b5e4412eda95d67",
+   "title": "Homeless Housing Apartment Building Now Open In Woodbridge",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYkEzSnZmWHZiZzdGeVNPOThRdDF0R1hzNmJqQ2p1cTFzMUZlNmpMb21CLVpDdnZkQmtUODg0ME5ZS1VlYVBZY2pXZlRiTjk3MG12QmxtVHF4NWpVc2tXN0RXMThmTkhlcWhYUUY5M09SN0ZGMEswM2pzOUFJWFFaVlB6T1laSzV6VUxMMFo1anVfV3hOZGxKVnpfY9IBsAFBVV95cUxPTFR0Ym1uZnUyZDlTSmR1WEJNZnE0cDNERThOYjFGMXdQRm4waVNMNjNILTl2MG5VaFg0SUlDWG0yMndPN3lkelVtejIyNFhjaWdabHE3YXV0MkI2QnQ3a1Z4NERUbVdEcFJhcXAwamc4THVqMWdjclk1ejNuNjZUWlJ3Q1E0Q1BYR1dzN1QtWV9BV05XanRMQ0Y1VlBlWkU2QjhoY3owXzVMRV9PQzFEQg?oc=5",
+   "outlet": "Patch",
+   "authors": [],
+   "date": "2026-10-14",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-15",
+   "summary": " Homeless Housing Apartment Building Now Open In Woodbridge    Patch "
   },
   {
    "id": "005126b11a530a76",
@@ -5320,5 +5368,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-14"
+ "updated": "2026-10-15"
 }
