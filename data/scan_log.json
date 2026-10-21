@@ -1,11 +1,11 @@
 {
- "ran": "2026-10-20T14:27:58+00:00",
+ "ran": "2026-10-21T14:29:00+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
    "entries": 15,
-   "matched": 3,
+   "matched": 1,
    "error": null
   },
   {
@@ -38,10 +38,10 @@
   },
   {
    "feed": "The Daily Californian",
-   "ok": true,
-   "entries": 40,
+   "ok": false,
+   "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Street Spirit",
@@ -66,10 +66,10 @@
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
-   "ok": false,
+   "ok": true,
    "entries": 0,
    "matched": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "error": null
   },
   {
    "feed": "SF Standard",
@@ -95,16 +95,16 @@
   {
    "feed": "Reddit r/oakland",
    "ok": true,
-   "entries": 1,
-   "matched": 0,
+   "entries": 2,
+   "matched": 1,
    "error": null
   },
   {
    "feed": "Reddit r/bayarea",
-   "ok": false,
-   "entries": 0,
-   "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "entries": 1,
+   "matched": 1,
+   "error": null
   }
  ],
  "new_articles": 3,
