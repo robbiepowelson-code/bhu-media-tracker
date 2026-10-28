@@ -1,6 +1,73 @@
 {
  "articles": [
   {
+   "id": "6e2ea8b1127789b5",
+   "title": "Berkeley City Council proposes 600-foot encampment buffer zone around preschools, daycares",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOdXJGOGQyVERfMHl6eG83VTNDUFFUcUJMYkJSdGEzQjFfTm5zUE1kMlZselI1RHFZa3BnaXpyckFONmtoaU9tUGJTc195MW1FeXJWMW41RVQ4ZHhVQy10dmNVYVozUW9uTFJQcTNQOVJsc29ORnRTTlhzdjgtblZjRUM5M1V6dXd4b1Nicy00dWE5Q2N5RmZIckNtenhNMW5lTl9pYzNMQjNtRHpvSVhmMFRNOU1VaVdkeTIzMjhSZWluZ1NYcGRvMk1GbHRuYTZUaGMxRlc3cTJDU3kyVEN6aEtJRFRiMkZCX2lkaHR6YUZkdDJaREpDR2liTkZTOFlZbWhFNEhhRmNGeGxzTXpJOXNyamVvNVYxN3c?oc=5",
+   "outlet": "Daily Cal",
+   "authors": [],
+   "date": "2026-10-28",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-28",
+   "summary": " Berkeley City Council proposes 600-foot encampment buffer zone around preschools, daycares    Daily Cal "
+  },
+  {
+   "id": "a478296a9e2dd424",
+   "title": "Berkeley clearing of encampment OK’d by court but city must provide housing support",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMXlnRlpKNzlUME1BRmh1THgyWkZxcUVUUWRHaThKYmxLdHdVVTJjMVY4bVBEQmhpSjJPZVVtd0pXaVhJdzFfMkp1V0NsaWt4MVhDbjE4UnQzQWlqVmtwQzVET2pnM3VuU2VZVENpcVRFY1JlbHhSRVJnZXk2dGkzZUt4VmdfNFd5Rm5RSmFkMkRXNjNnS1J5Y3ZqTWNlcG1qbllN?oc=5",
+   "outlet": "San Francisco Chronicle",
+   "authors": [],
+   "date": "2026-10-28",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-28",
+   "summary": " Berkeley clearing of encampment OK’d by court but city must provide housing support    San Francisco Chronicle "
+  },
+  {
+   "id": "75a7d53a9243ca3a",
+   "title": "Contaminated Site in Pontiac to be Turned into Homeless Shelter Thanks to EGLE Grant",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNlRXdHBRU3hlSDBhSFZsUWIxTkJVSXN5b25hVURKeEVfNzVfV1c0WXM4N1Z1QmpPekRYaG9iQUhjaTVSRXFGRDFRNDVBNWhfcHNRTnV4cG55d05PRXVVWlVKTU1GVlhWMDFIRDFId19OUVZOaEU2eUpQUGlWblZ6SXhDTE9pUnU2S2JiNlE4amp5Z1BSR0hlcENvY2RzRWl5T1BVRjlQMUcxa2dJZmR5R2xFblo1N2ZNbmQxTC1xVkZLcFE?oc=5",
+   "outlet": "Oakland County Times",
+   "authors": [],
+   "date": "2026-10-28",
+   "topics": [
+    "homeless",
+    "shelter"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-28",
+   "summary": " Contaminated Site in Pontiac to be Turned into Homeless Shelter Thanks to EGLE Grant    Oakland County Times "
+  },
+  {
+   "id": "604d99af8c26fb50",
+   "title": "Berkeley encampment clearing OK'd by court but city must offer aid",
+   "url": "https://www.reddit.com/r/berkeley/comments/1xh91ee/berkeley_encampment_clearing_okd_by_court_but/",
+   "outlet": "Reddit r/berkeley",
+   "authors": [
+    "/u/SFChronicle"
+   ],
+   "date": "2026-10-28",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "social",
+   "feed": "Reddit r/berkeley",
+   "found_on": "2026-10-28",
+   "summary": "                submitted by     /u/SFChronicle       [link]       [comments]      "
+  },
+  {
    "id": "09e850ea81a9fc48",
    "title": "Berkeley Can Remove Homeless Encampment, Ninth Circuit Rules",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHg1cktVQmlVVXBYNk1odHlocEdWUURaTC1VbW1MQWVua3B4ZzJIRDdHMmxaV0FUUHg1LTJuRlo4NVp2MmhHcEJLN05kYjR6Tk9fV0xaMGFfQUQyWm1FUzBXTUNsZzVheDVmWkRDaGE0Zi1peWhKbjNkNjhQME9pZDRTZzlPeTM4WmpjSjNselVzSHNWcDJldW4tVnB6TEl3NmV0c3lKSnNocXUxWlJ2LQ?oc=5",
@@ -16,6 +83,54 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-10-27",
    "summary": " Berkeley Can Remove Homeless Encampment, Ninth Circuit Rules    Bloomberg Law News "
+  },
+  {
+   "id": "ff3fc7d0ff1649b2",
+   "title": "Bacterial disease at Berkeley homeless camp",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yT2phVFJ0LU9lbk9HTDZ2Ni1ocG03WExQZkUwS3cybGc3eU04ZU83MGJoeVU2RVJQc0UyTlU5NmlvNzhlV0NiZEdjSjhNZ0p2aHpwOG1iZnFMOGhteXdiMktjMmFXMEJTNE1UVWNjS3liSjI4MGNWZzJnYkVlU28?oc=5",
+   "outlet": "Courthouse News",
+   "authors": [],
+   "date": "2026-10-27",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-28",
+   "summary": " Bacterial disease at Berkeley homeless camp    Courthouse News "
+  },
+  {
+   "id": "9166cff9f443303a",
+   "title": "Berkeley can close Harrison encampment, 9th Circuit says",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWG1VUlktVFZlU3VXeVZjeDZBb0hEYzhOMkZVZGlhSTViMDJWTzZ5OUFsSThCRnhoYXN0QlhEMWl2MzdGNUI5UWJwVmhRMmlQQkdVRDZfajJoN1Vla1YwazQydEhWZW53VVFUUTdxNGw0TEVDTVc1dmU0UnM3MU5GRWQyeGcyc25ncUhCUWlLdy1LRWRNTGxuVlFkVE1kVDRrYl81Y3EwWU9kd3hrVHc?oc=5",
+   "outlet": "The Berkeley Scanner",
+   "authors": [],
+   "date": "2026-10-27",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-28",
+   "summary": " Berkeley can close Harrison encampment, 9th Circuit says    The Berkeley Scanner "
+  },
+  {
+   "id": "1d8ef067bfeac5dc",
+   "title": "Vallejo announces ‘potential cleanup’ of White Slough encampment",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVXpQclpCcHNhdGhBVWNhZkhzdk5aNG1kSEVtZEx6bmJvQ0l6di00RktGWU9aNHh2aDNMRlh5ald6RFFLZDZDV042R2tUVkwtd0FLMzRaNk1TR2FaTkhVUGIxOG1fM1paQWEyTlZaTk5iRGpIcUUzVjI5MUxjZHZ4bnFSLU5HanhUWVB2Tk1JcE96R0kyWHpubHl5ODFuZ1RaSFpNdGxYY2tISkZx?oc=5",
+   "outlet": "Vallejo Times Herald",
+   "authors": [],
+   "date": "2026-10-27",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-10-28",
+   "summary": " Vallejo announces ‘potential cleanup’ of White Slough encampment    Vallejo Times Herald "
   },
   {
    "id": "5c9ed621ac7efbca",
@@ -5662,5 +5777,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-10-28"
 }
