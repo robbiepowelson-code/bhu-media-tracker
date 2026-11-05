@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-04T14:20:14+00:00",
+ "ran": "2026-11-05T14:20:12+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
    "entries": 16,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -88,7 +88,7 @@
   {
    "feed": "Reddit r/berkeley",
    "ok": true,
-   "entries": 2,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
@@ -107,7 +107,7 @@
    "error": null
   }
  ],
- "new_articles": 1,
+ "new_articles": 0,
  "changes": {
   "bylines_updated": [],
   "added": [],
