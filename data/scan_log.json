@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-06T14:20:07+00:00",
+ "ran": "2026-11-07T14:18:54+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 17,
-   "matched": 3,
+   "entries": 14,
+   "matched": 1,
    "error": null
   },
   {
@@ -94,20 +94,20 @@
   },
   {
    "feed": "Reddit r/oakland",
+   "ok": true,
+   "entries": 3,
+   "matched": 0,
+   "error": null
+  },
+  {
+   "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "Reddit r/bayarea",
-   "ok": true,
-   "entries": 0,
-   "matched": 0,
-   "error": null
   }
  ],
- "new_articles": 3,
+ "new_articles": 1,
  "changes": {
   "bylines_updated": [],
   "added": [],
