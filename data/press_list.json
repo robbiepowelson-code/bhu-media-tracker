@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "contacts": [
   {
    "id": "oaklandvoices@gmail.com",
@@ -85,15 +85,15 @@
    "category": "Reporter / journalist",
    "beat": "Berkeley city government & politics",
    "phone": null,
-   "status": "unverified",
-   "status_note": "Not yet verified",
+   "status": "active",
+   "status_note": "verified by byline 2026-11-10",
    "deliverability_note": null,
    "relevance": "MED — Berkeleyside",
    "source": "seed_spreadsheet",
    "added": "2026-07-14",
-   "last_byline": null,
-   "last_byline_url": null,
-   "byline_count": 0,
+   "last_byline": "2026-11-10",
+   "last_byline_url": "https://www.berkeleyside.org/2026/11/09/berkeley-election-results-update-city-council-measures",
+   "byline_count": 1,
    "seeded": true
   },
   {
@@ -2181,9 +2181,9 @@
    "relevance": null,
    "source": "auto_scan",
    "added": "2026-09-04",
-   "last_byline": "2026-10-09",
-   "last_byline_url": "https://thestreetspirit.org/2026/10/09/berkeley-begins-closure-of-eighth-and-harrison-encampment-in-first-test-of-new-court-order/",
-   "byline_count": 7,
+   "last_byline": "2026-11-10",
+   "last_byline_url": "https://thestreetspirit.org/2026/11/09/seeing-people/",
+   "byline_count": 9,
    "seeded": false
   },
   {

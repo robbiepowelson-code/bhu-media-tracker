@@ -1,6 +1,110 @@
 {
  "articles": [
   {
+   "id": "39ecb47f001da7cc",
+   "title": "Wrubel widens lead in District 1, ‘right to housing’ slate nears Rent Board sweep",
+   "url": "https://www.berkeleyside.org/2026/11/09/berkeley-election-results-update-city-council-measures",
+   "outlet": "Berkeleyside",
+   "authors": [
+    "Nico Savidge"
+   ],
+   "date": "2026-11-10",
+   "topics": [
+    "sweep"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Berkeleyside",
+   "found_on": "2026-11-10",
+   "summary": "   After results late last week showed her pulling into the lead of the District 1 race, Daria Wrubel’s advantage over Laura Babitt grew in the latest returns."
+  },
+  {
+   "id": "7970a0377fd68d46",
+   "title": "Seeing people",
+   "url": "https://thestreetspirit.org/2026/11/09/seeing-people/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Alastair Boone"
+   ],
+   "date": "2026-11-10",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-11-10",
+   "summary": " Seeing People presents the work of four homeless or marginally housed photographers.  \n The post  Seeing people  appeared first on  Street Spirit . "
+  },
+  {
+   "id": "f86575bed14eff50",
+   "title": "Army veteran overcomes cancer and homelessness",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42SERFRHV2MGxrVE95aC02TFZnNk92LWdaWjgzZEdHUTV6dlNTQnJoVnFlcVFoS1J2MU5pSVIwR2pjWmNXNUJwel80amZFNkRNWXplYU5hYVRkakpkY0lDbzBGZknSAWpBVV95cUxObERjU1pPT3B3ZXZ1MHB4SDM0TUFCUnVnREJ2cm5ndGs1dzZJYTN1QnZJeVJmWmx5SHExQjR4bXZ1LTFaM0dRbmlxTE4xa0dLNW5OSElVeDhqRUFGUVAtc095UG4wWmZoSjJn?oc=5",
+   "outlet": "FOX 2 Detroit",
+   "authors": [],
+   "date": "2026-11-09",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-10",
+   "summary": " Army veteran overcomes cancer and homelessness    FOX 2 Detroit "
+  },
+  {
+   "id": "57283147c5335ffd",
+   "title": "Camp Fire anniversary marked in Paradise | Chico residents question city's homelessness plan | Red Bluff keeps license plate reader cameras",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQLVQ3X0R5TGI4MkhETDJkQjkxUHR0Ulg0TnVYMjlQWERTaGVzYmtFeG5GUFZKRUk5STM1ZUNfTmtCOG9feFBwRk1ma09Xc3pETzRoVVJ1SldFd1MwSVY4Qjd5T01KMlFOa0xNQVFHYUsybW5sXzlZSnVxX1N1R1JxM1hFMkM2bWVfRE9qWF9kTy1Xcmw5WlY5Rl9tMmNNUWZrZGIzcnUtaERuRDh0Q3hadnhBMmpxanh4eE5CWnphVkQ3ZXc5eGRFU3FaeFdIRWFGYUxwSFZXb0FfR0cwN0lMQTJxMVB1M2F5b3pIRDZQTHNsOEFPNS1IZ3F1eVNaa2JMaC00ZUx3dUtwUTZUeVpn?oc=5",
+   "outlet": "www.mynspr.org",
+   "authors": [],
+   "date": "2026-11-09",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-10",
+   "summary": " Camp Fire anniversary marked in Paradise | Chico residents question city's homelessness plan | Red Bluff keeps license plate reader cameras    www.mynspr.org "
+  },
+  {
+   "id": "7e70bf76c9573cc8",
+   "title": "California city deploys bizarre new ‘empowerment coats’ for the homeless ahead of El Niño",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS25rRTk3WlcwNi1kRFA2OU05NEV1ZWFtdTFlSzNZa2RPUWZNSmdDTXVUOGV2bHFpcVJTbG05UVcybVpNQmw4dUVXem1Bd2t4dGptQnN6Q3BHV2VDbHB4ZmFad0NTNmEtTjhnRUEzZUdOMjR3aHZJeFprTEdsYWlJTHM2UUlfUzh1R1ZMSnhuYUx2RGZKSHROdkk4Mml0czk3QzV6QnhpZHJwTkJwbkNvdlNielptbGV3Y3piRnFjc3BWS0tuOXB3dw?oc=5",
+   "outlet": "New York Post",
+   "authors": [],
+   "date": "2026-11-09",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-10",
+   "summary": " California city deploys bizarre new ‘empowerment coats’ for the homeless ahead of El Niño    New York Post "
+  },
+  {
+   "id": "a85c347a391caaa2",
+   "title": "No shitters in the park after dark",
+   "url": "https://thestreetspirit.org/2026/11/09/no-shitters-in-the-park-after-dark/",
+   "outlet": "Street Spirit",
+   "authors": [
+    "Alastair Boone"
+   ],
+   "date": "2026-11-09",
+   "topics": [
+    "people's park"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Street Spirit",
+   "found_on": "2026-11-10",
+   "summary": " It all started in People's Park around 1985. \n The post  No shitters in the park after dark  appeared first on  Street Spirit . "
+  },
+  {
    "id": "1369d75406d1e0ec",
    "title": "Where to attend Veterans Day events in the Lowcountry; Charleston makes changes to homeless services",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaTVTOGxZQjV3ZzV3UVJsdlQzRS1JREp3cTVVNEMwcktRZjYzV193b1NtUE9aX0pvMUVCYnhvczlyWEVlcDRTa095cnljQlROY0V0VUNiNnl4dmN5YzNkNTR6ZlhENVJlVmtOblZacGFmbE8tRE8xc2JZV3phbTdMOXJpOGVSSGx5akxseG1xSDhQNXdEVk9aQ1pEYWoxVHctQlEwTW54dmtpbzJQVFJsQnNkTEkxSzFjdE1BakVyM2hlbXh3TExRVWd2d0xiWkhKamdHV3M4Q2tCOTctcHNBU2tR?oc=5",
@@ -5995,5 +6099,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }
