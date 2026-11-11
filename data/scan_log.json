@@ -1,17 +1,17 @@
 {
- "ran": "2026-11-10T14:19:50+00:00",
+ "ran": "2026-11-11T14:19:48+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 7,
-   "matched": 3,
+   "entries": 15,
+   "matched": 1,
    "error": null
   },
   {
    "feed": "Google News \u2014 street vendors Berkeley/Oakland",
    "ok": true,
-   "entries": 1,
+   "entries": 0,
    "matched": 0,
    "error": null
   },
@@ -26,7 +26,7 @@
    "feed": "Berkeleyside",
    "ok": true,
    "entries": 12,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -47,7 +47,7 @@
    "feed": "Street Spirit",
    "ok": true,
    "entries": 10,
-   "matched": 2,
+   "matched": 0,
    "error": null
   },
   {
@@ -87,17 +87,17 @@
   },
   {
    "feed": "Reddit r/berkeley",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "Reddit r/oakland",
-   "ok": true,
-   "entries": 1,
+   "ok": false,
+   "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "Reddit r/bayarea",
@@ -107,13 +107,9 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
- "new_articles": 6,
+ "new_articles": 1,
  "changes": {
-  "bylines_updated": [
-   "Nico Savidge \u2014 Wrubel widens lead in District 1, \u2018right to housing\u2019 slate nears Rent ",
-   "Alastair Boone \u2014 Seeing people",
-   "Alastair Boone \u2014 No shitters in the park after dark"
-  ],
+  "bylines_updated": [],
   "added": [],
   "restored": [],
   "removed": [],
