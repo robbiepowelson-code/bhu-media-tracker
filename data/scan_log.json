@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-11T14:19:48+00:00",
+ "ran": "2026-11-12T14:20:12+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 15,
-   "matched": 1,
+   "entries": 17,
+   "matched": 5,
    "error": null
   },
   {
@@ -59,10 +59,10 @@
   },
   {
    "feed": "Bing News \u2014 homelessness Berkeley/Oakland",
-   "ok": true,
+   "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": null
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "feed": "Bing News \u2014 street vendors East Bay",
@@ -97,17 +97,17 @@
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
- "new_articles": 1,
+ "new_articles": 5,
  "changes": {
   "bylines_updated": [],
   "added": [],
