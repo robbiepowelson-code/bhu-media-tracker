@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-15T14:18:54+00:00",
+ "ran": "2026-11-16T14:38:06+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 5,
-   "matched": 1,
+   "entries": 10,
+   "matched": 3,
    "error": null
   },
   {
@@ -97,17 +97,17 @@
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
- "new_articles": 1,
+ "new_articles": 3,
  "changes": {
   "bylines_updated": [],
   "added": [],

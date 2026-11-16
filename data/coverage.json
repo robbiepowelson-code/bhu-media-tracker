@@ -1,6 +1,38 @@
 {
  "articles": [
   {
+   "id": "d325f4f16667485a",
+   "title": "Sidewalk Stories: How do unhoused people access water?",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMHN0Tm1vZlV1bDAxNExNTW9QX3Bra3VuNXhEYThRQ2lVdUVBeHUxaG9ub0tRblVjUEZjWVJXdUdLaE9ueHdIZHNINC1MLTU3bURnOUZuank0TE40OUZJb19YTEJBeXpTTTV4VUNJNFFLeDBoR00tWnVWTlZ0cmx6RzU4NURYZWU2TjJ4cQ?oc=5",
+   "outlet": "KALW",
+   "authors": [],
+   "date": "2026-11-16",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-16",
+   "summary": " Sidewalk Stories: How do unhoused people access water?    KALW "
+  },
+  {
+   "id": "860dd22fe840eff3",
+   "title": "Chico City Council to finalize unhoused strategic plan - Oroville Mercury-Register",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVZZVnB2QlowRVQ1bmF5VmFDNGs2cUlDZUJPSnBkS0F6dlVXOVFlb082TEt3Y0pMUElmWU0zQ0g5R0xqMkw2S3pEajhTT3c3UEV6b1Q2cUxZLWJDUEJ2Yi1ESnhMbUdCb0RtZlppd2V3dVMxTFlhQTlfakt6cERvb3pnVUx5X2otMEZUam16YzEzLU8teUZVYnlEVQ?oc=5",
+   "outlet": "Oroville Mercury-Register",
+   "authors": [],
+   "date": "2026-11-16",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-16",
+   "summary": " Chico City Council to finalize unhoused strategic plan    Oroville Mercury-Register "
+  },
+  {
    "id": "316d3d859502ff22",
    "title": "Lansing considers allowing camping in parks to help aid homeless - Belleville News-Democrat",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uOEVmNHoxTjJaZ3Q4Z2lJeHNxa2g3WkRXRGFvd3RmRXhVYi0zWV9aUEQ4eTFqdTRCaklYQVpKM1NScDM0NTNTNmVpdUNteGl3cGdneFA2bEgyZkpFR1J4Zy1rb3Vmc0NEblVTQ3FNVHJKT1hfQ2pn?oc=5",
@@ -15,6 +47,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-11-15",
    "summary": " Lansing considers allowing camping in parks to help aid homeless    Belleville News-Democrat "
+  },
+  {
+   "id": "4b685c5aa6910478",
+   "title": "Lansing considers allowing camping in parks to help aid homeless",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT1N2eko1b2drTVBIWmpJREtfdWNPclRjTW1zZXJiY0ZuZ19CbVdHc1VjZ3V1WHJQLUpBWW1ocU1CX3ZYN3o4ZWUxcjBxMmxQZVdkelhUdGlhTk9hRExQNnBJNEVHWkNELUFyOE1UTmdFYTFPTDh6U2piWElRQUwwRlR4R05YQ1BNZjFHRjRUVGRFekVWZFJIWFZGS0paSXkxc3V4dFpNalgxZWpLUzN2QU9UaWdCajI4Q0ZyUGx2XzFOd1NIN0ZRUmlYWmNCZ0MwQlU4MkdDVno?oc=5",
+   "outlet": "Lansing State Journal",
+   "authors": [],
+   "date": "2026-11-15",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-16",
+   "summary": " Lansing considers allowing camping in parks to help aid homeless    Lansing State Journal "
   },
   {
    "id": "128aa4fdfc57216b",
@@ -6278,5 +6326,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-11-15"
+ "updated": "2026-11-16"
 }
