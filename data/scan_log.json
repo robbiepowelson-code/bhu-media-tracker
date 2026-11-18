@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-17T14:19:47+00:00",
+ "ran": "2026-11-18T14:19:46+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 19,
-   "matched": 4,
+   "entries": 18,
+   "matched": 5,
    "error": null
   },
   {
@@ -26,7 +26,7 @@
    "feed": "Berkeleyside",
    "ok": true,
    "entries": 12,
-   "matched": 1,
+   "matched": 0,
    "error": null
   },
   {
@@ -90,14 +90,14 @@
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "feed": "Reddit r/oakland",
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "feed": "Reddit r/bayarea",
@@ -109,9 +109,7 @@
  ],
  "new_articles": 5,
  "changes": {
-  "bylines_updated": [
-   "Alex N. Gecan \u2014 Nonprofit closes Berkeley mental health and addiction treatment progra"
-  ],
+  "bylines_updated": [],
   "added": [],
   "restored": [],
   "removed": [],

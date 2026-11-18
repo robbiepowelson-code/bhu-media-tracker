@@ -1,6 +1,39 @@
 {
  "articles": [
   {
+   "id": "446a69e4d4cc59c7",
+   "title": "Berkeley passes preschool encampment buffer; mayor votes no",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONVlvRDZkQl93dnRpVlNXM3BsVXVtN19raFBYNVFUTDVUVG10Ym43TnA4dWt2NU9CNTVlUnVyZENKLWx4Z2hUZHRvZXo5eXpGQnRtUDVwX0JUeVBUemZuZnZhY01lUmhhZzdqWklsb3VsRm5DVHNoQWxucXZ4Rzh3Ylp3VXpzQV9iR3NkMjBaMnB6aS12?oc=5",
+   "outlet": "The Berkeley Scanner",
+   "authors": [],
+   "date": "2026-11-18",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-18",
+   "summary": " Berkeley passes preschool encampment buffer; mayor votes no    The Berkeley Scanner "
+  },
+  {
+   "id": "61b9a6bc0b4e3f28",
+   "title": "Paterson Sleep Out Raises Awareness, Funds as Organizers Call for More Homelessness Services",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeFFvd096TE03cU1hYXowbWhKSE81VV9NT3pRejVUV0pxZ2lERE9CVkRINUhGaE1CcnBWUWlkNkh5bEphelhJU0ZFRVhyWHB0VTB1UGZCQngySzhVM0JZNXhrVklGOVNwWjFwZHNudjRuZkdKb1lQQk5Dd29WS0VCUjdHSGFFcER2R3NXZkp6SkF4Mms3aUNsRUU1YVVNTGRSTUJGM3ZiUVg3bHo1emE1Ri1EZUc5QUNBZThxdmhfTnRvN1Fva2psd0RLUXRmZ2s0RFNQcFlB?oc=5",
+   "outlet": "TAPinto",
+   "authors": [],
+   "date": "2026-11-18",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-18",
+   "summary": " Paterson Sleep Out Raises Awareness, Funds as Organizers Call for More Homelessness Services    TAPinto "
+  },
+  {
    "id": "b629513c7e457010",
    "title": "Berkeley officials can’t accurately track where Harrison encampment residents went after sweeps",
    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNck9vNVVFOG5pSV96NWNIdnJKQ3pjaVd6REI2NGVrSE9Nc3hkcjFBSzJXZy1tRU9SeVY3a1hIaWZTcEg0S1FJUzR5Z2Q1NlpEMHFXYnJaSHo1Zzg1a1Q2Q3pFVVV0U1RmZ1FiZm8wcHpxdEZOaklVdnhqNUpiclpHdHItR24tUG9heVkxUEJmVlpMV19xbDltNkR3VGFiV2pHeC1oTzQxVmxrRXZOd1FBcXhtU1o2QWJPWjhTSjM2a2k2YllpS0s1Qi1tbTNxal9pYU11bXI2MlZ4WHZjdmFCZW92SmFKUlFkZld3MHZ0dk1GMEZaNHpwVTVUMENkTXI2QWtCbmxrR1pGdXZw?oc=5",
@@ -70,6 +103,57 @@
    "feed": "Berkeleyside",
    "found_on": "2026-11-17",
    "summary": "  A resident handbook from Bonita House Inc.&#8217;s residential treatment program in North Berkeley, which served patients who had mental health and addiction challenges, is seen in a 2023 file photo. Credit: Supriya Yelimeli \n\" data-large-file=\"https://i0.wp.com/newspack-berkeleyside-cityside.s3.a"
+  },
+  {
+   "id": "db4021750a06a4ed",
+   "title": "Lansing City Council delays votes on measures to address homelessness - Belleville News-Democrat",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsZjJQa2VXWVpVTzl3UUlsbGR6SWYwaVRmODFzV2d4bUNFek5ySDFWZzUxUTc2QU5xc2pLOUo5SmxEa2NpM1ZmV3lKZlppeEpJOW9xSVVmMUJ1dTJnWkhZNEpXTVlOM2JPZ3l4a0tCMW9iV09iMmdv?oc=5",
+   "outlet": "Belleville News-Democrat",
+   "authors": [],
+   "date": "2026-11-17",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-18",
+   "summary": " Lansing City Council delays votes on measures to address homelessness    Belleville News-Democrat "
+  },
+  {
+   "id": "ba881c5f52357e2e",
+   "title": "Chico weighs homelessness roadmap | Shasta County considers ending Flock contract | PG&E warns of cuts to undergrounding plans",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQd3VLYnhTREFHUkIwYlE1S1ZnU2NBWWp0NlhEVkNXOVprMlA5WExwMWo4WHlJWllZODF2MlkwM3lCRlFGeDNmOEEwcUtNM0pLbUFfREZlS01DVHhWZVNQSzBpWDIxTVpfQjlvSGsxUXdLZ1U3eDVTaWU2OGY2R1dkMnFrUHdOdF9fWFMySk90d29pUVlkMlVpUVgwSXAzYXVFTG9lZF9LMEswN0NnRTl0Wmt3cUR6bHdPYkxNSFlSTzhqTXA4VlctWmQ2a3p2M3RHbTJCbnZQVVNrVHhBQU51NzNMcXp2dHJyTThLWUFYR1ZrOHFCenpsbUNaWWNMZ1dnOXp1YkFkLXRNSG0zbXBTbmJQczU?oc=5",
+   "outlet": "www.mynspr.org",
+   "authors": [],
+   "date": "2026-11-17",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-18",
+   "summary": " Chico weighs homelessness roadmap | Shasta County considers ending Flock contract | PG&E warns of cuts to undergrounding plans    www.mynspr.org "
+  },
+  {
+   "id": "a0ac2af631d5890e",
+   "title": "Lansing Council Delays Vote on Overnight Parks, Homelessness Plan",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWZGV3ZkTE5LOTFvVDU1Mm9IU3JERlBBcGFKcy1nS05ubWZVcEtGZnJZajNIMEpwVG5JVWtYRkNDb05Fb3RwVUlhWThYZm9NX1RTWVVmSTNhREdMVWMtVkFXc2tHbE5uN2lLa3RyTk0xOC1JM1R1OTlyazZYaDhVeU53RktpQk9DSElYOXVwdFJlLTVaVG9LdTRJZ194WUhFVlBEckk4S0lVZjQ?oc=5",
+   "outlet": "Hoodline",
+   "authors": [],
+   "date": "2026-11-17",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-18",
+   "summary": " Lansing Council Delays Vote on Overnight Parks, Homelessness Plan    Hoodline "
   },
   {
    "id": "d325f4f16667485a",
@@ -6413,5 +6497,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }
