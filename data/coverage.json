@@ -1,6 +1,38 @@
 {
  "articles": [
   {
+   "id": "6a0992e704b4c7d2",
+   "title": "Berkeley bans unhoused people from camping near preschools",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHZSUWxaaVV4NHVIdG50S1ZwY3RLTjBSUEcteUFoVldXdjMtWVBsR0x5MUVlaFR4U2NRU1F1UnE3RkI2bE4zaWJDUjlQQW9pMXQzTnlxRkpvTFBhYmljVW5VOVpfTHE5NHRUTXpNN2dGVGlkdV82NmJOcF9hSVRVaDdrbDdiOThvZlNQcWliQ1BuOHlBUDd6SEg5UQ?oc=5",
+   "outlet": "Berkeleyside",
+   "authors": [],
+   "date": "2026-11-19",
+   "topics": [
+    "unhoused"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-19",
+   "summary": " Berkeley bans unhoused people from camping near preschools    Berkeleyside "
+  },
+  {
+   "id": "bc503af1b2511b97",
+   "title": "Berkeley Passes 600-Foot Preschool Encampment Buffer",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeHRfbkxBWXNFbWdIeUcxRzhRa09maWFPZloyelB1WE1wRVBaYlpqYUI3Qi1vVHZnMnVVLUQ3TmRzM2tBUHNJOWxQTzlpODRxd25ELVV3WF9YNWlTNlpWc0NzS1k1aVFBN3BuWVZxc2c0aXpJWUhLY1Fsc2dzZ0JIYWVvUzA3dlBlMDE2YS01by00UjVteDhleDdnZjZ6R0dk?oc=5",
+   "outlet": "Hoodline",
+   "authors": [],
+   "date": "2026-11-19",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-19",
+   "summary": " Berkeley Passes 600-Foot Preschool Encampment Buffer    Hoodline "
+  },
+  {
    "id": "446a69e4d4cc59c7",
    "title": "Berkeley passes preschool encampment buffer; mayor votes no",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONVlvRDZkQl93dnRpVlNXM3BsVXVtN19raFBYNVFUTDVUVG10Ym43TnA4dWt2NU9CNTVlUnVyZENKLWx4Z2hUZHRvZXo5eXpGQnRtUDVwX0JUeVBUemZuZnZhY01lUmhhZzdqWklsb3VsRm5DVHNoQWxucXZ4Rzh3Ylp3VXpzQV9iR3NkMjBaMnB6aS12?oc=5",
@@ -32,6 +64,41 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-11-18",
    "summary": " Paterson Sleep Out Raises Awareness, Funds as Organizers Call for More Homelessness Services    TAPinto "
+  },
+  {
+   "id": "b32b3402d5be81e3",
+   "title": "Chico passes plan to address homelessness | Butte County on measles | Reps. Jones and McGuire tackle stock trading",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQUHpDNGlfTmZWb0w1ZHV3MV9aRE9QcXBYdjBUNlBPUkFNYWk2ODJJS1p5VkUyejkxVjBYZTFFVG45UUEwNG1Xa0kwY015T3p4ZVdiNFhjVlhrelpRMGF2TGdpSVhwSDZJcXZGT0dLMWhOa1Q4Y290NWdCZFB3aE9DSk11S3c2NDVQZnF0d3Z3WHYtdFYtT29xelZVOXI0QkpkaUlLYU9KNWRJVUd5X0d2cFU2UWdZNTBDVHYzaE9vQmFqdXE2d3lvbEhGckoyeHBwYVF4Qkh2d0dMbFZzR3lqZXY3RlAwVXhlTVMxYmJPMlBwc1I5VHVNazQ1eDl1QmlucUpJ?oc=5",
+   "outlet": "www.mynspr.org",
+   "authors": [],
+   "date": "2026-11-18",
+   "topics": [
+    "homeless",
+    "homelessness"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-19",
+   "summary": " Chico passes plan to address homelessness | Butte County on measles | Reps. Jones and McGuire tackle stock trading    www.mynspr.org "
+  },
+  {
+   "id": "13386429a4aa3346",
+   "title": "Vote now for the best of East Bay food and drink in the 2026 Nosh Awards",
+   "url": "https://www.berkeleyside.org/2026/11/18/nosh-awards-voting-2026-food-drink-east-bay",
+   "outlet": "Berkeleyside",
+   "authors": [
+    "Tovin Lapan"
+   ],
+   "date": "2026-11-18",
+   "topics": [
+    "taco truck"
+   ],
+   "notable": false,
+   "kind": "news",
+   "feed": "Berkeleyside",
+   "found_on": "2026-11-19",
+   "summary": "  The 2026 Nosh Awards voting will be open through Sunday, Dec. 6. \n\" data-large-file=\"https://i0.wp.com/newspack-berkeleyside-cityside.s3.amazonaws.com/wp-content/uploads/2026/11/Untitled-Design-4.jpg?fit=780%2C520&ssl=1\" /> Choose your favorites in 11 categories covering the East Bay’s vibrant foo"
   },
   {
    "id": "b629513c7e457010",
@@ -6497,5 +6564,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }
