@@ -1,6 +1,22 @@
 {
  "articles": [
   {
+   "id": "ef7b0552b3625e6d",
+   "title": "The Wire: Former Berkeley City Council candidate arrested",
+   "url": "https://www.berkeleyside.org/2026/11/19/the-wire-majdi-gaith-arrested-berkeley-city-council",
+   "outlet": "Berkeleyside",
+   "authors": [],
+   "date": "2026-11-20",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Berkeleyside",
+   "found_on": "2026-11-20",
+   "summary": "  Former City Council candidate Majdi Gaith speaks at a protest in August. Credit: Estefany Gonzalez \n\" data-large-file=\"https://i0.wp.com/newspack-berkeleyside-cityside.s3.amazonaws.com/wp-content/uploads/2026/11/20260821_FlockFest_EG_027.jpg?fit=780%2C520&ssl=1\" /> Also: Cal Athletics' new content"
+  },
+  {
    "id": "6a0992e704b4c7d2",
    "title": "Berkeley bans unhoused people from camping near preschools",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHZSUWxaaVV4NHVIdG50S1ZwY3RLTjBSUEcteUFoVldXdjMtWVBsR0x5MUVlaFR4U2NRU1F1UnE3RkI2bE4zaWJDUjlQQW9pMXQzTnlxRkpvTFBhYmljVW5VOVpfTHE5NHRUTXpNN2dGVGlkdV82NmJOcF9hSVRVaDdrbDdiOThvZlNQcWliQ1BuOHlBUDd6SEg5UQ?oc=5",
@@ -31,6 +47,39 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-11-19",
    "summary": " Berkeley Passes 600-Foot Preschool Encampment Buffer    Hoodline "
+  },
+  {
+   "id": "4d10526de6b53340",
+   "title": "Berkeley approves 600-foot encampment exclusion zone around preschools, in-home daycare facilities",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOamhCSnNMUEdCWmFJNzBBd2NzNTVIcHpNblVzVzVxQklSekRkQ3ktek1qNXZGUy03bkJrVnFFSWhhR0Z5TFRHT1QxQ2dVdG4yTGZ3elhIWHhiLXZiSEowZzhDS1BuSllfYm5WT2NnUi01Vmp2aDFQWDlLVi01eFJuTFZuelhWSm9SUVdZUldGQ2R3N3p5Qmcwb2RldU5vQWVLMm9ERnNYT3RENGNucGFyY1NaOHpNMlh5bmQ1MmFlekRhRzFwWjA3NldkR2Zra2hrMk05Z1hIc2FOTks0ZWt3WV9lbzgzdVdPUFZ1aTBFenFBa0JTR25ab3JFRmJER1d5NlpfaS1FUjU2aWMwMHVR?oc=5",
+   "outlet": "Daily Cal",
+   "authors": [],
+   "date": "2026-11-19",
+   "topics": [
+    "encampment"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-20",
+   "summary": " Berkeley approves 600-foot encampment exclusion zone around preschools, in-home daycare facilities    Daily Cal "
+  },
+  {
+   "id": "ebd8bbee53cea3f9",
+   "title": "Berkeley City Council Approves New Restrictions on Encampments",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWWduWVBkZG5TOGdxa2taN1ZpdFByNDMxbWRpX0NoLV93Z1Jab19DTzZ1QVl1dk9rQVlZQ24yTG1DUHRNMGh6Q0ZBMnI5Q1pEMXR4ZlllcjFZWjZicm5ORm0zYnJfb1B1eU9lUVNZVkdJcjBuYm5nOXJNRGo1QlA0bjEzalU3ZUdlOWFkbFd5X2NSNnJSelczSkVrMzF5ckZXS2F4RkZJNnA0Y3M?oc=5",
+   "outlet": "California City News",
+   "authors": [],
+   "date": "2026-11-19",
+   "topics": [
+    "encampment",
+    "encampments"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-20",
+   "summary": " Berkeley City Council Approves New Restrictions on Encampments    California City News "
   },
   {
    "id": "446a69e4d4cc59c7",
@@ -6564,5 +6613,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }
