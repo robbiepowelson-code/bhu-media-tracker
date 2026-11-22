@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-21T14:19:51+00:00",
+ "ran": "2026-11-22T14:19:09+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 25,
-   "matched": 4,
+   "entries": 13,
+   "matched": 0,
    "error": null
   },
   {
@@ -97,17 +97,17 @@
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "Reddit r/bayarea",
    "ok": false,
    "entries": 0,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": "HTTPError: HTTP Error 404: Not Found"
   }
  ],
- "new_articles": 4,
+ "new_articles": 0,
  "changes": {
   "bylines_updated": [],
   "added": [],
