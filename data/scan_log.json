@@ -1,11 +1,11 @@
 {
- "ran": "2026-11-22T14:19:09+00:00",
+ "ran": "2026-11-23T14:21:10+00:00",
  "feeds": [
   {
    "feed": "Google News \u2014 homelessness Berkeley/Oakland",
    "ok": true,
-   "entries": 13,
-   "matched": 0,
+   "entries": 8,
+   "matched": 2,
    "error": null
   },
   {
@@ -45,10 +45,10 @@
   },
   {
    "feed": "Street Spirit",
-   "ok": false,
-   "entries": 0,
+   "ok": true,
+   "entries": 10,
    "matched": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "error": null
   },
   {
    "feed": "KQED News",
@@ -107,7 +107,7 @@
    "error": "HTTPError: HTTP Error 404: Not Found"
   }
  ],
- "new_articles": 0,
+ "new_articles": 2,
  "changes": {
   "bylines_updated": [],
   "added": [],
