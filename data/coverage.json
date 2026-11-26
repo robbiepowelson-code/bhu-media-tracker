@@ -1,6 +1,23 @@
 {
  "articles": [
   {
+   "id": "e084a43004521cb6",
+   "title": "Post Grants Pass, More Communities Are Policing Homeless Residents",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVh3SWFDUkJYNEkzSG1temtQc3J2dGNfSXd5TDNYY2JWSFRvcWJvRUx0U00wTGtpM3RSWXNLUU5xYXZmaG5MTlpxWDlsR0t3YXlBb3VMbnBuaVBhVWhQQmMwSDVIdFkxZVNsM05ySXpueC1oRkRlbUdIeVRHX0dJRmhxRDZFT3puUkJTbWJGZkZyZTlNQVBBY1kwM1lGcU5pSS13eQ?oc=5",
+   "outlet": "Shelterforce",
+   "authors": [],
+   "date": "2026-11-26",
+   "topics": [
+    "homeless",
+    "shelter"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-26",
+   "summary": " Post Grants Pass, More Communities Are Policing Homeless Residents    Shelterforce "
+  },
+  {
    "id": "5e1905c45a90322b",
    "title": "Berkeley's inclement weather shelter is open",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMTgwdG45bmRVakFLQ3IzNnRwbmQyZXJkYk9RR00zR2EyeElSLTZCS3JWaXVmYUUtYXBWd2lCbXBUSkhpVnRGSXp3cTh3Q1dUUzMyMUx3NWNOV2hUaWtTakRWN180RmVxT0Y2a0hLRmhKbXdabzBpOG9PU2RKRFRwSU5QaENyOGNDeWZJVHhwaEFkQUE0N0huLQ?oc=5",
@@ -31,6 +48,22 @@
    "feed": "Google News — homelessness Berkeley/Oakland",
    "found_on": "2026-11-25",
    "summary": " Berkeley Opens 40-Bed Shelter Two Weeks Early    Wisevoter "
+  },
+  {
+   "id": "23c4414ad8937212",
+   "title": "12 People Left Homeless In Garfield House Fire: FD",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORndtbWJPamRrOGFBeDVFZ0VYMlpkd29jeXJXcEpZUFFfMk9sMjFGREJzQk9uY1BLQmtZZFc5UjlrYURtZnEweDZRZGpYbUlwMVdKMUtFdjZWQXV4UE1CbE9UYkpsSXVLUEl6Q19FWlBpMDI4ZUJ0LVhuUWZ0T0xmUXhJNF82WWhRallWUzhR0gGjAUFVX3lxTE1jT2YyVk9JMHlaMncySWpWNm14bmRwMmxRUGozWEd2ZEdNMGNkbmF1MVhRY3dlb1ZPZkg4X3FTUHZNTkJDSkNHR2xMN1IzV0Uzbl9jaDUzbXNTYU5zcUNfMUlfajdlbGN6UG5CbEVEc0c1YTRwVkg0bTVHU09jSkNFazFyVHJfSkFMcHdZNFZUX2RGQlh1YkNHRmppWGY3OGlVbGc?oc=5",
+   "outlet": "Patch",
+   "authors": [],
+   "date": "2026-11-25",
+   "topics": [
+    "homeless"
+   ],
+   "notable": true,
+   "kind": "news",
+   "feed": "Google News — homelessness Berkeley/Oakland",
+   "found_on": "2026-11-26",
+   "summary": " 12 People Left Homeless In Garfield House Fire: FD    Patch "
   },
   {
    "id": "760c8d0d05aaf67b",
@@ -6841,5 +6874,5 @@
    "summary": " \"People are being treated unjustly and we need to fight back.\" \n The post  Advocates call for end to war on homeless people at SF City Hall  appeared first on  Street Spirit . "
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }
